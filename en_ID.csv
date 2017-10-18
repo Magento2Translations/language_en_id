@@ -1,0 +1,1053 @@
+"Read Details","Baca Detail",module,Magento_AdminNotification
+"Mark as Read","Tandai telah dibaca",module,Magento_AdminNotification
+"Are you sure?","Apakah anda yakin?",module,Magento_AdminNotification
+Remove,Hapus,module,Magento_AdminNotification
+"Messages Inbox","Kotak Masuk Pesan",module,Magento_AdminNotification
+"You have %1 new system messages","Anda memiliki %1 pesan sistem baru",module,Magento_AdminNotification
+"You have %1 new system message","Anda memiliki %1 pesan sistem baru",module,Magento_AdminNotification
+"Incoming Message","Pesan Masuk",module,Magento_AdminNotification
+close,keluar,module,Magento_AdminNotification
+Notifications,Pemberitahuan,module,Magento_AdminNotification
+"The message has been marked as Read.","Tandai pesan telah dibaca.",module,Magento_AdminNotification
+"We couldn't mark the notification as Read because of an error.","Kami tidak bisa menandai pemberitahuan telah dibaca karena ada kesalahan.",module,Magento_AdminNotification
+"Please select messages.","Silahkan pilih pesan.",module,Magento_AdminNotification
+"A total of %1 record(s) have been marked as Read.","Sebanyak% 1 record telah ditandai sudah dibaca.",module,Magento_AdminNotification
+"Total of %1 record(s) have been removed.","Sebanyak% 1 record telah dihapus.",module,Magento_AdminNotification
+"We couldn't remove the messages because of an error.","Kami tidak bisa menghapus pesan karena ada kesalahan.",module,Magento_AdminNotification
+"The message has been removed.","Pesan telah dihapus.",module,Magento_AdminNotification
+"1 Hour","1 jam",module,Magento_AdminNotification
+"2 Hours","2 jam",module,Magento_AdminNotification
+"6 Hours","6 jam",module,Magento_AdminNotification
+"12 Hours","12 jam",module,Magento_AdminNotification
+"24 Hours","24 jam",module,Magento_AdminNotification
+critical,kritis,module,Magento_AdminNotification
+major,besar,module,Magento_AdminNotification
+minor,kecil,module,Magento_AdminNotification
+notice,perhatian,module,Magento_AdminNotification
+"Wrong message type","Type pesan salah",module,Magento_AdminNotification
+"Wrong notification ID specified.","Notifikasi ID yang ditentukan salah.",module,Magento_AdminNotification
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{Base_url}} tidak dianjurkan untuk digunakan dalam lingkungan produksi untuk menyatakan basis URL tidak aman/ basis URL aman. Kami sangat menyarankan mengubah nilai ini dalam Magento Anda <a href=""%1""> konfigurasi </a>.",module,Magento_AdminNotification
+"Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Silakan buka <a href=""%1""> Manajemen Cache </a> dan me-refresh type cache.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","Kami tidak dapat menyinkronkan satu atau lebih file media. Silakan merujuk ke file log untuk rincian.",module,Magento_AdminNotification
+"Synchronization of media storages has been completed.","Sinkronisasi media penyimpanan telah selesai.",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","Setup server web anda tidak benar dan memungkinkan akses tidak sah ke file sensitif. Silakan hubungi penyedia hosting anda.",module,Magento_AdminNotification
+"System Messages:","Pesan Sistem:",module,Magento_AdminNotification
+"Critical System Messages","Pesan Sistem Kritis",module,Magento_AdminNotification
+"Major System Messages","Pesan Sistem Besar",module,Magento_AdminNotification
+"System messages","Pesan Sistem",module,Magento_AdminNotification
+Close,Keluar,module,Magento_AdminNotification
+"See All (","Lihat semua (",module,Magento_AdminNotification
+"Please correct the data sent.","Harap perbaiki data yang dikirim.",module,Magento_AdvancedPricingImportExport
+"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Model type entitas harus menjadi contoh \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
+"There are no product types available for export","Tidak ada jenis produk yang tersedia untuk diekspor",module,Magento_AdvancedPricingImportExport
+"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Terjadi kesalahan saat menyusun daftar sumber daya diperbolehkan. Anda dapat mengetahui lebih lanjut dalam log pengecualian.",module,Magento_Authorization
+"You created the order.","Anda telah membuat pesanan.",module,Magento_Authorizenet
+"Order saving error: %1","Menyimpan pesanan error:%1",module,Magento_Authorizenet
+"Please choose a payment method.","Silahkan pilih metode pembayaran.",module,Magento_Authorizenet
+"Credit Card: xxxx-%1","Kartu Kredit: xxxx-%1",module,Magento_Authorizenet
+"amount %1","jumlah% 1",module,Magento_Authorizenet
+failed.,gagal.,module,Magento_Authorizenet
+successful.,sukses.,module,Magento_Authorizenet
+"Authorize.Net Transaction ID %1.","Authorize.Net ID Transaksi% 1.",module,Magento_Authorizenet
+authorize,izinkan,module,Magento_Authorizenet
+"authorize and capture","izinkan dan tangkap",module,Magento_Authorizenet
+capture,tangkap,module,Magento_Authorizenet
+refund,"pengembalian dana",module,Magento_Authorizenet
+void,kosong,module,Magento_Authorizenet
+"Something went wrong in the payment gateway.","Ada yang tidak beres di gateway pembayaran.",module,Magento_Authorizenet
+"Invalid amount for capture.","Jumlah tidak valid untuk ditangkap.",module,Magento_Authorizenet
+"Payment capturing error.","Kesalahan Pembayaran ditangkap.",module,Magento_Authorizenet
+"Invalid transaction ID.","Transaksi ID tidak valid.",module,Magento_Authorizenet
+"Payment voiding error.","Membatalkan pembayaran error.",module,Magento_Authorizenet
+"Invalid amount for refund.","Jumlah pengembalian dana tidak valid.",module,Magento_Authorizenet
+"Payment refunding error.","Pengembalian uang pembayaran error.",module,Magento_Authorizenet
+"The transaction was declined because the response hash validation failed.","Transaksi ditolak karena respon pengesahan gagal.",module,Magento_Authorizenet
+"There was a payment authorization error.","Terjadi kesalahan otorisasi pembayaran.",module,Magento_Authorizenet
+"Please enter a transaction ID to authorize this payment.","Masukkan ID transaksi untuk mengotorisasi pembayaran ini.",module,Magento_Authorizenet
+"Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","Transaksi% 1 telah disetujui. Jumlah% 2. status transaksi adalah ""% 3""",module,Magento_Authorizenet
+"Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transaksi% 1 telah dibatalkan / ditolak. status transaksi adalah ""% 2"". Jumlah% 3.",module,Magento_Authorizenet
+"Authorize Only","Hanya otorisasi",module,Magento_Authorizenet
+"Authorize and Capture","Izinkan dan tangkap",module,Magento_Authorizenet
+"Unable to get transaction details. Try again later.","Tidak dapat mendapatkan rincian transaksi. Coba lagi nanti.",module,Magento_Authorizenet
+"Credit Card Type","Tipe Kartu Kredit",module,Magento_Authorizenet
+"Credit Card Number","Nomor Kartu Kredit",module,Magento_Authorizenet
+"Expiration Date","Tanggal kadaluarsa",module,Magento_Authorizenet
+"Card Verification Number","Nomor Verifikasi Kartu",module,Magento_Authorizenet
+"FDS Filter Action","Tindakan Menyaring FDS",module,Magento_Authorizenet
+"AVS Response","Tanggapan AVS",module,Magento_Authorizenet
+"Card Code Response","Kode Kartu Tanggapan",module,Magento_Authorizenet
+"CAVV Response","Tanggapan CAVV",module,Magento_Authorizenet
+"Fraud Filters","Penyaringan Penipuan",module,Magento_Authorizenet
+"Invalid Form Key. Please refresh the page.","Form Key tidak valid. Segarkan laman.",module,Magento_Backend
+"You entered an invalid Secret Key. Please refresh the page.","Anda memasukkan Kunci Rahasia yang tidak valid. Segarkan laman.",module,Magento_Backend
+"Cache Storage Management","Manajemen Penyimpanan Cache",module,Magento_Backend
+"Flush Magento Cache","Bersihkan Cache Magento",module,Magento_Backend
+"The cache storage may contain additional data. Are you sure that you want to flush it?","Penyimpanan cache yang mungkin berisi data tambahan. Apakah Anda yakin bahwa Anda ingin membersihkan itu?",module,Magento_Backend
+"Flush Cache Storage","Bersihkan Cache Penyimpanan",module,Magento_Backend
+Invalidated,Batal,module,Magento_Backend
+Orders,Pesanan,module,Magento_Backend
+Amounts,Jumlah,module,Magento_Backend
+Bestsellers,"Penjualan terbaik",module,Magento_Backend
+"Most Viewed Products","Produk Terpopuler",module,Magento_Backend
+"New Customers","Pelanggan Baru",module,Magento_Backend
+Customers,Pelanggan,module,Magento_Backend
+Customer,Pelanggan,module,Magento_Backend
+Guest,Tamu,module,Magento_Backend
+Items,Item,module,Magento_Backend
+"Lifetime Sales","Penjualan Seumur Hidup",module,Magento_Backend
+"Average Order","Pesanan Rata-Rata",module,Magento_Backend
+Average,Rata-rata,module,Magento_Backend
+Product,Produk,module,Magento_Backend
+Price,Harga,module,Magento_Backend
+Quantity,Kuantitas,module,Magento_Backend
+Views,Melihat,module,Magento_Backend
+Revenue,Pendapatan,module,Magento_Backend
+Tax,Pajak,module,Magento_Backend
+Shipping,Pengiriman,module,Magento_Backend
+"Images (.gif, .jpg, .png)","Gambar (.gif, .jpg, .png)",module,Magento_Backend
+"All Files","Semua Berkas",module,Magento_Backend
+"Reset to Default","Ulang ke Default",module,Magento_Backend
+"All Store Views","Lihat semua toko",module,Magento_Backend
+"What is this?","Apakah ini?",module,Magento_Backend
+"Save Account","Simpan Akun",module,Magento_Backend
+"My Account","Akun Saya",module,Magento_Backend
+"Account Information","Informasi Akun",module,Magento_Backend
+"User Name","Nama Pengguna",module,Magento_Backend
+"First Name","Nama Depan",module,Magento_Backend
+"Last Name","Nama Belakang",module,Magento_Backend
+"User Email","Email Pengguna",module,Magento_Backend
+"New Password","Kata Sandi Baru",module,Magento_Backend
+"Password Confirmation","Konfirmasi Kata Sandi",module,Magento_Backend
+"Interface Locale","Antarmuka Lokal",module,Magento_Backend
+"Current User Identity Verification","Verifikasi Identitas Pengguna",module,Magento_Backend
+"Your Password","Kata Sandi Anda",module,Magento_Backend
+"Save Cache Settings","Simpan Pengaturan Cache",module,Magento_Backend
+"Catalog Rewrites","Tulis Ulang Katalog",module,Magento_Backend
+Refresh,Segarkan,module,Magento_Backend
+"Images Cache","Cache Gambar",module,Magento_Backend
+Clear,Hapus,module,Magento_Backend
+"Search Index","Pencarian indeks",module,Magento_Backend
+Rebuild,"Bangun ulang",module,Magento_Backend
+"Inventory Stock Status","Status persediaan",module,Magento_Backend
+"Rebuild Catalog Index","Bangun Ulang Indeks Katalog",module,Magento_Backend
+"Rebuild Flat Catalog Category","Membangun kembali Katalog Kategori",module,Magento_Backend
+"Rebuild Flat Catalog Product","Membangun kembali Katalog Produk",module,Magento_Backend
+"Cache Control","Cache Kontrol",module,Magento_Backend
+"All Cache","Semua Cache",module,Magento_Backend
+"No change","Tidak berubah",module,Magento_Backend
+Disable,Dinonaktifkan,module,Magento_Backend
+Enable,Diaktifkan,module,Magento_Backend
+"Add Design Change","Tambahkan Desain Perubahan",module,Magento_Backend
+Back,Kembali,module,Magento_Backend
+Delete,Hapus,module,Magento_Backend
+"Are you sure?","Apakah anda yakin?",module,Magento_Backend
+Save,Simpan,module,Magento_Backend
+"Edit Design Change","Ubah Desain Perubahan",module,Magento_Backend
+"New Store Design Change","Perubahan Desain Toko Baru",module,Magento_Backend
+"General Settings","Pengaturan Umum",module,Magento_Backend
+Store,Toko,module,Magento_Backend
+"-- Please Select --","--Silahkan Pilih--",module,Magento_Backend
+"Custom Design","Kustom Desain",module,Magento_Backend
+"Date From","Dari Tanggal",module,Magento_Backend
+"Date To","Ke Tanggal",module,Magento_Backend
+"Design Change","Desain Perubahan",module,Magento_Backend
+General,Umum,module,Magento_Backend
+Cancel,Batal,module,Magento_Backend
+"Delete %1 '%2'","Hapus %1'%2'",module,Magento_Backend
+"Delete %1","Hapus %1",module,Magento_Backend
+"Block Information","Informasi Blok",module,Magento_Backend
+"Backup Options","Pilihan Backup",module,Magento_Backend
+"Create DB Backup","Buat DB Backup",module,Magento_Backend
+Yes,Ya,module,Magento_Backend
+No,Tidak,module,Magento_Backend
+"Delete Store","Hapus Toko",module,Magento_Backend
+"Delete Web Site","Hapus Situs Web",module,Magento_Backend
+"Save Web Site","Simpan Situs Web",module,Magento_Backend
+"Save Store","Simpan Toko",module,Magento_Backend
+"Save Store View","Simpan Tampilan Toko",module,Magento_Backend
+"Delete Store View","Hapus Tampilan Toko",module,Magento_Backend
+"Edit Web Site","Ubah Situs Web",module,Magento_Backend
+"New Web Site","Situs Web Baru",module,Magento_Backend
+"Edit Store","Ubah Toko",module,Magento_Backend
+"New Store","Toko Baru",module,Magento_Backend
+"Edit Store View","Ubah Tampilan Toko",module,Magento_Backend
+"New Store View","Tampilan Toko Baru",module,Magento_Backend
+"Store Information","Informasi Toko",module,Magento_Backend
+"Web Site","Situs Web",module,Magento_Backend
+Name,Nama,module,Magento_Backend
+Code,Kode,module,Magento_Backend
+"Root Category","Kategori Root",module,Magento_Backend
+"Default Store View","Lihat Toko Default",module,Magento_Backend
+"Store View Information","Lihat Informasi Toko",module,Magento_Backend
+Disabled,Dinonaktifkan,module,Magento_Backend
+Enabled,Diaktifkan,module,Magento_Backend
+"Sort Order","Sortir Pesanan",module,Magento_Backend
+"Web Site Information","Informasi Situs Web",module,Magento_Backend
+"Default Store","Toko Default",module,Magento_Backend
+"Set as Default","Ditetapkan sebagai default",module,Magento_Backend
+Stores,Toko,module,Magento_Backend
+"Create Website","Buat Situs Web",module,Magento_Backend
+"Create Store","Buat Toko",module,Magento_Backend
+"Create Store View","Buat Pandangan Toko",module,Magento_Backend
+Home,Beranda,module,Magento_Backend
+Reset,Ulangi,module,Magento_Backend
+"Are you sure you want to do this?","Apakah Anda yakin ingin melakukan ini?",module,Magento_Backend
+"Add New Image","Tambahkan Gambar Baru",module,Magento_Backend
+"Export block for grid %1 is not defined","Blok ekspor untuk kisi-kisi% 1 tidak didefinisikan",module,Magento_Backend
+"Reset Filter","Ulangi Penyaringan",module,Magento_Backend
+Search,Cari,module,Magento_Backend
+Any,Apapun,module,Magento_Backend
+"All Countries","Semua Negara",module,Magento_Backend
+From,Dari,module,Magento_Backend
+To,Ke,module,Magento_Backend
+"Date selector","Tanggal pemilih",module,Magento_Backend
+"[ deleted ]","[ telah terhapus ]",module,Magento_Backend
+"Select All","Pilih Semua",module,Magento_Backend
+"Add New","Tambahkan Baru",module,Magento_Backend
+"Invalid export type supplied for grid export block","Jenis ekspor tidak valid diberikan untuk blok ekspor jaringan",module,Magento_Backend
+Export,Ekspor,module,Magento_Backend
+"Please correct the column format and try again.","Harap perbaiki format kolom dan coba lagi.",module,Magento_Backend
+"Please select items.","Silahkan Pilih Item.",module,Magento_Backend
+Submit,Serahkan,module,Magento_Backend
+"Unknown block type","Jenis blook tidak diketahui",module,Magento_Backend
+"Please correct the tab configuration and try again. Tab Id should be not empty","Perbaiki label konfigurasi dan coba lagi. LabelId harus tidak kosong",module,Magento_Backend
+"Please correct the tab configuration and try again.","Perbaiki label konfigurasi dan coba lagi.",module,Magento_Backend
+"You have logged out.","Anda telah keluar.",module,Magento_Backend
+"The image cache was cleaned.","Cache gambar telah dibersihkan.",module,Magento_Backend
+"An error occurred while clearing the image cache.","Terjadi kesalahan saat membersihkan cache gambar.",module,Magento_Backend
+"The JavaScript/CSS cache has been cleaned.","Cache JavaScript/CSS telah dibersihkan.",module,Magento_Backend
+"An error occurred while clearing the JavaScript/CSS cache.","Terjadi kesalahan saat membersihkan cache JavaScript/CSS.",module,Magento_Backend
+"The static files cache has been cleaned.","Cache berkas statis telah dibersihkan.",module,Magento_Backend
+"You flushed the cache storage.","Anda telah membersihkan cache penyimpanan.",module,Magento_Backend
+"The Magento cache storage has been flushed.","Cache penyimpanan Magento telah dibersihkan.",module,Magento_Backend
+"Cache Management","Cache manajemen",module,Magento_Backend
+"%1 cache type(s) disabled.","%1 tipe cache diaktifkan.",module,Magento_Backend
+"An error occurred while disabling cache.","Terjadi kesalahan saat menonaktifkan cache.",module,Magento_Backend
+"%1 cache type(s) enabled.","%1 tipe cache diaktifkan.",module,Magento_Backend
+"An error occurred while enabling cache.","Terjadi Kesalahan sementara dalam mengizinkan cache.",module,Magento_Backend
+"%1 cache type(s) refreshed.","%1 tipe cache disegarkan.",module,Magento_Backend
+"An error occurred while refreshing cache.","Terjadi kesalahan saat menyegarkan cache.",module,Magento_Backend
+"We updated lifetime statistic.","Kami memperbarui statistik seumur hidup.",module,Magento_Backend
+"invalid request","permintaan tidak valid",module,Magento_Backend
+"see error log for details","melihat log kesalahan untuk rincian",module,Magento_Backend
+"Service unavailable: %1","Layanan tidak tersedia:% 1",module,Magento_Backend
+"Access Denied.","Akses Menolak.",module,Magento_Backend
+"You need more permissions to do this.","Anda perlu lebih izin untuk melakukan hal ini.",module,Magento_Backend
+"No search modules were registered","Tidak ada modul pencarian yang terdaftar",module,Magento_Backend
+"Please make sure that all global admin search modules are installed and activated.","Pastikan bahwa semua modul pencarian admin global diinstal dan diaktifkan.",module,Magento_Backend
+"You saved the account.","Anda menyimpan akun.",module,Magento_Backend
+"An error occurred while saving account.","Terjadi kesalahan saat menyimpan akun.",module,Magento_Backend
+"You deleted the design change.","Anda menghapus desain perubahan.",module,Magento_Backend
+"You can't delete the design change.","Anda tidak dapat menghapus desain perubahan.",module,Magento_Backend
+"Store Design","Desain Toko",module,Magento_Backend
+"Edit Store Design Change","Ubah Desain Perubahan Toko",module,Magento_Backend
+"You saved the design change.","Anda menyimpan desain perubahan.",module,Magento_Backend
+System,Sistem,module,Magento_Backend
+"Manage Stores","Kelola Toko",module,Magento_Backend
+"The database was backed up.","Cadangkan database.",module,Magento_Backend
+"Deleting a %1 will not delete the information associated with the %1 (e.g. categories, products, etc.), but the %1 will not be able to be restored. It is suggested that you create a database backup before deleting the %1.","Menghapus% 1 tidak akan menghapus informasi yang terkait dengan% 1 (misalnya kategori, produk, dll), tetapi% 1 tidak akan bisa dipulihkan. Disarankan agar Anda membuat cadangan database sebelum menghapus% 1.",module,Magento_Backend
+"Something went wrong. Please try again.","Ada yang salah. Silakan coba lagi.",module,Magento_Backend
+"This store cannot be deleted.","Toko ini tidak dapat dihapus.",module,Magento_Backend
+"You deleted the store.","Anda menghapus toko.",module,Magento_Backend
+"Unable to delete the store. Please try again later.","Tidak dapat menghapus toko. Silakan coba lagi nanti.",module,Magento_Backend
+"This store view cannot be deleted.","Tampilan toko tidak dapat dihapus.",module,Magento_Backend
+"Store View","Tampilan Toko",module,Magento_Backend
+"You deleted the store view.","Anda telah menghapus tampilan toko.",module,Magento_Backend
+"Unable to delete the store view. Please try again later.","Tidak dapat menghapus tampilan toko. Silakan coba lagi nanti.",module,Magento_Backend
+"This website cannot be deleted.","Situs Web ini tidak dapat dihapus.",module,Magento_Backend
+"You deleted the website.","Anda telah menghapus situs web.",module,Magento_Backend
+"Unable to delete the website. Please try again later.","Tidak dapat menghapus situs web. Silakan coba lagi nanti.",module,Magento_Backend
+"The website does not exist.","Situs web tidak ada.",module,Magento_Backend
+"Before modifying the website code please make sure it is not used in index.php.","Sebelum memodifikasi situs web pastikan kode itu tidak digunakan dalam index.php.",module,Magento_Backend
+"The store does not exist","Toko tidak ada",module,Magento_Backend
+"Store view doesn't exist","Tampilan tidak ada",module,Magento_Backend
+"Before modifying the store view code please make sure it is not used in index.php.","Sebelum memodifikasi tampilan toko pastikan kode itu tidak digunakan dalam index.php.",module,Magento_Backend
+"All Stores","Semua Toko",module,Magento_Backend
+"You saved the website.","Anda telah menyimpan situs web.",module,Magento_Backend
+"The default store cannot be disabled","Toko default tidak dapat dinonaktifkan",module,Magento_Backend
+"You saved the store view.","Anda telah menyimpan tampilan toko.",module,Magento_Backend
+"An inactive store view cannot be saved as default store view","Tampilan toko yang tidak aktif tidak dapat disimpan sebagai tampilan toko standar",module,Magento_Backend
+"You saved the store.","Anda telah menyimpan toko.",module,Magento_Backend
+"Something went wrong while saving. Please review the error log.","Ada yang salah saat menyimpan. Tinjau log kesalahan.",module,Magento_Backend
+"Last 24 Hours","24 jam terakhir",module,Magento_Backend
+"Last 7 Days","7 hari terakhir",module,Magento_Backend
+"Current Month","Sekarang Bulan",module,Magento_Backend
+"Authentication storage is incorrect.","Penyimpanan otentikasi tidak benar.",module,Magento_Backend
+"You did not sign in correctly or your account is temporarily disabled.","Anda tidak masuk dengan benar atau akun Anda untuk sementara dinonaktifkan.",module,Magento_Backend
+"Authentication error occurred.","Terjadi kesalahan otentikasi.",module,Magento_Backend
+"Admin session lifetime must be less than or equal to 31536000 seconds (one year)","Sesi asmin seumur hidup harus kurang dari atau sama dengan 31536000 detik (satu tahun)",module,Magento_Backend
+"Admin session lifetime must be greater than or equal to 60 seconds","Sesi admin seumur hidup harus lebih besar dari atau sama dengan 60 detik",module,Magento_Backend
+Order,Pesanan,module,Magento_Backend
+"Order #%1","Pesanan #%1",module,Magento_Backend
+"Access denied","Akses ditolak",module,Magento_Backend
+"Please try to sign out and sign in again.","Silakan coba untuk keluar dan masuk lagi.",module,Magento_Backend
+"If you continue to receive this message, please contact the store owner.","Jika Anda terus menerima pesan ini, silakan menghubungi pemilik toko.",module,Magento_Backend
+"You need more permissions to access this.","Anda membutuhkan lebih banyak izin untuk mengakses ini.",module,Magento_Backend
+"Welcome, please sign in","Selamat Datang, silahkan masuk",module,Magento_Backend
+Username,"Nama Pengguna",module,Magento_Backend
+"user name","nama pengguna",module,Magento_Backend
+Password,"Kata Sandi",module,Magento_Backend
+password,"kata sandi",module,Magento_Backend
+"Sign in",Masuk,module,Magento_Backend
+"Select Range:","Pilih Jangkauan:",module,Magento_Backend
+"No Data Found","Data tidak ditemukan",module,Magento_Backend
+"Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Grafik dinonaktifkan. Untuk mengaktifkan grafik, klik <a href=""%1""> sini </a>.",module,Magento_Backend
+"Last Orders","Pesanan Terakhir",module,Magento_Backend
+"Last Search Terms","Istilah Pencarian Terakhir",module,Magento_Backend
+"Top Search Terms","Istilah Pencarian Teratas",module,Magento_Backend
+"There are no search keywords.","Tidak ada kata kunci pencarian.",module,Magento_Backend
+"View Statistics For:","Lihat Statistik Dari:",module,Magento_Backend
+"All Websites","Semua Situs Web",module,Magento_Backend
+"Reload Data","Muat Ulang Data",module,Magento_Backend
+"Browse Files...","Telusuri File...",module,Magento_Backend
+"Account Setting","Pengaturan Akun",module,Magento_Backend
+"Customer View","Lihat Pelanggan",module,Magento_Backend
+"Sign Out",Keluar,module,Magento_Backend
+"About the calendar","Tentang kalender",module,Magento_Backend
+Close,Keluar,module,Magento_Backend
+"Go Today","Ke Hari",module,Magento_Backend
+Previous,Sebelumnya,module,Magento_Backend
+Next,Selanjutnya,module,Magento_Backend
+WK,Minggu,module,Magento_Backend
+Time,Waktu,module,Magento_Backend
+Hour,Jam,module,Magento_Backend
+Minute,Menit,module,Magento_Backend
+"JavaScript may be disabled in your browser.","JavaScript mungkin dinonaktifkan pada browser Anda.",module,Magento_Backend
+"To use this website you must first enable JavaScript in your browser.","Untuk menggunakan situs ini, Anda harus terlebih dahulu mengaktifkan JavaScript di browser Anda.",module,Magento_Backend
+"This is only a demo store. You can browse and place orders, but nothing will be processed.","Ini hanya sebuah toko demo. Anda dapat menelusuri dan menempatkan pesanan, tapi tidak akan diproses.",module,Magento_Backend
+"Store View:","Tampilan toko:",module,Magento_Backend
+"Stores Configuration","Konfigurasi Toko",module,Magento_Backend
+"Additional Cache Management","Manajemen Cache tambahan",module,Magento_Backend
+"Flush Catalog Images Cache","Bersihkan Cache Gambar Katalog",module,Magento_Backend
+"Pregenerated product images files","Sebelum menghasilkan berkas gambar produk",module,Magento_Backend
+"Flush JavaScript/CSS Cache","Bersihkan Cache Javascript/CSS",module,Magento_Backend
+"Themes JavaScript and CSS files combined to one file","Tema JavaScript dan file CSS dikombinasikan untuk satu file",module,Magento_Backend
+"Flush Static Files Cache","Bersihkan Cache Berkas Statis",module,Magento_Backend
+"Preprocessed view files and static files","Sebelum mengolah tampilan berkas dan berkas statis",module,Magento_Backend
+Catalog,Katalog,module,Magento_Backend
+"JavaScript/CSS Cache","Cache JavaScript/CSS",module,Magento_Backend
+"No records found.","Tidak ada hasil yang ditemukan.",module,Magento_Backend
+Images,Gambar,module,Magento_Backend
+"Big Image","Gambar Besar",module,Magento_Backend
+"Additional Settings","Pengaturan Tambahan",module,Magento_Backend
+"records found","hasil yang ditemukan",module,Magento_Backend
+selected,"telah dipilih",module,Magento_Backend
+"per page","per halaman",module,Magento_Backend
+"Previous page","Halaman sebelumnya",module,Magento_Backend
+"of %1","dari %1",module,Magento_Backend
+"Next page","Halaman selanjutnya",module,Magento_Backend
+"Export to:","Ekspor ke:",module,Magento_Backend
+Actions,Tindakan,module,Magento_Backend
+"Mass Actions","Tindakan massa",module,Magento_Backend
+"Unselect All","Tidak dipilih semua",module,Magento_Backend
+"Select Visible","Pilih Terlihat",module,Magento_Backend
+"Unselect Visible","Tidak dipilih Terlihat",module,Magento_Backend
+"Changes have been made to this section that have not been saved.","Perubahan telah dibuat untuk bagian ini yang belum disimpan.",module,Magento_Backend
+"This tab contains invalid data. Please resolve this before saving.","Tab ini berisi data yang tidak valid. Silakan menyelesaikan ini sebelum menyimpan.",module,Magento_Backend
+"The information in this tab has been changed.","Informasi dalam tab ini telah berubah.",module,Magento_Backend
+Loading...,Memuat...,module,Magento_Backend
+"System Backup","Cadangan Sistem",module,Magento_Backup
+"Database and Media Backup","Cadangan Database dan Media",module,Magento_Backup
+"Database Backup","Cadangan Database",module,Magento_Backup
+"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Arsip dapat terkompresi dengan <a href=""%1"">% 2 </a> pada sistem Windows.",module,Magento_Backup
+"You need more permissions to activate maintenance mode right now.","Anda membutuhkan lebih banyak izin untuk mengaktifkan modus pemeliharaan sekarang.",module,Magento_Backup
+"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","Untuk membuat cadangan, silakan hapus ""menempatkan toko ke mode pemeliharaan"" atau memperbarui izin Anda.",module,Magento_Backup
+"Something went wrong while putting your store into maintenance mode.","Terjadi kesalahan saat menempatkan toko Anda ke dalam mode pemeliharaan.",module,Magento_Backup
+"You need more free space to create a backup.","Anda membutuhkan ruang bebas lebih untuk membuat cadangan.",module,Magento_Backup
+"You need more permissions to create a backup.","Anda membutuhkan lebih banyak izin untuk membuat cadangan.",module,Magento_Backup
+Backups,Cadangan,module,Magento_Backup
+System,Sistem,module,Magento_Backup
+Tools,Alat,module,Magento_Backup
+Backup,Cadangan,module,Magento_Backup
+failed,gagal,module,Magento_Backup
+successful,sukses,module,Magento_Backup
+"You deleted the selected backup(s).","Anda telah menghapus cadangan yang dipilih.",module,Magento_Backup
+"Please correct the password.","Harap perbaiki password.",module,Magento_Backup
+"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","Untuk menyelesaikan putar kembali, silakan hapus ""menempatkan toko ke mode pemeliharaan"" atau memperbarui izin Anda.",module,Magento_Backup
+"Failed to validate FTP.","Validasi FTP gagal.",module,Magento_Backup
+"You need more permissions to perform a rollback.","Anda membutuhkan lebih banyak izin untuk melakukan pemutaran kembali.",module,Magento_Backup
+"Failed to rollback.","Gagal memutar kembali.",module,Magento_Backup
+"Database and Media","Database dan Media",module,Magento_Backup
+"System (excluding Media)","Sistem (termasuk Media)",module,Magento_Backup
+"You created the system backup.","Anda telah membuat sistem cadangan.",module,Magento_Backup
+"You created the system backup (excluding media).","Anda telah membuat sistem cadangan (termasuk media).",module,Magento_Backup
+"You created the database and media backup.","Anda telah membuat cadangan database dan media.",module,Magento_Backup
+"You created the database backup.","Anda telah membuat cadangan database.",module,Magento_Backup
+"Please correct the order of creation for a new backup.","Harap perbaiki urutan penciptaan untuk cadangan baru.",module,Magento_Backup
+"The backup file does not exist.","Berkas cadangan tidak ada.",module,Magento_Backup
+"The backup file path was not specified.","Jalur berkas cadangan tidak ditentukan.",module,Magento_Backup
+"The backup file ""%1"" does not exist.","Berkas cadangan ""%1"" tidak ada.",module,Magento_Backup
+"Sorry, but we cannot read from or write to backup file ""%1"".","Maaf, tapi kami tidak bisa membaca atau menulis ke berkas cadangan ""% 1"".",module,Magento_Backup
+"The backup file handler was unspecified.","Pegangan berkas cadangan yang ditentukan.",module,Magento_Backup
+"Something went wrong while writing to the backup file ""%1"".","Terjadi kesalahan saat menulis berkas cadangan ""%1"".",module,Magento_Backup
+"You will lose any data created since the backup was made, including admin users, customers and orders.","Anda akan kehilangan data yang dibuat sejak cadangan dibuat, termasuk pengguna admin, pelanggan dan pesanan.",module,Magento_Backup
+"Are you sure you want to continue?","Apakah anda yakin ingin melanjutkan?",module,Magento_Backup
+"This may take a few moments.","Ini mungkin memerlukan beberapa saat.",module,Magento_Backup
+"Be sure your store is in maintenance mode during backup.","Pastikan toko Anda dalam mode pemeliharaan selama dicadangkan.",module,Magento_Backup
+"Backup Name","Nama Cadangan",module,Magento_Backup
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","Hanya gunakan huruf (a-z atau A-Z), angka (0-9) atau spasi di field ini.",module,Magento_Backup
+"Maintenance mode","Mode Pemeliharaan",module,Magento_Backup
+"Please put your store into maintenance mode during backup.","Silahkan masukkan toko anda ke mode pemeliharaan selama dicadangkan.",module,Magento_Backup
+Exclude,Kecuali,module,Magento_Backup
+"Exclude media folder from backup","Kecuali folder media dari cadangan",module,Magento_Backup
+"Please enter the password to confirm rollback.","Silahkan masukkan kata sandi untuk memastikan memutar kembali.",module,Magento_Backup
+"This action cannot be undone.","Tindakan ini tidak bisa dibatalkan.",module,Magento_Backup
+"User Password","Kata Sandi Pengguna",module,Magento_Backup
+"Please put your store into maintenance mode during rollback processing.","Silahkan masukkan toko anda ke mode pemeliharaan selama proses pemutaran kembali.",module,Magento_Backup
+"Use FTP Connection","Gunakan Koneksi FTP",module,Magento_Backup
+"FTP credentials","Kredensial FTP",module,Magento_Backup
+"FTP Host","Host FTP",module,Magento_Backup
+"FTP Login","Masuk FTP",module,Magento_Backup
+"FTP Password","Kata Sandi FTP",module,Magento_Backup
+"Magento root directory","Direktori root Magento",module,Magento_Backup
+"Create Backup","Buat Cadangan",module,Magento_Backup
+Country,Negara,module,Magento_Braintree
+"Allowed Credit Card Types","Diizinkan Jenis Kartu Kredit",module,Magento_Braintree
+"Add Rule","Tambahkan Aturan",module,Magento_Braintree
+"Sorry, but something went wrong","Maaf, tapi ada sesuatu yang salah",module,Magento_Braintree
+"No authorization transaction to proceed capture.","Tidak ada transaksi otorisasi untuk melanjutkan tangkapan.",module,Magento_Braintree
+"Payment method nonce can't be retrieved.","Metode pembayaran sekali tidak dapat diambil.",module,Magento_Braintree
+"Wrong transaction status","Status transaksi yang salah",module,Magento_Braintree
+Authorize,Otorisasi,module,Magento_Braintree
+"Authorize and Capture","Otorisasi dan Tangkapan",module,Magento_Braintree
+"--Please Select--","--Silahkan Pilih--",module,Magento_Braintree
+"Please agree to all the terms and conditions before placing the order.","Setujui semua syarat dan kondisi sebelum menempatkan pesanan.",module,Magento_Braintree
+"Credit Card Type","Tipe Kartu Kredit",module,Magento_Braintree
+"Credit Card Number","Nomor Kartu Kredit",module,Magento_Braintree
+"Please, enter valid Credit Card Number","Silahkan, masukkan nomor Kartu Kredit yang valid",module,Magento_Braintree
+"Expiration Date","Tanggal kadaluarsa",module,Magento_Braintree
+"Please, enter valid Expiration Date","Silakan, masukkan Tanggal Kadaluarsa yang benar",module,Magento_Braintree
+"Card Verification Number","Nomor Verifikasi Kartu",module,Magento_Braintree
+"Please, enter valid Card Verification Number","Silahkan, masukkan Nomor Verifikasi Kartu yang valid",module,Magento_Braintree
+ending,akhir,module,Magento_Braintree
+expires,berakhir,module,Magento_Braintree
+"Percent Discount","Diskon Persen",module,Magento_Bundle
+"-- Select --","-- Pilih --",module,Magento_Bundle
+Dynamic,Dinamis,module,Magento_Bundle
+Fixed,Tetap,module,Magento_Bundle
+"Create New Option","Buat Pilihan Baru",module,Magento_Bundle
+"Bundle Items","Item Bundel",module,Magento_Bundle
+"Add Products to Option","Tambahkan Produk ke Pilihan",module,Magento_Bundle
+Close,Keluar,module,Magento_Bundle
+"Delete Option","Hapus Pilihan",module,Magento_Bundle
+"What are you looking for?","Apa yang sedang Anda cari?",module,Magento_Bundle
+Product,Produk,module,Magento_Bundle
+Price,Harga,module,Magento_Bundle
+Delete,Hapus,module,Magento_Bundle
+"Use Default Value","Gunakan Nilai Default",module,Magento_Bundle
+"There is no defined renderer for ""%1"" option type.","Tidak ada penyaji didefinisikan untuk ""% 1"" Jenis pilihan.",module,Magento_Bundle
+"Only implemented for bundle product","Hanya diterapkan untuk produk bundel",module,Magento_Bundle
+"Product with specified sku: ""%1"" is not a bundle product","Produk dengan sku tertentu: ""% 1"" bukan merupakan produk bundel",module,Magento_Bundle
+"Bundle product could not contain another composite product","Produk bundel tidak bisa menahan produk komposit lain",module,Magento_Bundle
+"Id field of product link is required","Field Id link produk diperlukan",module,Magento_Bundle
+"Can not find product link with id ""%1""","Tidak dapat menemukan link produk dengan id ""% 1""",module,Magento_Bundle
+"Could not save child: ""%1""","Tidak bisa menyelamatkan anak: ""% 1""",module,Magento_Bundle
+"Product with specified sku: ""%1"" does not contain option: ""%2""","Produk dengan sku tertentu: ""% 1"" tidak mengandung pilihan: ""% 2""",module,Magento_Bundle
+"Child with specified sku: ""%1"" already assigned to product: ""%2""","Anak dengan sku tertentu: ""% 1"" sudah ditugaskan untuk produk: ""% 2""",module,Magento_Bundle
+"Product with specified sku: %1 is not a bundle product","Produk dengan sku tertentu:% 1 bukan merupakan produk bundel",module,Magento_Bundle
+"%fieldName is a required field.","% FieldName adalah bidang yang diperlukan.",module,Magento_Bundle
+"Cannot delete option with id %1","Tidak dapat menghapus pilihan dengan id% 1",module,Magento_Bundle
+"Could not save option","Tidak dapat menyimpan pilihan",module,Magento_Bundle
+"Price Range","Kisaran harga",module,Magento_Bundle
+"As Low as",Serendah,module,Magento_Bundle
+Together,Bersama,module,Magento_Bundle
+Separately,Terpisah,module,Magento_Bundle
+"Please specify product option(s).","Silakan tentukan pilihan produk.",module,Magento_Bundle
+"The options you selected are not available.","Opsi yang Anda pilih tidak tersedia.",module,Magento_Bundle
+"The required options you selected are not available.","Opsi yang diperlukan yang Anda pilih tidak tersedia.",module,Magento_Bundle
+"Please select all required options.","Silakan pilih semua pilihan yang diperlukan.",module,Magento_Bundle
+Percent,Persen,module,Magento_Bundle
+"We can't save custom-defined options for bundles with dynamic pricing.","Kami tidak dapat menyimpan pilihan kustom yang ditetapkan untuk bundel dengan harga dinamis.",module,Magento_Bundle
+Cancel,Batal,module,Magento_Bundle
+"Add Selected Products","Tambahkan Produk Pilihan",module,Magento_Bundle
+"Add Option","Pilihan Baru",module,Magento_Bundle
+"New Option","Pilihan Baru",module,Magento_Bundle
+"Option Title","Judul Pilihan",module,Magento_Bundle
+"Default Title","Judul Default",module,Magento_Bundle
+"Store View Title","Judul Tampilan Toko",module,Magento_Bundle
+"Input Type","Tipe Masukan",module,Magento_Bundle
+Drop-down,Penurunan,module,Magento_Bundle
+"Multiple Select","Pilihan Ganda",module,Magento_Bundle
+Required,Wajib,module,Magento_Bundle
+"Is Default",Default,module,Magento_Bundle
+Name,Nama,module,Magento_Bundle
+"Default Quantity","Kuantitas Default",module,Magento_Bundle
+"User Defined","Ditetapkan pengguna",module,Magento_Bundle
+"Price Type","Tipe Harga",module,Magento_Bundle
+None,Kosong,module,Magento_Bundle
+Quantity:,Kuantitas:,module,Magento_Bundle
+"Choose a selection...","Pilih seleksi...",module,Magento_Bundle
+"Ship Bundle Items","Kirim Item Bundel",module,Magento_Bundle
+Position,Posisi,module,Magento_Bundle
+"There are no products in this option.","Tidak ada produk dalam pilihan ini.",module,Magento_Bundle
+Ordered,Dipesan,module,Magento_Bundle
+Invoiced,Ditagih,module,Magento_Bundle
+Shipped,Dikirim,module,Magento_Bundle
+Refunded,Dikembalikan,module,Magento_Bundle
+Canceled,Dibatalkan,module,Magento_Bundle
+"As low as",Serendah,module,Magento_Bundle
+"Regular Price","Harga normal",module,Magento_Bundle
+From,Dari,module,Magento_Bundle
+To,Ke,module,Magento_Bundle
+"Buy %1 with %2 discount each","Beli% 1 dengan% 2 setiap diskon",module,Magento_Bundle
+"Go back to product details","Kembali ke rincian produk",module,Magento_Bundle
+"Customize and Add to Cart","Menyesuaikan dan tambahkan ke keranjang",module,Magento_Bundle
+"* Required Fields","* Field Wajib",module,Magento_Bundle
+"Your Customization","Kustomisasi Anda",module,Magento_Bundle
+Availability,Tersedianya,module,Magento_Bundle
+"In stock","Dalam persediaan",module,Magento_Bundle
+"Out of stock","Kehabisan persediaan",module,Magento_Bundle
+Summary,Ringkasan,module,Magento_Bundle
+Availability:,Tersedianya:,module,Magento_Bundle
+Quantity,Kuantitas,module,Magento_Bundle
+"Customize %1","Kustomisasi %1",module,Magento_Bundle
+"No options of this product are available.","Tidak ada pilihan dari produk ini tersedia.",module,Magento_Bundle
+"Gift Message","Pesan Hadiah",module,Magento_Bundle
+From:,Dari:,module,Magento_Bundle
+To:,Ke:,module,Magento_Bundle
+Message:,Pesan:,module,Magento_Bundle
+"Product Name","Nama Produk",module,Magento_Bundle
+"Discount Amount","Jumlah Diskon",module,Magento_Bundle
+"Row Total","Jumlah Baris",module,Magento_Bundle
+"Qty Invoiced","Qty ditagih",module,Magento_Bundle
+"Qty Shipped","Qty Dikirim",module,Magento_Bundle
+Always,Selalu,module,Magento_Captcha
+"After number of attempts to login","Setelah sejumlah upaya untuk login",module,Magento_Captcha
+"Provided form does not exist","Formulir yang disediakan tidak ada",module,Magento_Captcha
+"Incorrect CAPTCHA","Captcha yang salah",module,Magento_Captcha
+"Incorrect CAPTCHA.","Captcha yang salah.",module,Magento_Captcha
+"The account is locked. Please wait and try again or contact %1.","Akun terkunci. Tunggu dan coba lagi atau hubungi% 1.",module,Magento_Captcha
+"Please enter the letters from the image","Masukkan huruf dari gambar",module,Magento_Captcha
+"<strong>Attention</strong>: Captcha is case sensitive.","<Strong> Perhatian </ strong>: Captcha adalah kasus sensitif.",module,Magento_Captcha
+"Reload captcha","Muat Ulang Captcha",module,Magento_Captcha
+"Please type the letters below","Ketik huruf di bawah ini",module,Magento_Captcha
+Delete,Hapus,module,Magento_Catalog
+Save,Simpan,module,Magento_Catalog
+"Use Config Settings","Pakai Pengaturan Config",module,Magento_Catalog
+"Use All Available Attributes","Pakai Semua Atribut yang Tersedia",module,Magento_Catalog
+Name,Nama,module,Magento_Catalog
+Price,Harga,module,Magento_Catalog
+Position,Posisi,module,Magento_Catalog
+"Add Subcategory","Tambahkan Sub kategori",module,Magento_Catalog
+"Add Root Category","Tambahkan Kategori Root",module,Magento_Catalog
+Day,Hari,module,Magento_Catalog
+Month,Bulan,module,Magento_Catalog
+Year,Tahun,module,Magento_Catalog
+"<label class=""label""><span>from</span></label>","<label class=""label""><span>dari</span></label>",module,Magento_Catalog
+"<label class=""label""><span>to</span></label>","<label class=""label""><span>ke</span></label>",module,Magento_Catalog
+"[STORE VIEW]","[TAMPILAN TOKO]",module,Magento_Catalog
+"Add Product","Tambahkan Produk",module,Magento_Catalog
+"Product Attributes","Atribut Produk",module,Magento_Catalog
+"Add New Attribute","Tambahkan Atribut Baru",module,Magento_Catalog
+Cancel,Keluar,module,Magento_Catalog
+"Save Attribute","Simpan Atribut",module,Magento_Catalog
+"Save in New Attribute Set","Simpan di Pengaturan Atribut Baru",module,Magento_Catalog
+"Enter Name for New Attribute Set","Masukkan Nama untuk Pengaturan Atribut Baru",module,Magento_Catalog
+"Save and Continue Edit","Simpan dan Lanjutkan Edit",module,Magento_Catalog
+"Delete Attribute","Hapus Atribut",module,Magento_Catalog
+"Edit Product Attribute ""%1""","Edit Atribut Produk ""%1""",module,Magento_Catalog
+"New Product Attribute","Atribut Produk Baru",module,Magento_Catalog
+"Advanced Attribute Properties","Lanjutan Properti Atribut",module,Magento_Catalog
+"Attribute Code","Kode Atribut",module,Magento_Catalog
+"Default Value","Nilai Default",module,Magento_Catalog
+"Unique Value","Nilai yang Unik",module,Magento_Catalog
+"Unique Value (not shared with other products)","Nilai yang unik (tidak dibagi dengan produk lain)",module,Magento_Catalog
+"Not shared with other products.","Tidak dibagi dengan produk lain.",module,Magento_Catalog
+"Input Validation for Store Owner","Validasi Masukan untuk Pemilik Toko",module,Magento_Catalog
+"Add to Column Options","Tambahkan ke Kolom Pilihan",module,Magento_Catalog
+"Select ""Yes"" to add this attribute to the list of column options in the product grid.","Pilih ""Ya"" untuk menambahkan atribut ini ke daftar kolom pilihan di kisi-kisi produk.",module,Magento_Catalog
+"Use in Filter Options","Pakai di Pilihan Penyaringan",module,Magento_Catalog
+"Select ""Yes"" to add this attribute to the list of filter options in the product grid.","Pilih ""Ya"" untuk menambahkan atribut ini ke daftar pilihan penyaringan di kisi-kisi produk.",module,Magento_Catalog
+"Store View","Tampilan Toko",module,Magento_Catalog
+Website,"Situs web",module,Magento_Catalog
+Scope,Cakupan,module,Magento_Catalog
+"Declare attribute value saving scope.","Menyatakan nilai atribut menyimpan cakupan.",module,Magento_Catalog
+"Storefront Properties","Properti Etalase Toko",module,Magento_Catalog
+"Use in Search","Digunakan dalam pencarian",module,Magento_Catalog
+"Visible in Advanced Search","Terlihat di Pencarian",module,Magento_Catalog
+"Comparable on Storefront","Sebanding pada etalase toko",module,Magento_Catalog
+"Use for Promo Rule Conditions","Gunakan untuk Promo Kondisi Peraturan",module,Magento_Catalog
+"Enable WYSIWYG","Aktifkan WYSIWYG",module,Magento_Catalog
+"Allow HTML Tags on Storefront","Memungkinkan Tags HTML di etalase toko",module,Magento_Catalog
+"Visible on Catalog Pages on Storefront","Terlihat di halaman katalog di etalase toko",module,Magento_Catalog
+"Used in Product Listing","Digunakan di Daftar Produk",module,Magento_Catalog
+"Depends on design theme.","Tergantung pada tema desain.",module,Magento_Catalog
+"Used for Sorting in Product Listing","Digunakan untuk Penyortiran di Daftar Produk",module,Magento_Catalog
+"Media Image","Media Gambar",module,Magento_Catalog
+Gallery,Galeri,module,Magento_Catalog
+"System Properties","Properti Sistem",module,Magento_Catalog
+No,Tidak,module,Magento_Catalog
+Yes,Ya,module,Magento_Catalog
+"Data Type for Saving in Database","Tipe Data untuk Menyimpan di Database",module,Magento_Catalog
+Text,Teks,module,Magento_Catalog
+Static,Statis,module,Magento_Catalog
+Datetime,"Tanggal Waktu",module,Magento_Catalog
+Decimal,Desimal,module,Magento_Catalog
+"Globally Editable","Diedit secara Global",module,Magento_Catalog
+"Attribute Information","Informasi Atribut",module,Magento_Catalog
+Properties,Properti,module,Magento_Catalog
+"Manage Labels","Mengelola Label",module,Magento_Catalog
+Visible,Terlihat,module,Magento_Catalog
+Searchable,Dicari,module,Magento_Catalog
+Comparable,Sebanding,module,Magento_Catalog
+"Delete Selected Group","Hapus Grup yang Dipilih",module,Magento_Catalog
+"Add New","Tambahkan Baru",module,Magento_Catalog
+Back,Kembali,module,Magento_Catalog
+Reset,Ulangi,module,Magento_Catalog
+"You are about to delete all products in this attribute set. Are you sure you want to do that?","Anda akan menghapus semua produk dalam atribut yang ditetapkan ini. Apakah Anda yakin ingin melakukan itu?",module,Magento_Catalog
+"New Set Name","Tetapkan Nama Baru",module,Magento_Catalog
+"Edit Attribute Set '%1'","Edit Tetapan Atribut '%1'",module,Magento_Catalog
+Empty,Kosong,module,Magento_Catalog
+"Add Attribute","Tambahkan Atribuut",module,Magento_Catalog
+"Add New Group","Tambahkan Grup Baru",module,Magento_Catalog
+"Add Group","Tambahkan Grup",module,Magento_Catalog
+"Edit Attribute Set Name","Edit Penetapan Nama Atribut",module,Magento_Catalog
+"For internal use","Untuk penggunaan internal",module,Magento_Catalog
+"Based On",Berdasarkan,module,Magento_Catalog
+"Add New Attribute Set","Tambahkan Tetapan Atribut Baru",module,Magento_Catalog
+"Add Attribute Set","Tambahkan Tetapan Atribut",module,Magento_Catalog
+"Attribute Sets","Menetapkan Atribut",module,Magento_Catalog
+"Close Window","Keluar Jendela",module,Magento_Catalog
+"New Product","Produk Baru",module,Magento_Catalog
+"Save & Edit","Simpan & Edit",module,Magento_Catalog
+"Save & New","Simpan & Baru",module,Magento_Catalog
+"Save & Duplicate","Simpan & Salin",module,Magento_Catalog
+"Save & Close","Simpan & Keluar",module,Magento_Catalog
+Attributes,Atribut,module,Magento_Catalog
+Change,Ganti,module,Magento_Catalog
+"Advanced Inventory","Persediaan Lanjutan",module,Magento_Catalog
+Websites,"Situs Web",module,Magento_Catalog
+"Products Information","Informasi Produk",module,Magento_Catalog
+"Create Category","Buat Kategori",module,Magento_Catalog
+"Category Name","Nama Kategori",module,Magento_Catalog
+"Parent Category","Kategori Induk",module,Magento_Catalog
+"If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products > Categories</a>.","Jika tidak ada kustom kategori induk, silakan gunakan kategori induk default. Anda dapat menetapkan kategori setiap saat di <a href=""%1"" target=""_blank""> Produk> Kategori </a>.",module,Magento_Catalog
+"Price Alert Subscriptions","Harga Peringatan Langganan",module,Magento_Catalog
+"Stock Alert Subscriptions","Persediaan Peringatan Langganan",module,Magento_Catalog
+"There are no customers for this alert.","Tidak ada pelanggan untuk peringatan ini.",module,Magento_Catalog
+"First Name","Nama Depan",module,Magento_Catalog
+"Last Name","Nama Belakang",module,Magento_Catalog
+"Subscribe Date","Berlangganan Tanggal",module,Magento_Catalog
+"Last Notified","Pemberitahuan Terakhir",module,Magento_Catalog
+"Send Count","Jumlah Kirim",module,Magento_Catalog
+"New Attribute","Atribut Baru",module,Magento_Catalog
+Type,Tipe,module,Magento_Catalog
+"Attribute Set","Pengaturan Atribut",module,Magento_Catalog
+Visibility,"Jarak penglihatan",module,Magento_Catalog
+"Add New Option","Tambahkan Pilihan Baru",module,Magento_Catalog
+"Import Options","Impor Pilihan",module,Magento_Catalog
+"Use Default","Pakai Default",module,Magento_Catalog
+Import,Impor,module,Magento_Catalog
+"Add New Row","Tambahkan Baris Baru",module,Magento_Catalog
+"Delete Row","Hapus Baris",module,Magento_Catalog
+"Tier Pricing","Tingkatan Harga",module,Magento_Catalog
+"Default Price","Harga Default",module,Magento_Catalog
+"All Websites","Semua Situs Web",module,Magento_Catalog
+"ALL GROUPS","Semua GRUP",module,Magento_Catalog
+"Add Price","Tambahkan Harga",module,Magento_Catalog
+"Default Values","Nilai Default",module,Magento_Catalog
+"Related Products","Produk-produk terkait",module,Magento_Catalog
+"Size for %1","Ukuran untuk %1",module,Magento_Catalog
+"Watermark File for %1","Berkas watermark untuk %1",module,Magento_Catalog
+"Position of Watermark for %1","Posisi watermark untuk %1",module,Magento_Catalog
+"Name in %1","Nama dalam %1",module,Magento_Catalog
+Quantity,Kuantitas,module,Magento_Catalog
+"Are you sure?","Apakah anda yakin?",module,Magento_Catalog
+"Change Status","Ganti Status",module,Magento_Catalog
+"Update Attributes","Perbarui Atribut",module,Magento_Catalog
+"start typing to search category","mulai mengetik untuk kategori pencarian",module,Magento_Catalog
+"New Category","Kategori Baru",module,Magento_Catalog
+"Images (.gif, .jpg, .png)","Gambar (.gif, .jpg, .png)",module,Magento_Catalog
+"Add New Images","Tambahkan Gambar Baru",module,Magento_Catalog
+"Does this have a weight?","Apakah ini ada bobot?",module,Magento_Catalog
+Product,Produk,module,Magento_Catalog
+"Notify Low Stock RSS","Beritahu RSS Stok Sedikit",module,Magento_Catalog
+"Low Stock Products","Stok Produk Sedikit",module,Magento_Catalog
+"%1 has reached a quantity of %2.","% 1 telah mencapai jumlah% 2.",module,Magento_Catalog
+Home,Beranda,module,Magento_Catalog
+"Go to Home Page","Pergi ke Halaman Beranda",module,Magento_Catalog
+"Subscribe to RSS Feed","Berlangganan Feed RSS",module,Magento_Catalog
+"Products Comparison List","Produk Daftar Perbandingan",module,Magento_Catalog
+"-- Please Select --","-- Silahkan Pilih --",module,Magento_Catalog
+None,Kosong,module,Magento_Catalog
+"New Products from %1","Produk Baru dari %1",module,Magento_Catalog
+"New Products","Produk Baru",module,Magento_Catalog
+"%1 - Special Products","%1 - Produk Spesial",module,Magento_Catalog
+"Click for price","Tekan untuk harga",module,Magento_Catalog
+"Special Expires On: %1","Khusus Kedaluwarsa pada:% 1",module,Magento_Catalog
+"Price: %1","Harga: %1",module,Magento_Catalog
+"Special Price: %1","Harga Spesial: %1",module,Magento_Catalog
+"Special Products","Produk Spesial",module,Magento_Catalog
+"Manage Catalog Categories","Mengelola Kategori Katalog",module,Magento_Catalog
+"Manage Categories","Mengelola Kategori",module,Magento_Catalog
+"You deleted the category.","Anda menghapus kategori.",module,Magento_Catalog
+"Something went wrong while trying to delete the category.","Ada yang salah ketika mencoba untuk menghapus kategori.",module,Magento_Catalog
+Categories,Kategori,module,Magento_Catalog
+"Category is not available for requested store.","Kategori tidak tersedia untuk toko yang diminta.",module,Magento_Catalog
+"There was a category move error.","Terjadi kesalahan saat memindah kategori.",module,Magento_Catalog
+"Attribute ""%1"" is required.","Atribut ""% 1"" diperlukan.",module,Magento_Catalog
+"You saved the category.","Anda menyimpan kategori.",module,Magento_Catalog
+"Something went wrong while saving the category.","Ada yang salah saat menyimpan kategori.",module,Magento_Catalog
+"Please select products for attributes update.","Silahkan pilih produk untuk memperbarui atribut.",module,Magento_Catalog
+"Please make sure to define SKU values for all processed products.","Pastikan untuk menentukan nilai SKU untuk semua produk olahan.",module,Magento_Catalog
+"A total of %1 record(s) were updated.","Sebanyak% 1 record yang diperbarui.",module,Magento_Catalog
+"Something went wrong while updating the product(s) attributes.","Ada yang tidak beres saat memperbarui atribut produk.",module,Magento_Catalog
+"Unable to add attribute","Tidak dapat menambahkan atribut",module,Magento_Catalog
+"Please, specify attributes","Silahkan, menentukan atribut",module,Magento_Catalog
+Catalog,Katalog,module,Magento_Catalog
+"Manage Product Attributes","Mengelola Atribut Produk",module,Magento_Catalog
+"You deleted the product attribute.","Anda menghapus atribut produk.",module,Magento_Catalog
+"This attribute no longer exists.","Atribut ini tidak ada lagi.",module,Magento_Catalog
+"This attribute cannot be edited.","Atribut ini tidak dapat diedit.",module,Magento_Catalog
+"Edit Product Attribute","Edit Atribut Produk",module,Magento_Catalog
+"Something went wrong while saving the attribute.","Ada yang salah saat menyimpan atribut.",module,Magento_Catalog
+"Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Kode atribut ""% 1"" tidak valid. Gunakan hanya huruf (a-z), angka (0-9) atau garis bawah (_) di bidang ini, karakter pertama harus berupa huruf.",module,Magento_Catalog
+"You saved the product attribute.","Anda menyimpan atribut produk.",module,Magento_Catalog
+"An attribute with this code already exists.","Atribut dengan kode ini sudah ada.",module,Magento_Catalog
+"An attribute with the same code (%1) already exists.","Atribut dengan kode yang sama (% 1) sudah ada.",module,Magento_Catalog
+"You duplicated the product.","Anda menyalin produk.",module,Magento_Catalog
+"This product doesn't exist.","Produk ini tidak ada.",module,Magento_Catalog
+"Invalid product id. Should be numeric value greater than 0","Id produk tidak valid. Nilai numerik harus lebih besar dari 0",module,Magento_Catalog
+Products,Produk,module,Magento_Catalog
+"A group with the same name already exists.","Sebuah kelompok dengan nama yang sama sudah ada.",module,Magento_Catalog
+"Something went wrong while saving this group.","Ada yang salah saat menyimpan grup ini.",module,Magento_Catalog
+"A total of %1 record(s) have been deleted.","Sebanyak% 1 record telah dihapus.",module,Magento_Catalog
+"A total of %1 record(s) have been updated.","Sebanyak% 1 record telah diperbarui.",module,Magento_Catalog
+"Something went wrong while updating the product(s) status.","Ada yang salah saat memperbarui status produk.",module,Magento_Catalog
+"Unable to save product","Tidak dapat menyimpan produk",module,Magento_Catalog
+"You saved the product.","Anda menyimpan produk.",module,Magento_Catalog
+"SKU for product %1 has been changed to %2.","SKU untuk produk %1 telah diganti ke %2.",module,Magento_Catalog
+"The image cannot be removed as it has been assigned to the other image role","Gambar tidak dapat dihapus seperti yang telah ditugaskan untuk peran gambar lainnya",module,Magento_Catalog
+"New Attribute Set","Set Atribut Baru",module,Magento_Catalog
+"The attribute set has been removed.","Atribut set telah dihapus.",module,Magento_Catalog
+"New Set","Set Baru",module,Magento_Catalog
+"Manage Product Sets","Mengelola Set Produk",module,Magento_Catalog
+"Manage Attribute Sets","Mengelola Set Atribut",module,Magento_Catalog
+"This attribute set no longer exists.","Set atribut ini tidak ada lagi.",module,Magento_Catalog
+"You saved the attribute set.","Anda menyimpan set atribut.",module,Magento_Catalog
+"Something went wrong while saving the attribute set.","Ada yang salah saat menyimpan set atribut.",module,Magento_Catalog
+"You added product %1 to the comparison list.","Anda menambahkan produk% 1 ke daftar perbandingan.",module,Magento_Catalog
+"You cleared the comparison list.","Anda menghapus daftar perbandingan.",module,Magento_Catalog
+"Something went wrong  clearing the comparison list.","Ada kesalahan saat mengapus daftar perbandingan.",module,Magento_Catalog
+"You removed product %1 from the comparison list.","Anda menghapus produk %1 dari daftar perbandingan.",module,Magento_Catalog
+"%1 items","%1 item",module,Magento_Catalog
+"Invalid attribute %1","Atribut tidak valid %1",module,Magento_Catalog
+Grid,Kisi-kisi,module,Magento_Catalog
+List,Daftar,module,Magento_Catalog
+All,Semua,module,Magento_Catalog
+"Bad controller interface for showing product","Controller interface yang buruk untuk menunjukkan produk",module,Magento_Catalog
+"Product is not loaded","Produk ini tidak dimuat",module,Magento_Catalog
+"Make sure the To Date is later than or the same as the From Date.","Pastikan Ke Tanggal kemudian atau sama dengan Dari Tanggal.",module,Magento_Catalog
+"Something went wrong while getting the image url.","Terjadi kesalahan saat menerima url gambar.",module,Magento_Catalog
+"The value of attribute ""%1"" must be unique.","Nilai atribut ""% 1"" harus unik.",module,Magento_Catalog
+"Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Produk default berdasarkan daftar penyortiran tidak ada di daftar ketersediaan produk.",module,Magento_Catalog
+"No layout updates","Tidak ada pembaruan tata letak",module,Magento_Catalog
+"Products only","Hanya Produk",module,Magento_Catalog
+"Static block only","Hanya blok statis",module,Magento_Catalog
+"Static block and products","Blok statis dan produk",module,Magento_Catalog
+"Please select a static block.","Silahkan pilih blok statis.",module,Magento_Catalog
+"Could not save product ""%1"" with position %2 to category %3","Tidak dapat menyimpan produk ""% 1"" dengan posisi% 2 untuk kategori% 3",module,Magento_Catalog
+"Category does not contain specified product","Kategori tidak mengandung produk tertentu",module,Magento_Catalog
+"Could not save product ""%product"" with position %position to category %category","Tidak dapat menyimpan produk ""%produk"" dengan posisi%posisi untuk kategori%kategori",module,Magento_Catalog
+"Operation do not allow to move a parent category to any of children category","Operasi tidak memungkinkan untuk memindahkan kategori orang tua untuk setiap kategori anak-anak",module,Magento_Catalog
+"Could not move category","Tidak dapat memindah kategori",module,Magento_Catalog
+"Could not save category: %1","Tidak dapat menyimpan kategori: %1",module,Magento_Catalog
+"Cannot delete category with id %1","Tidak dapat menghapus kategori dengan id %1",module,Magento_Catalog
+"-- Please Select a Category --","-- Silahkan Pilih Kategori --",module,Magento_Catalog
+"Grid Only","Hanya Kisi-Kisi",module,Magento_Catalog
+"List Only","Hanya Daftar",module,Magento_Catalog
+"Grid (default) / List","Kisi-Kisi (default) / Daftar",module,Magento_Catalog
+"List (default) / Grid","Daftar (default) / Kisi-Kisi",module,Magento_Catalog
+"Automatic (equalize price ranges)","Otomatis (menyeimbangkan jajaran harga)",module,Magento_Catalog
+"Automatic (equalize product counts)","Otomatis (menyeimbangkan jumlah produk)",module,Magento_Catalog
+Fixed,Tetap,module,Magento_Catalog
+Percent,Persen,module,Magento_Catalog
+"-- Please select --","-- Silahkan Pilih --",module,Magento_Catalog
+"Product Thumbnail Itself","Thumbnail Produk Sendiri",module,Magento_Catalog
+"%1 doesn't extends \Magento\Framework\Model\AbstractModel","%1 doesn't extend \Magento\Framework\Model\AbstractModel",module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter","%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\AbstractFilter",module,Magento_Catalog
+"Such product doesn't exist","This product doesn't exist",module,Magento_Catalog
+"Such image doesn't exist","This image doesn't exist",module,Magento_Catalog
+"The option type to get group instance is incorrect.","Jenis pilihan untuk mendapatkan contoh kelompok tidak benar.",module,Magento_Catalog
+"Select type options required values rows.","Pilih jenis opsi yang diperlukan nilai-nilai baris.",module,Magento_Catalog
+"ProductSku should be specified","Produk Sku harus ditentukan",module,Magento_Catalog
+"Could not remove custom option","Tidak dapat menghapus pilihan kustom",module,Magento_Catalog
+"Please specify date required option(s).","Silakan tentukan opsi tanggal yang diperlukan.",module,Magento_Catalog
+"Please specify time required option(s).","Silahkan tentukan opsi waktu yang diperlukan.",module,Magento_Catalog
+"The option instance type in options group is incorrect.","Opsi tipe contoh dalam kelompok pilihan salah.",module,Magento_Catalog
+"The product instance type in options group is incorrect.","Opsi contoh produk dalam kelompok pilihan salah.",module,Magento_Catalog
+"The configuration item option instance in options group is incorrect.","Konfigurasi contoh opsi item dalam kelompok pilihan salah.",module,Magento_Catalog
+"The configuration item instance in options group is incorrect.","Konfigurasi contoh item dalam kelompok pilihan salah.",module,Magento_Catalog
+"The BuyRequest instance in options group is incorrect.","Contoh Permintaan Pembelian dalam kelompok pilihan salah.",module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Product\Option\Type\DefaultType","%1 doesn't extend \Magento\Catalog\Model\Product\Option\Type\DefaultType",module,Magento_Catalog
+"The file options format is not valid.","Format file pilihan tidak valid.",module,Magento_Catalog
+"The file '%1' for '%2' has an invalid extension.","File '%1' untuk '%2' memiliki ekstensi tidak valid.",module,Magento_Catalog
+"The maximum allowed image size for '%1' is %2x%3 px.","Ukuran gambar maksimum yang diizinkan untuk '% 1' adalah% 2 x% 3 px.",module,Magento_Catalog
+"Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Product doesn't have group price with such data: customerGroupId = '%1', website = %2, qty = %3",module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType","%1 doesn't extend \Magento\Catalog\Model\Product\Type\AbstractType",module,Magento_Catalog
+"%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","%1 doesn't extend \Magento\Catalog\Model\Product\Type\Price",module,Magento_Catalog
+"Place Order","Tempat Pesanan",module,Magento_Authorizenet
+"Credit Card Information","Informasi Kartu Kredit",module,Magento_Braintree
+"What is this?","Apakah ini?",module,Magento_Braintree
+"Save for later use.","Simpan untuk digunakan nanti.",module,Magento_Braintree
+"Place Order","Tempat Pesanan",module,Magento_Braintree
+"Attention: Captcha is case sensitive.","Perhatian: Captcha adalah kasus sensitif.",module,Magento_Captcha
+"We could not detect a size.","Kami tidak bisa mendeteksi ukuran.",module,Magento_Backend
+"This payment is not available","Pembayaran ini tidak tersedia",module,Magento_Braintree
+"Please try again with another form of payment.","Silakan coba lagi dengan bentuk pembayaran lain.",module,Magento_Braintree
+"Sorry, but something went wrong.","Maaf, tapi ada sesuatu yang salah.",module,Magento_Braintree
+"Add Products to New Option","Tambahkan Produk ke Pilihan Baru",module,Magento_Bundle
+"Add Products to Option ""%1""","Tambahkan Produk ke Pilihan ""%1""",module,Magento_Bundle
+"Show Toolbar","Tampilkan Toolbar",module,Magento_AdminNotification
+"Show List","Tampilkan List",module,Magento_AdminNotification
+"Use HTTPS to Get Feed","Gunakan HTTPS untuk ke Get Feed",module,Magento_AdminNotification
+"Update Frequency","Pembaruan Frekuensi",module,Magento_AdminNotification
+"Last Update","Pembaruan Terakhir",module,Magento_AdminNotification
+Severity,Kekerasan,module,Magento_AdminNotification
+"Date Added","Tanggal Ditambahkan",module,Magento_AdminNotification
+Message,Pesan,module,Magento_AdminNotification
+Actions,Tindakan,module,Magento_AdminNotification
+"Authorize.net Direct Post","Authorize.net Posting langsung",module,Magento_Authorizenet
+Enabled,Diaktifkan,module,Magento_Authorizenet
+"Payment Action","Tindakan Pembayaran",module,Magento_Authorizenet
+Title,Judul,module,Magento_Authorizenet
+"Transaction Key","Kunci Transaksi",module,Magento_Authorizenet
+"Merchant MD5","Penjual MD5",module,Magento_Authorizenet
+"New Order Status","Status Pesanan Baru",module,Magento_Authorizenet
+"Transaction Details URL","Transaksi Detail URL",module,Magento_Authorizenet
+"Accepted Currency","Mata uang yang diterima",module,Magento_Authorizenet
+"Email Customer","Email pelanggan",module,Magento_Authorizenet
+"Merchant's Email","Email Penjual",module,Magento_Authorizenet
+"Credit Card Types","Tipe Kartu Kredit",module,Magento_Authorizenet
+"Credit Card Verification","Verivikasi Kartu Kredit",module,Magento_Authorizenet
+"Payment from Applicable Countries","Pembayaran dari Negara Berlaku",module,Magento_Authorizenet
+"Payment from Specific Countries","Pembayaran dari Negara-Negara Tertentu",module,Magento_Authorizenet
+"Minimum Order Total","Minimum Total Pesanan",module,Magento_Authorizenet
+"Maximum Order Total","Maksimum Total Pesanan",module,Magento_Authorizenet
+"Sort Order","Menyortir Pesanan",module,Magento_Authorizenet
+"Allow everything","Memungkinkan segala sesuatu",module,Magento_Backend
+"Magento Admin","Admin Magento",module,Magento_Backend
+"Global Search","Pencarian Global",module,Magento_Backend
+Marketing,Pemasaran,module,Magento_Backend
+"SEO & Search","Optimisasi Mesin Pencari & Cari",module,Magento_Backend
+"User Content","Konten Pengguna",module,Magento_Backend
+Content,Konten,module,Magento_Backend
+Elements,Elemen,module,Magento_Backend
+Design,Desain,module,Magento_Backend
+Schedule,Jadwal,module,Magento_Backend
+Settings,Pengaturan,module,Magento_Backend
+Attributes,Atribut,module,Magento_Backend
+"Other Settings","Pengaturan lainnya",module,Magento_Backend
+"Data Transfer","Transfer Data",module,Magento_Backend
+"Magento Connect","Koneksi Magento",module,Magento_Backend
+"Connect Manager","Koneksi Manajer",module,Magento_Backend
+"Package Extensions","Paket Ekstensi",module,Magento_Backend
+Tools,Alat,module,Magento_Backend
+Currency,"Mata Uang",module,Magento_Backend
+Communications,Komunikasi,module,Magento_Backend
+Services,Servis,module,Magento_Backend
+Advanced,Lanjutan,module,Magento_Backend
+"Disable Modules Output","Nonaktifkan Modul output",module,Magento_Backend
+"Store Email Addresses","Alamat Email Toko",module,Magento_Backend
+"Custom Email 1","Kustom Email 1",module,Magento_Backend
+"Sender Email","Email pengirim",module,Magento_Backend
+"Sender Name","Nama pengirim",module,Magento_Backend
+"Custom Email 2","Kustom Email 2",module,Magento_Backend
+"General Contact","Kontak Umum",module,Magento_Backend
+"Sales Representative","Sales Representatif",module,Magento_Backend
+"Customer Support","Dukungan Pelanggan",module,Magento_Backend
+Developer,Pembangun,module,Magento_Backend
+"Enabled Template Path Hints for Storefront","Aktifkan Template Jalur Petunjuk untuk etalase",module,Magento_Backend
+"Enabled Template Path Hints for Admin","Aktifkan Template Jalur Petunjuk untuk Admin",module,Magento_Backend
+"Add Block Names to Hints","Tambahkan Nama Blok untuk Petunjuk",module,Magento_Backend
+"Template Settings","Pengaturan Template",module,Magento_Backend
+"Allow Symlinks","Memungkinkan Simbol Link",module,Magento_Backend
+"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Peringatan! Mengaktifkan fitur ini tidak dianjurkan pada lingkungan produksi karena risiko keamanan potensial.",module,Magento_Backend
+"Minify Html","Mengecilkan Html",module,Magento_Backend
+"Minification is not applied in developer mode.","Pengecilan tidak diterapkan dalam mode pengembang.",module,Magento_Backend
+"Translate Inline","Terjemahan Inline",module,Magento_Backend
+"Enabled for Storefront","Diaktifkan untuk etalase toko",module,Magento_Backend
+"Enabled for Admin","Diaktifkan untuk Admin",module,Magento_Backend
+"Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","Menerjemahkan, blok dan cache output lainnya harus dinonaktifkan untuk kedua etalase dan Admin terjemahan inline.",module,Magento_Backend
+"JavaScript Settings","Pengaturan Javascript",module,Magento_Backend
+"Merge JavaScript Files","Menggabungkan berkas JavaScript",module,Magento_Backend
+"Enable JavaScript Bundling","Aktifkan Penggabungan JavaScript",module,Magento_Backend
+"Minify JavaScript Files","Mengecilkan Berkas JavaScript",module,Magento_Backend
+"CSS Settings","Pengaturan CSS",module,Magento_Backend
+"Merge CSS Files","Menggabungkan Berkas CSS",module,Magento_Backend
+"Minify CSS Files","Mengecilkan Berkas CSS",module,Magento_Backend
+"Image Processing Settings","Pengaturan Pemroses Gambar",module,Magento_Backend
+"Image Adapter","Adaptor Gambar",module,Magento_Backend
+"Static Files Settings","Pengaturan File Statis",module,Magento_Backend
+"Sign Static Files","Tanda Berkas Statis",module,Magento_Backend
+"Country Options","Opsi Negara",module,Magento_Backend
+"Allow Countries","Memungkinkan negara-negara",module,Magento_Backend
+"Default Country","Negara Default",module,Magento_Backend
+"European Union Countries","Negara Uni Eropa",module,Magento_Backend
+"Top destinations","Destinasi teratas",module,Magento_Backend
+"Locale Options","Pilihan Lokal",module,Magento_Backend
+Timezone,"Zona Waktu",module,Magento_Backend
+Locale,Lokal,module,Magento_Backend
+"First Day of Week","Hari Pertama dalam Seminggu",module,Magento_Backend
+"Weekend Days","Hari Akhir Pekan",module,Magento_Backend
+"Store Name","Nama Toko",module,Magento_Backend
+"Store Phone Number","Nomor Telepon Toko",module,Magento_Backend
+"Store Hours of Operation","Jam Operasi Toko",module,Magento_Backend
+Country,Negara,module,Magento_Backend
+Region/State,Wilayah,module,Magento_Backend
+"ZIP/Postal Code","Kode Pos",module,Magento_Backend
+City,Kota,module,Magento_Backend
+"Street Address","Alamat Jalan",module,Magento_Backend
+"Street Address Line 2","Alamat Jalan Baris 2",module,Magento_Backend
+"VAT Number","Nomor Pajak Pertambahan Nilai",module,Magento_Backend
+"Single-Store Mode","Mode Toko-Tunggal",module,Magento_Backend
+"Enable Single-Store Mode","Aktifkan Mode Toko-Tunggal",module,Magento_Backend
+"This setting will not be taken into account if system has more than one store view.","Pengaturan ini tidak akan diperhitungkan jika sistem memiliki lebih dari satu tampilan toko.",module,Magento_Backend
+"Mail Sending Settings","Pengaturan Pengiriman Pesan",module,Magento_Backend
+"Disable Email Communications","Nonaktifkan Komunikasi Email",module,Magento_Backend
+"Set Return-Path","Atur Jalur-Kembali",module,Magento_Backend
+"Return-Path Email","Email Jalur-Kembali",module,Magento_Backend
+"Admin User Emails","Email Admin Pengguna",module,Magento_Backend
+"Forgot Password Email Template","Lupa Kata Sandi Template Email",module,Magento_Backend
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Template email dipilih berdasarkan tema ketika menggunakan opsi ""Default""yang dipilih.",module,Magento_Backend
+"Forgot and Reset Email Sender","Lupa dan Reset Pengirim Email",module,Magento_Backend
+"Startup Page","Halaman Awal",module,Magento_Backend
+"Admin Base URL","Basis URL Admin",module,Magento_Backend
+"Use Custom Admin URL","Gunakan URL Khusus Admin",module,Magento_Backend
+"Custom Admin URL","URL Khusus Admin",module,Magento_Backend
+"Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","Pastikan bahwa URL dasar berakhir dengan '/' (slash), misalnya http: // yourdomain / Magento /",module,Magento_Backend
+"Use Custom Admin Path","Gunakan Jalur Khusus Admin",module,Magento_Backend
+"Custom Admin Path","Jalur Khusus Admin",module,Magento_Backend
+"You will have to sign in after you save your custom admin path.","Anda harus masuk setelah Anda menyimpan jalur khusus admin.",module,Magento_Backend
+Security,Keamanan,module,Magento_Backend
+"Recovery Link Expiration Period (hours)","Pemulihan Periode link Kadaluarsa (jam)",module,Magento_Backend
+"Please enter a number 1 or greater in this field.","Masukkan nomor 1 atau lebih besar di field ini.",module,Magento_Backend
+"Add Secret Key to URLs","Menambahkan kunci rahasia untuk URL",module,Magento_Backend
+"Login is Case Sensitive","Masuk Kasus Rahasia",module,Magento_Backend
+"Admin Session Lifetime (seconds)","Sesi Admin Seumur Hidup (detik)",module,Magento_Backend
+"Please enter at least 60 and at most 31536000 (one year).","Silakan masukkan sedikitnya 60 dan paling banyak 31. 536. 000 (satu tahun).",module,Magento_Backend
+"Enable Charts","Aktifkan Grafik",module,Magento_Backend
+"Url Options","Pilihan Url",module,Magento_Backend
+"Add Store Code to Urls","Tambahkan kode toko ke Urls",module,Magento_Backend
+"Auto-redirect to Base URL","Alihkan-Otomatis ke Basis URL",module,Magento_Backend
+"Search Engine Optimization","Optimisasi Mesin Pencari",module,Magento_Backend
+"Use Web Server Rewrites","Gunakan Penulisan ulang Web Server",module,Magento_Backend
+"Base URLs","Basis URLs",module,Magento_Backend
+"Base URL","Basis URL",module,Magento_Backend
+"Specify URL or {{base_url}} placeholder.","Tentukan URL atau {{base_url}} placeholder.",module,Magento_Backend
+"Base Link URL","Basis Link URL",module,Magento_Backend
+"Base URL for Static View Files","Basis URL untuk Lihat Berkas Statis",module,Magento_Backend
+"May be empty or start with {{unsecure_base_url}} placeholder.","Mungkin kosong atau mulai dengan {{unsecure_base_url}} placeholder.",module,Magento_Backend
+"Base URL for User Media Files","URL dasar untuk Berkas Pengguna Media",module,Magento_Backend
+"Base URLs (Secure)","URLs Dasar(Aman)",module,Magento_Backend
+"Secure Base URL","URL Dasar Aman",module,Magento_Backend
+"Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","Tentukan URL atau {{base_url}}, atau {{unsecure_base_url}} placeholder.",module,Magento_Backend
+"Secure Base Link URL","Link URL Dasar Aman",module,Magento_Backend
+"Secure Base URL for Static View Files","Basis URL aman untuk Melihat Berkas Statis",module,Magento_Backend
+"May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","Mungkin kosong atau mulai dengan {{secure_base_url}}, atau {{unsecure_base_url}} placeholder.",module,Magento_Backend
+"Secure Base URL for User Media Files","Basis URL aman untuk Berkas Pengguna Media",module,Magento_Backend
+"Use Secure URLs on Storefront","Gunakan Keamanan URL di etalase toko",module,Magento_Backend
+"Use Secure URLs in Admin","Gunakan Keamanan URL dalam Admin",module,Magento_Backend
+"Enable HTTP Strict Transport Security (HSTS)","Aktifkan HTTP Strict Transport Security (HSTS)",module,Magento_Backend
+"Upgrade Insecure Requests","Permintaan Mengupgrade Tidak Aman",module,Magento_Backend
+"Offloader header","Mesin Pemuat Header Dimatikan",module,Magento_Backend
+"Default Pages","Halaman Default",module,Magento_Backend
+"Default Web URL","URL Web Default",module,Magento_Backend
+"Default No-route URL","Tidak ada rute URL Default",module,Magento_Backend
+"Session Validation Settings","Sesi Pengaturan Validasi",module,Magento_Backend
+"Validate REMOTE_ADDR","Validasi REMOTE_ADDR",module,Magento_Backend
+"Validate HTTP_VIA","Validasi HTTP_VIA",module,Magento_Backend
+"Validate HTTP_X_FORWARDED_FOR","Validasi HTTP_X_FORWARDED_FOR",module,Magento_Backend
+"Validate HTTP_USER_AGENT","Validasi HTTP_USER_AGENT",module,Magento_Backend
+"Use SID on Storefront","Gunakan SID di Etalase Toko",module,Magento_Backend
+"Allows customers to stay logged in when switching between different stores.","Memungkinkan pelanggan untuk tetap masuk bila beralih di antara toko yang berbeda.",module,Magento_Backend
+"Cache Type","Tipe Cache",module,Magento_Backend
+Description,Deskripsi,module,Magento_Backend
+Tags,Tag,module,Magento_Backend
+"<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 Error</h1><p>Halaman tidak Ditemukan.</p>",module,Magento_Backend
+"Community Edition","Edisi Komunitas",module,Magento_Backend
+"Default Theme","Tema Default",module,Magento_Backend
+"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Jika tidak ada nilai yang ditentukan, sistem default digunakan. Sistem default dapat dimodifikasi oleh ekstensi pihak ketiga.",module,Magento_Backend
+"Applied Theme","Tema Terapan",module,Magento_Backend
+"Design Rule","Aturan Desain",module,Magento_Backend
+"User Agent Rules","Aturan Agen Pengguna",module,Magento_Backend
+Pagination,"Pemberian nomor pada halaman buku",module,Magento_Backend
+"How many links to display at once.","Berapa banyak link untuk ditampilkan sekaligus.",module,Magento_Backend
+"Pagination Frame","Bingkai pemberian nomor pada halaman buku",module,Magento_Backend
+"If current frame position does not cover utmost pages, it renders the link to current position plus/minus this value.","Jika posisi bingkai tidak mencakup halaman maksimal, itu membuat posisi nilai link ini ke plus / minus.",module,Magento_Backend
+"Pagination Frame Skip","Lewati Bingkai pemberian nomor pada halaman buku",module,Magento_Backend
+"Alternative text for the previous pages link in the pagination menu. If empty, the default arrow image is used.","Teks alternatif untuk halaman link sebelumnya dalam menu pemberian nomor pada halaman buku. Jika kosong, gambar panah default digunakan.",module,Magento_Backend
+"Anchor Text for Previous","Anchor Text untuk Sebelumnya",module,Magento_Backend
+"Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Teks alternatif untuk halaman link selanjutnya dalam menu pemberian nomor pada halaman buku. Jika kosong, gambar panah default digunakan.",module,Magento_Backend
+"Anchor Text for Next","Anchor Text untuk Selanjutnya",module,Magento_Backend
+"Theme Name","Nama Tema",module,Magento_Backend
+Rollback,"Putar Kembali",module,Magento_Backup
+"Scheduled Backup Settings","Pengaturan Jadwal Cadangan",module,Magento_Backup
+"Enable Scheduled Backup","Aktifkan Jadwal Cadangan",module,Magento_Backup
+"Backup Type","Tipe Cadangan",module,Magento_Backup
+"Start Time","Waktu Mulai",module,Magento_Backup
+Frequency,Frekuensi,module,Magento_Backup
+"Maintenance Mode","Mode Pemeliharaan",module,Magento_Backup
+Delete,Hapus,module,Magento_Backup
+"Are you sure you want to delete the selected backup(s)?","Apakah anda yakin ingin menghapus cadangan yang telah dipilih?",module,Magento_Backup
+Time,Waktu,module,Magento_Backup
+Name,Nama,module,Magento_Backup
+Size(bytes),Ukuran(bytes),module,Magento_Backup
+Type,Tipe,module,Magento_Backup
+Action,Tindakan,module,Magento_Backup
+"Enable this Solution","Aktifkan Solusi ini",module,Magento_Braintree
+Title,Judul,module,Magento_Braintree
+Environment,"Lingkungan Hidup",module,Magento_Braintree
+"Payment Action","Tindakan Pembayaran",module,Magento_Braintree
+"Merchant ID","ID Pedagang",module,Magento_Braintree
+"Public Key","Kunci Publik",module,Magento_Braintree
+"Private Key","Kunci Pribadi",module,Magento_Braintree
+"Vault Title","Judul Lompatan",module,Magento_Braintree
+"Merchant Account ID","ID Akun Pedagang",module,Magento_Braintree
+"Advanced Fraud Protection","Perlindungan Penipuan canggih",module,Magento_Braintree
+"Kount Merchant ID","Jumlah ID Pedagang",module,Magento_Braintree
+"CVV Verification","Verifikasi CVV",module,Magento_Braintree
+"Credit Card Types","Tipe Kartu Kredit",module,Magento_Braintree
+"Sort Order","Sortir Pesanan",module,Magento_Braintree
+"Country Specific Settings","Pengaturan Negara-Negara tertentu",module,Magento_Braintree
+"Payment from Applicable Countries","Pembayaran dari Negara yang Berlaku",module,Magento_Braintree
+"Payment from Specific Countries","Pembayaran dari Negara-Negara tertentu",module,Magento_Braintree
+"Country Specific Credit Card Types","Tipe Kartu Kredit Negara-Negara tertentu",module,Magento_Braintree
+"Override Merchant Name","Mengesampingkan Nama Pedagang",module,Magento_Braintree
+"Require Customer's Billing Address","Membutuhkan Alamat Penagihan Pelanggan",module,Magento_Braintree
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Memungkinkan untuk Mengedit Alamat Pengiriman Pemasukan Selama Checkout di Situs PayPal",module,Magento_Braintree
+"Display on Shopping Cart","Tampilan di Keranjang Belanja",module,Magento_Braintree
+"3D Secure Verification Settings","Pengaturan Verifikasi 3D Aman",module,Magento_Braintree
+"3D Secure Verification","Verifikasi 3D Aman",module,Magento_Braintree
+"Threshold Amount","Jumlah Permulaan",module,Magento_Braintree
+"Verify for Applicable Countries","Verifikasi untuk Negara yang Berlaku",module,Magento_Braintree
+"Verify for Specific Countries","Verifikasi untuk Negara-Negara Tertentu",module,Magento_Braintree
+"Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Terapkan filter untuk mendapatkan hasil. Hanya 100 pertama catatan akan ditampilkan di grid, Anda akan dapat men-download versi lengkap dari laporan yang berformat .csv.",module,Magento_Braintree
+Select...,Pilih...,module,Magento_Braintree
+"Transaction Type","Tipe Transaksi",module,Magento_Braintree
+"Payment Type","Tipe Pembayaran",module,Magento_Braintree
+"PayPal Payment ID","ID Pembayaran PayPal",module,Magento_Braintree
+"Created At","Dibuat di",module,Magento_Braintree
+"Transaction ID","ID Transaksi",module,Magento_Braintree
+"Order ID","ID Pesanan",module,Magento_Braintree
+Type,Tipe,module,Magento_Braintree
+Amount,Jumlah,module,Magento_Braintree
+"Settlement Code","Kode Penyelesaian",module,Magento_Braintree
+"Settlement Response Text","Teks Respon Penyelesaian",module,Magento_Braintree
+"Refund Ids","Pengembalian dana Ids",module,Magento_Braintree
+"Settlement Batch ID","Penyelesaian sejumlah ID",module,Magento_Braintree
+Currency,"Mata Uang",module,Magento_Braintree
+Select...,Pilih...,module,Magento_Bundle
+Type,Tipe,module,Magento_Bundle
+"Enable CAPTCHA in Admin","Aktifkan CAPTCHA dalam Admin",module,Magento_Captcha
+Forms,Form,module,Magento_Captcha
+"Displaying Mode","Menampilkan Mode",module,Magento_Captcha
+"Number of Unsuccessful Attempts to Login","Jumlah kegagalan upaya untuk login",module,Magento_Captcha
+"If 0 is specified, CAPTCHA on the Login form will be always available.","Jika 0 ditentukan, CAPTCHA pada form Login akan selalu tersedia.",module,Magento_Captcha
+"CAPTCHA Timeout (minutes)","CAPTCHA Timeout (menit)",module,Magento_Captcha
+"Number of Symbols","Jumlah Simbol",module,Magento_Captcha
+"Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Sebutkan paling banyak 8 simbol. Kisaran diperbolehkan (misalnya 3-5)",module,Magento_Captcha
+"Symbols Used in CAPTCHA","Simbol Terpakai dalam CAPTCHA",module,Magento_Captcha
+"Case Sensitive","Kasus Sensitif",module,Magento_Captcha
+"Enable CAPTCHA on Storefront","Aktifkan CAPTCHA di Etalase Toko",module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA untuk form ""Buat user"" dan ""Lupa password"" selalu diaktifkan jika dipilih.",module,Magento_Captcha
