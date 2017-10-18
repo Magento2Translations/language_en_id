@@ -44,6 +44,7 @@ Close,Keluar,module,Magento_AdminNotification
 "You created the order.","Anda telah membuat pesanan.",module,Magento_Authorizenet
 "Order saving error: %1","Menyimpan pesanan error:%1",module,Magento_Authorizenet
 "Please choose a payment method.","Silahkan pilih metode pembayaran.",module,Magento_Authorizenet
+"Unable to place order. Please try again later.","Tidak dapat menempatkan pesanan. Silakan coba lagi nanti.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Kartu Kredit: xxxx-%1",module,Magento_Authorizenet
 "amount %1","jumlah% 1",module,Magento_Authorizenet
 failed.,gagal.,module,Magento_Authorizenet
@@ -175,10 +176,10 @@ No,Tidak,module,Magento_Backend
 "Store Information","Informasi Toko",module,Magento_Backend
 "Web Site","Situs Web",module,Magento_Backend
 Name,Nama,module,Magento_Backend
-Code,Kode,module,Magento_Backend
 "Root Category","Kategori Root",module,Magento_Backend
 "Default Store View","Lihat Toko Default",module,Magento_Backend
 "Store View Information","Lihat Informasi Toko",module,Magento_Backend
+Code,Kode,module,Magento_Backend
 Disabled,Dinonaktifkan,module,Magento_Backend
 Enabled,Diaktifkan,module,Magento_Backend
 "Sort Order","Sortir Pesanan",module,Magento_Backend
@@ -262,12 +263,11 @@ System,Sistem,module,Magento_Backend
 "The store does not exist","Toko tidak ada",module,Magento_Backend
 "Store view doesn't exist","Tampilan tidak ada",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","Sebelum memodifikasi tampilan toko pastikan kode itu tidak digunakan dalam index.php.",module,Magento_Backend
-"All Stores","Semua Toko",module,Magento_Backend
 "You saved the website.","Anda telah menyimpan situs web.",module,Magento_Backend
-"The default store cannot be disabled","Toko default tidak dapat dinonaktifkan",module,Magento_Backend
-"You saved the store view.","Anda telah menyimpan tampilan toko.",module,Magento_Backend
 "An inactive store view cannot be saved as default store view","Tampilan toko yang tidak aktif tidak dapat disimpan sebagai tampilan toko standar",module,Magento_Backend
 "You saved the store.","Anda telah menyimpan toko.",module,Magento_Backend
+"The default store cannot be disabled","Toko default tidak dapat dinonaktifkan",module,Magento_Backend
+"You saved the store view.","Anda telah menyimpan tampilan toko.",module,Magento_Backend
 "Something went wrong while saving. Please review the error log.","Ada yang salah saat menyimpan. Tinjau log kesalahan.",module,Magento_Backend
 "Last 24 Hours","24 jam terakhir",module,Magento_Backend
 "Last 7 Days","7 hari terakhir",module,Magento_Backend
@@ -315,6 +315,7 @@ Minute,Menit,module,Magento_Backend
 "JavaScript may be disabled in your browser.","JavaScript mungkin dinonaktifkan pada browser Anda.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","Untuk menggunakan situs ini, Anda harus terlebih dahulu mengaktifkan JavaScript di browser Anda.",module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Ini hanya sebuah toko demo. Anda dapat menelusuri dan menempatkan pesanan, tapi tidak akan diproses.",module,Magento_Backend
+"Report Bugs","Laporkan Bugs",module,Magento_Backend
 "Store View:","Tampilan toko:",module,Magento_Backend
 "Stores Configuration","Konfigurasi Toko",module,Magento_Backend
 "Additional Cache Management","Manajemen Cache tambahan",module,Magento_Backend
@@ -412,6 +413,28 @@ Authorize,Otorisasi,module,Magento_Braintree
 "Authorize and Capture","Otorisasi dan Tangkapan",module,Magento_Braintree
 "--Please Select--","--Silahkan Pilih--",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","Setujui semua syarat dan kondisi sebelum menempatkan pesanan.",module,Magento_Braintree
+"Paypal account","Akun Paypal",module,Magento_Braintree
+"Coinbase account","Akun Coinbase",module,Magento_Braintree
+"Europe bank account","Akun Bank Eropa",module,Magento_Braintree
+"Credit card","Kartu Kredit",module,Magento_Braintree
+"Apple pay card","Kartu bayar Apple",module,Magento_Braintree
+"Android pay card","Kartu bayar Android",module,Magento_Braintree
+"Authorization expired","Otorisasi kadaluarsa",module,Magento_Braintree
+Authorizing,Otorisasi,module,Magento_Braintree
+Authorized,Resmi,module,Magento_Braintree
+"Gateway rejected","Gateway ditolak",module,Magento_Braintree
+Failed,Gagal,module,Magento_Braintree
+"Processor declined","Processor menurun",module,Magento_Braintree
+Settled,Lunas,module,Magento_Braintree
+Settling,Penyelesaian,module,Magento_Braintree
+"Submitted for settlement","Diajukan untuk penyelesaian",module,Magento_Braintree
+Voided,Membatalkan,module,Magento_Braintree
+Unrecognized,"Yang belum diakui",module,Magento_Braintree
+"Settlement declined","Penyelesaian menurun",module,Magento_Braintree
+"Settlement pending","Penyelesaian tertunda",module,Magento_Braintree
+"Settlement confirmed","Penyelesaian diterima",module,Magento_Braintree
+Sale,Dijual,module,Magento_Braintree
+Credit,Kredit,module,Magento_Braintree
 "Credit Card Type","Tipe Kartu Kredit",module,Magento_Braintree
 "Credit Card Number","Nomor Kartu Kredit",module,Magento_Braintree
 "Please, enter valid Credit Card Number","Silahkan, masukkan nomor Kartu Kredit yang valid",module,Magento_Braintree
@@ -684,7 +707,9 @@ None,Kosong,module,Magento_Catalog
 "Something went wrong while trying to delete the category.","Ada yang salah ketika mencoba untuk menghapus kategori.",module,Magento_Catalog
 Categories,Kategori,module,Magento_Catalog
 "Category is not available for requested store.","Kategori tidak tersedia untuk toko yang diminta.",module,Magento_Catalog
+"There was a category move error. %1","Terjadi kesalahan saat memindah kategori. % 1",module,Magento_Catalog
 "There was a category move error.","Terjadi kesalahan saat memindah kategori.",module,Magento_Catalog
+"You moved the category","Anda memindah kategori",module,Magento_Catalog
 "Attribute ""%1"" is required.","Atribut ""% 1"" diperlukan.",module,Magento_Catalog
 "You saved the category.","Anda menyimpan kategori.",module,Magento_Catalog
 "Something went wrong while saving the category.","Ada yang salah saat menyimpan kategori.",module,Magento_Catalog
@@ -764,10 +789,6 @@ Fixed,Tetap,module,Magento_Catalog
 Percent,Persen,module,Magento_Catalog
 "-- Please select --","-- Silahkan Pilih --",module,Magento_Catalog
 "Product Thumbnail Itself","Thumbnail Produk Sendiri",module,Magento_Catalog
-"%1 doesn't extends \Magento\Framework\Model\AbstractModel","%1 doesn't extend \Magento\Framework\Model\AbstractModel",module,Magento_Catalog
-"%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter","%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\AbstractFilter",module,Magento_Catalog
-"Such product doesn't exist","This product doesn't exist",module,Magento_Catalog
-"Such image doesn't exist","This image doesn't exist",module,Magento_Catalog
 "The option type to get group instance is incorrect.","Jenis pilihan untuk mendapatkan contoh kelompok tidak benar.",module,Magento_Catalog
 "Select type options required values rows.","Pilih jenis opsi yang diperlukan nilai-nilai baris.",module,Magento_Catalog
 "ProductSku should be specified","Produk Sku harus ditentukan",module,Magento_Catalog
@@ -779,13 +800,9 @@ Percent,Persen,module,Magento_Catalog
 "The configuration item option instance in options group is incorrect.","Konfigurasi contoh opsi item dalam kelompok pilihan salah.",module,Magento_Catalog
 "The configuration item instance in options group is incorrect.","Konfigurasi contoh item dalam kelompok pilihan salah.",module,Magento_Catalog
 "The BuyRequest instance in options group is incorrect.","Contoh Permintaan Pembelian dalam kelompok pilihan salah.",module,Magento_Catalog
-"%1 doesn't extends \Magento\Catalog\Model\Product\Option\Type\DefaultType","%1 doesn't extend \Magento\Catalog\Model\Product\Option\Type\DefaultType",module,Magento_Catalog
 "The file options format is not valid.","Format file pilihan tidak valid.",module,Magento_Catalog
 "The file '%1' for '%2' has an invalid extension.","File '%1' untuk '%2' memiliki ekstensi tidak valid.",module,Magento_Catalog
 "The maximum allowed image size for '%1' is %2x%3 px.","Ukuran gambar maksimum yang diizinkan untuk '% 1' adalah% 2 x% 3 px.",module,Magento_Catalog
-"Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Product doesn't have group price with such data: customerGroupId = '%1', website = %2, qty = %3",module,Magento_Catalog
-"%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType","%1 doesn't extend \Magento\Catalog\Model\Product\Type\AbstractType",module,Magento_Catalog
-"%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","%1 doesn't extend \Magento\Catalog\Model\Product\Type\Price",module,Magento_Catalog
 "Place Order","Tempat Pesanan",module,Magento_Authorizenet
 "Credit Card Information","Informasi Kartu Kredit",module,Magento_Braintree
 "What is this?","Apakah ini?",module,Magento_Braintree
@@ -836,6 +853,7 @@ Elements,Elemen,module,Magento_Backend
 Design,Desain,module,Magento_Backend
 Schedule,Jadwal,module,Magento_Backend
 Settings,Pengaturan,module,Magento_Backend
+"All Stores","Semua Toko",module,Magento_Backend
 Attributes,Atribut,module,Magento_Backend
 "Other Settings","Pengaturan lainnya",module,Magento_Backend
 "Data Transfer","Transfer Data",module,Magento_Backend
@@ -967,19 +985,19 @@ Tags,Tag,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 Error</h1><p>Halaman tidak Ditemukan.</p>",module,Magento_Backend
 "Community Edition","Edisi Komunitas",module,Magento_Backend
 "Default Theme","Tema Default",module,Magento_Backend
-"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Jika tidak ada nilai yang ditentukan, sistem default digunakan. Sistem default dapat dimodifikasi oleh ekstensi pihak ketiga.",module,Magento_Backend
 "Applied Theme","Tema Terapan",module,Magento_Backend
+"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Jika tidak ada nilai yang ditentukan, sistem default digunakan. Sistem default dapat dimodifikasi oleh ekstensi pihak ketiga.",module,Magento_Backend
 "Design Rule","Aturan Desain",module,Magento_Backend
 "User Agent Rules","Aturan Agen Pengguna",module,Magento_Backend
 Pagination,"Pemberian nomor pada halaman buku",module,Magento_Backend
-"How many links to display at once.","Berapa banyak link untuk ditampilkan sekaligus.",module,Magento_Backend
 "Pagination Frame","Bingkai pemberian nomor pada halaman buku",module,Magento_Backend
-"If current frame position does not cover utmost pages, it renders the link to current position plus/minus this value.","Jika posisi bingkai tidak mencakup halaman maksimal, itu membuat posisi nilai link ini ke plus / minus.",module,Magento_Backend
+"How many links to display at once.","Berapa banyak link untuk ditampilkan sekaligus.",module,Magento_Backend
 "Pagination Frame Skip","Lewati Bingkai pemberian nomor pada halaman buku",module,Magento_Backend
-"Alternative text for the previous pages link in the pagination menu. If empty, the default arrow image is used.","Teks alternatif untuk halaman link sebelumnya dalam menu pemberian nomor pada halaman buku. Jika kosong, gambar panah default digunakan.",module,Magento_Backend
+"If current frame position does not cover utmost pages, it renders the link to current position plus/minus this value.","Jika posisi bingkai tidak mencakup halaman maksimal, itu membuat posisi nilai link ini ke plus / minus.",module,Magento_Backend
 "Anchor Text for Previous","Anchor Text untuk Sebelumnya",module,Magento_Backend
-"Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Teks alternatif untuk halaman link selanjutnya dalam menu pemberian nomor pada halaman buku. Jika kosong, gambar panah default digunakan.",module,Magento_Backend
+"Alternative text for the previous pages link in the pagination menu. If empty, the default arrow image is used.","Teks alternatif untuk halaman link sebelumnya dalam menu pemberian nomor pada halaman buku. Jika kosong, gambar panah default digunakan.",module,Magento_Backend
 "Anchor Text for Next","Anchor Text untuk Selanjutnya",module,Magento_Backend
+"Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Teks alternatif untuk halaman link selanjutnya dalam menu pemberian nomor pada halaman buku. Jika kosong, gambar panah default digunakan.",module,Magento_Backend
 "Theme Name","Nama Tema",module,Magento_Backend
 Rollback,"Putar Kembali",module,Magento_Backup
 "Scheduled Backup Settings","Pengaturan Jadwal Cadangan",module,Magento_Backup
@@ -996,6 +1014,7 @@ Size(bytes),Ukuran(bytes),module,Magento_Backup
 Type,Tipe,module,Magento_Backup
 Action,Tindakan,module,Magento_Backup
 "Enable this Solution","Aktifkan Solusi ini",module,Magento_Braintree
+"Vault enabled","Lompatan diaktifkan",module,Magento_Braintree
 Title,Judul,module,Magento_Braintree
 Environment,"Lingkungan Hidup",module,Magento_Braintree
 "Payment Action","Tindakan Pembayaran",module,Magento_Braintree
@@ -1025,12 +1044,12 @@ Environment,"Lingkungan Hidup",module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Terapkan filter untuk mendapatkan hasil. Hanya 100 pertama catatan akan ditampilkan di grid, Anda akan dapat men-download versi lengkap dari laporan yang berformat .csv.",module,Magento_Braintree
 Select...,Pilih...,module,Magento_Braintree
 "Transaction Type","Tipe Transaksi",module,Magento_Braintree
-"Payment Type","Tipe Pembayaran",module,Magento_Braintree
 "PayPal Payment ID","ID Pembayaran PayPal",module,Magento_Braintree
-"Created At","Dibuat di",module,Magento_Braintree
 "Transaction ID","ID Transaksi",module,Magento_Braintree
 "Order ID","ID Pesanan",module,Magento_Braintree
+"Payment Type","Tipe Pembayaran",module,Magento_Braintree
 Type,Tipe,module,Magento_Braintree
+"Created At","Dibuat di",module,Magento_Braintree
 Amount,Jumlah,module,Magento_Braintree
 "Settlement Code","Kode Penyelesaian",module,Magento_Braintree
 "Settlement Response Text","Teks Respon Penyelesaian",module,Magento_Braintree
