@@ -332,6 +332,7 @@ Country,Negara,module,Magento_Braintree
 "Add Rule","Tambahkan Aturan",module,Magento_Braintree
 "Credit Card Type","Tipe Kartu Kredit",module,Magento_Braintree
 "Credit Card Number","Nomor Kartu Kredit",module,Magento_Braintree
+"There was error during saving card data","There was an error during saving card data",module,Magento_Braintree
 "Expiration Date","Tanggal kadaluarsa",module,Magento_Braintree
 "Card Verification Number","Nomor Verifikasi Kartu",module,Magento_Braintree
 "What is this?","Apakah ini?",module,Magento_Braintree
@@ -796,3 +797,4 @@ Forms,Form,module,Magento_Captcha
 "Case Sensitive","Kasus Sensitif",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Aktifkan CAPTCHA di Etalase Toko",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA untuk form ""Buat user"" dan ""Lupa password"" selalu diaktifkan jika dipilih.",module,Magento_Captcha
+"Display products availability in stock on Storefront.","Display product's availability in stock on Storefront.",module,Magento_CatalogInventory
