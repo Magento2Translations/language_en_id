@@ -1956,6 +1956,7 @@ Gender,"Jenis kelamin",module,Magento_Customer
 Name,Nama,module,Magento_Customer
 "Tax/VAT number","Nomor pajak / PPN",module,Magento_Customer
 "Cannot switch into given mode ""%1""","Tidak dapat beralih ke mode ""%1"" yang diberikan",module,Magento_Deploy
+"Format for IDE '%1' is not supported","Format untuk IDE '1%' tidak didukung",module,Magento_Developer
 "Wrong Content Type","Salah jenis ini",module,Magento_Dhl
 Kilograms,Kilogram,module,Magento_Dhl
 Inches,Inci,module,Magento_Dhl
@@ -2198,6 +2199,7 @@ hello,halo,module,Magento_Eav
 "Some internal exception message.","Beberapa pesan kecuali internal.",module,Magento_Eav
 "The value of attribute not valid","Nilai dari atribut tidak benar",module,Magento_Eav
 "Add New Template","Tambah Template Baru",module,Magento_Email
+"Transactional Emails","Email Transaksional",module,Magento_Email
 Back,Kembali,module,Magento_Email
 Reset,"Setel Ulang",module,Magento_Email
 "Delete Template","Hapus Template",module,Magento_Email
@@ -2212,6 +2214,7 @@ Reset,"Setel Ulang",module,Magento_Email
 "Currently Used For","Sekarang Digunakan Untuk",module,Magento_Email
 "Template Name","Nama Template",module,Magento_Email
 "Template Subject","Subjek Template",module,Magento_Email
+"Insert Variable...","Masukkan Variabel...",module,Magento_Email
 "Template Content","Konten Template",module,Magento_Email
 "Template Styles","Gaya Template",module,Magento_Email
 Preview,Pratinjau,module,Magento_Email
@@ -2227,8 +2230,13 @@ Unknown,"Tidak diketahui",module,Magento_Email
 "This email template no longer exists.","Template email ini sudah lama tidak tersedia.",module,Magento_Email
 "You saved the email template.","Anda menyimpan template email.",module,Magento_Email
 "Area is already set","Bidang sudah siap",module,Magento_Email
+"Design config must have area and store.","Desain config harus memiliki wilayah dan toko.",module,Magento_Email
+"Base Unsecure URL","Tempat tidak Aman untuk URL",module,Magento_Email
+"Base Secure URL","Tempat tidak Aman untuk URL",module,Magento_Email
 "General Contact Name","Nama Kontak Umum",module,Magento_Email
 "General Contact Email","Email Kontak Umum",module,Magento_Email
+"Sales Representative Contact Name","Perwakilan Penjualan Nama Kontak",module,Magento_Email
+"Sales Representative Contact Email","Perwakilan Penjualan Nama kontak imail",module,Magento_Email
 "Custom1 Contact Name","Nama Kontak Custom1",module,Magento_Email
 "Custom1 Contact Email","Kontak Email Custom2",module,Magento_Email
 "Custom2 Contact Name","Kontak Nama Custom2",module,Magento_Email
@@ -2243,22 +2251,61 @@ City,Kota,module,Magento_Email
 "Street Address 1","Alamat Jalan 1",module,Magento_Email
 "Street Address 2","Alamat Jalan 2",module,Magento_Email
 "Store Contact Information","Informasi Kontak Toko",module,Magento_Email
+"Template Variables","Variabel Template",module,Magento_Email
+"Please enter a template name.","Harap masukkan nama template baru.",module,Magento_Email
+"Duplicate Of Template Name","Duplikat Dari Nama Template",module,Magento_Email
+"Invalid transactional email code: %1","Tidak valid email transaksional kode: %1",module,Magento_Email
 "Requested invalid store ""%1""","Permintaan toko tidak sah ""%1""",module,Magento_Email
+"""file"" parameter must be specified","""file"" parameter yang harus ditentukan",module,Magento_Email
+"Contents of %s could not be loaded or is empty","Isi dari %s tidak dapat dimuat atau kosong",module,Magento_Email
+"""file"" parameter must be specified and must not be empty","""file"" parameter yang harus ditentukan dan tidak boleh kosong",module,Magento_Email
+"Design params must be set before calling this method","Desain params harus ditetapkan sebelum memanggil metode ini",module,Magento_Email
+"CSS inlining error:","CSS inlining kesalahan:",module,Magento_Email
 "Error filtering template: %s","Kesalahan menyaring Template: %s",module,Magento_Email
+"Invalid sender data","Pengirim tidak valid data",module,Magento_Email
 Title,Judul,module,Magento_Email
 "Load default template","Muat Template Default",module,Magento_Email
+"Are you sure you want to strip tags?","Apakah anda yakin anda ingin menghapus tag?",module,Magento_Email
 "Are you sure you want to delete this template?","Apakah Anda yakin akan menghapus template ini?",module,Magento_Email
+"The template did not load. Please review the log for details.","Template tidak beban. Silahkan periksa log untuk rincian.",module,Magento_Email
 "Europe First Priority","Prioritas Pertama Eropa",module,Magento_Fedex
+"1 Day Freight","1 Hari Pengiriman",module,Magento_Fedex
+"2 Day Freight","2 Hari Pengiriman",module,Magento_Fedex
 "2 Day","2 Hari",module,Magento_Fedex
+"2 Day AM","2 Hari AM",module,Magento_Fedex
+"3 Day Freight","3 Hari Pengiriman",module,Magento_Fedex
+Ground,Tanah,module,Magento_Fedex
+"First Overnight","Pertama Semalam",module,Magento_Fedex
 "Home Delivery","Pengiriman ke Rumah",module,Magento_Fedex
 "International Economy","Ekonomi Internasional",module,Magento_Fedex
+"Intl Economy Freight","Internasional Ekonomi Angkutan",module,Magento_Fedex
 "International First","Internasional Pertama",module,Magento_Fedex
+"International Ground","Internasional Tanah",module,Magento_Fedex
 "International Priority","Prioritas Internasional",module,Magento_Fedex
+"Intl Priority Freight","Intl Prioritas Angkutan",module,Magento_Fedex
+"Priority Overnight","Prioritas Semalam",module,Magento_Fedex
+"Smart Post","Smart Pos",module,Magento_Fedex
+"Standard Overnight","Standar Semalam",module,Magento_Fedex
+Freight,Barang,module,Magento_Fedex
+"National Freight","Nasional barang",module,Magento_Fedex
+"Regular Pickup","Biasa Pickup",module,Magento_Fedex
+"Request Courier","Permintaan Kurir",module,Magento_Fedex
+"Business Service Center","Layanan Bisnis Di Pusat",module,Magento_Fedex
 Station,Stasiun,module,Magento_Fedex
+"FedEx Envelope","FedEx Amplop",module,Magento_Fedex
 "FedEx Box","Kotak FedEx",module,Magento_Fedex
+"FedEx Tube","FedEx Tabung",module,Magento_Fedex
+"FedEx 10kg Box","FedEx 10kg Kotak",module,Magento_Fedex
+"FedEx 25kg Box","FedEx 25kg Kotak",module,Magento_Fedex
 "Your Packaging","Kemasan anda",module,Magento_Fedex
+"Not Required","Tidak Diperlukan",module,Magento_Fedex
+Adult,Dewasa,module,Magento_Fedex
+Direct,Langsung,module,Magento_Fedex
+Indirect,"Tidak langsung",module,Magento_Fedex
 Pounds,Pound,module,Magento_Fedex
 Kilograms,Kilogram,module,Magento_Fedex
+"Invalid response from carrier","Tidak ada respon pembawa",module,Magento_Fedex
+"No available tracking items","Tidak tersedia pelacakan item",module,Magento_Fedex
 "Empty response","Respon kosong",module,Magento_Fedex
 None,"Tidak ada",module,Magento_Fedex
 "Gift Messages are not applicable for empty cart","Pesan hadiah tidak berlaku untuk keranjang kosong",module,Magento_GiftMessage
@@ -2478,6 +2525,40 @@ Reset,"Atur Ulang",module,Magento_Integration
 "An error occurred validating the nonce","Kesalahan terjadi saat memvalidasi nonce",module,Magento_Integration
 "Cannot convert to access token due to token is not request type","Tidak bisa mengubah untuk mengakses token karena token bukan jenis yang diminta",module,Magento_Integration
 "Consumer key has expired","Kunci konsumen telah kedaluwarsa",module,Magento_Integration
+"Cannot create request token because consumer token is not a verifier token","Tidak dapat membuat permintaan token karena konsumen token tidak verifier token",module,Magento_Integration
+"Request token is not associated with the specified consumer","Request token tidak terkait dengan konsumen yang ditentukan",module,Magento_Integration
+"Token is already being used","Token sudah digunakan",module,Magento_Integration
+"Cannot get access token because consumer token is not a request token","Tidak bisa mendapatkan akses token karena konsumen token bukan permintaan token",module,Magento_Integration
+"Token is not associated with the specified consumer","Token ini tidak berhubungan dengan konsumen yang ditentukan",module,Magento_Integration
+"Token is not an access token","Token ini tidak akses token",module,Magento_Integration
+"Access token has been revoked","Akses token telah dicabut",module,Magento_Integration
+"Consumer key is not the correct length","Kunci konsumen adalah tidak benar panjang",module,Magento_Integration
+"A consumer having the specified key does not exist","Konsumen yang memiliki kunci tertentu tidak ada",module,Magento_Integration
+"Verifier is invalid","Verifier ini tidak valid",module,Magento_Integration
+"Verifier is not the correct length","Verifier ini tidak benar panjang",module,Magento_Integration
+"Token verifier and verifier token do not match","Token verifier dan verifier token tidak sesuai",module,Magento_Integration
+"A consumer with the ID %1 does not exist","Konsumen dengan ID %1 tidak ada",module,Magento_Integration
+"Token is not the correct length","Token adalah tidak benar panjang",module,Magento_Integration
+"Specified token does not exist","Ditentukan token tidak ada",module,Magento_Integration
+"A token with consumer ID %1 does not exist","Token dengan konsumen ID %1 tidak ada",module,Magento_Integration
+"Unexpected error. Unable to create oAuth consumer account.","Kesalahan yang tidak terduga. Mampu membuat konsumen oAuth akun.",module,Magento_Integration
+"Unexpected error. Unable to load oAuth consumer account.","Kesalahan yang tidak terduga. Dapat memuat konsumen oAuth akun.",module,Magento_Integration
+"Unable to post data to consumer due to an unexpected error","Tidak dapat mengirim data ke konsumen karena kesalahan tak terduga",module,Magento_Integration
+"Invalid token to except","Tanda tidak valid kecuali",module,Magento_Integration
+"Integration with ID '%1' doesn't exist.","Integrasi dengan ID '%1' tidak ada.",module,Magento_Integration
+"Your account is temporarily disabled.","Akun anda untuk sementara dinonaktifkan.",module,Magento_Integration
+"You have entered an invalid password for current user.","Anda telah memasukkan password yang valid untuk pengguna saat ini.",module,Magento_Integration
+"A token with consumer ID 0 does not exist","Token dengan konsumen ID 0 tidak ada",module,Magento_Integration
+"The integration you selected asks you to approve access to the following:","Integrasi yang anda pilih akan meminta anda untuk menyetujui akses ke berikut:",module,Magento_Integration
+"No permissions requested","Tidak ada izin yang diminta",module,Magento_Integration
+"Are you sure ?","Apakah anda yakin ?",module,Magento_Integration
+"Are you sure you want to delete this integration? You can't undo this action.","Apakah anda yakin anda ingin menghapus integrasi ini? Anda tidak dapat membatalkan tindakan ini.",module,Magento_Integration
+"Please setup or sign in into your 3rd party account to complete setup of this integration.","Silakan pengaturan atau masuk ke situs pihak ke-3 akun untuk menyelesaikan setup dari integrasi ini.",module,Magento_Integration
+"Available APIs","Tersedia Api",module,Magento_Integration
+"Resource Access","Akses Sumber Daya",module,Magento_Integration
+Custom,Khusus,module,Magento_Integration
+All,Semua,module,Magento_Integration
+Resources,"Sumber daya",module,Magento_Integration
 No,Tidak,module,Magento_LayeredNavigation
 "Filterable (with results)","Bisa difilter (dengan hasil)",module,Magento_LayeredNavigation
 "Filterable (no results)","Bisa difilter (tidak ada hasil)",module,Magento_LayeredNavigation
@@ -2827,6 +2908,7 @@ Never,"Tak pernah",module,Magento_Paypal
 "Last Correlation ID","Nomor Korelasi Terakhir",module,Magento_Paypal
 "Address Verification System Response","Respon Sistem Verifikasi Alamat",module,Magento_Paypal
 "CVV2 Check Result by PayPal","CVV2 Cek Hasil oleh PayPal",module,Magento_Paypal
+"AVS Street Match","AVS kecocokan Jalan",module,Magento_Paypal
 "International AVS response","Tanggapan AVS internasional",module,Magento_Paypal
 Chargeback,"Tagihan Kembali",module,Magento_Paypal
 Complaint,Keluhan,module,Magento_Paypal
@@ -2917,7 +2999,14 @@ Charge-off,"Mengisi daya",module,Magento_Paypal
 "EFT Funding (German banking)","EFT Funding (perbankan Jerman)",module,Magento_Paypal
 "Express Checkout APIs","API Checkout Ekspres",module,Magento_Paypal
 "Fee Reversal","Pembalikan biaya",module,Magento_Paypal
+"Fee: Foreign ACH Withdrawal","Biaya: Penarikan ACH Asing",module,Magento_Paypal
+"Fee: Mass Pay Request","Biaya: Permintaan Bayar Massal",module,Magento_Paypal
+"Fee: Web Site Payments Pro Account Monthly","Biaya: Pembayaran Situs Web akun Pro Bulanan",module,Magento_Paypal
+"Fee: WorldLink Check Withdrawal","Biaya: WorldLink Periksa Penarikan",module,Magento_Paypal
+Funding,Dana,module,Magento_Paypal
 "General (Authorization)","Umum (Otorisasi)",module,Magento_Paypal
+"General (Dividend)","Umum (Dividen)",module,Magento_Paypal
+"General (Funds Transfer from PayPal Account to Another)","Umum (Transfer Dana dari Rekening PayPal ke Rekening Lain)",module,Magento_Paypal
 "General (Purchase with a credit card)","Umum (beli dengan kartu kredit)",module,Magento_Paypal
 "General Adjustment without businessrelated event","Penyesuaian Umum tanpa acara terkait bisnis",module,Magento_Paypal
 "General Currency Conversion","Konversi Mata Uang Umum",module,Magento_Paypal
@@ -2937,9 +3026,24 @@ Charge-off,"Mengisi daya",module,Magento_Paypal
 "Gift Certificate Payment: purchase of Gift Certificate","Pembayaran Sertifikat Hadiah: pembelian Sertifikat Hadiah",module,Magento_Paypal
 "Gift Certificate Redemption","Penukaran sertifikat hadiah",module,Magento_Paypal
 "Hidden Virtual PayPal Debit Card Transaction","Transaksi Kartu Debit Virtual PayPal Tersembunyi",module,Magento_Paypal
+"Hold for Dispute Investigation","Tahan Investigasi Sengketa",module,Magento_Paypal
+Incentive,Insentif,module,Magento_Paypal
+"Mass Pay Payment","Pembayaran Bayar Massal",module,Magento_Paypal
+"Merchant Referral Bonus","Bonus Referral Pedagang",module,Magento_Paypal
+"Mobile Payment (made via a mobile phone)","Pembayaran Mobile (dilakukan via ponsel)",module,Magento_Paypal
+"Negative Balance","Saldo Negatif",module,Magento_Paypal
+"PayPal Balance Manager function of PayPal account","Fungsi PayPal Balance Manager akun PayPal",module,Magento_Paypal
+"PayPal Buyer Warranty Bonus","Bonus Garansi Pembeli PayPal",module,Magento_Paypal
+"PayPal Debit Card Cash Advance","Kartu Debit PayPal Cash Advance",module,Magento_Paypal
+"PayPal Debit Card Withdrawal from ATM","Penarikan Kartu Debit PayPal dari ATM",module,Magento_Paypal
+"PayPal Protection Bonus","Bonus Perlindungan PayPal",module,Magento_Paypal
+"Payment Refund initiated by merchant","Pengembalian Dana Pembayaran diprakarsai oleh pedagang",module,Magento_Paypal
 "Points Incentive Redemption","Poin insentif penebusan",module,Magento_Paypal
 "Postage Payment to either USPS or UPS","Ongkos kirim pembayaran USPS atau UPS",module,Magento_Paypal
+"Preapproved Payment (BillUser API, either sent or received","Pembayaran yang telah disetujui sebelumnya (API BillUser, dikirim atau diterima",module,Magento_Paypal
+Reauthorization,"Otorisasi ulang",module,Magento_Paypal
 "Reimbursement of Chargeback","Penggantian biaya kembali",module,Magento_Paypal
+Reversal,Pembalikan,module,Magento_Paypal
 "Reversal of General Account Hold","Pembalikan terus akun Umum",module,Magento_Paypal
 "Reversal of Points Usage","Pembalikan terus akun umum",module,Magento_Paypal
 "Reversal of hold for Dispute Investigation","Pembalikan terus untuk sengketa penyelidikan",module,Magento_Paypal
@@ -2949,7 +3053,12 @@ Charge-off,"Mengisi daya",module,Magento_Paypal
 "User-initiated Currency Conversion","Konversi prakarsa pengguna mata uang",module,Magento_Paypal
 "Virtual PayPal Debit Card Transaction","Transaksi kartu virtual PayPal pengeluaran",module,Magento_Paypal
 "Virtual Terminal Payment","Virtual Terminal pembayaran",module,Magento_Paypal
+Void,Kosong,module,Magento_Paypal
+"WorldLink Withdrawal","Penarikan WorldLink",module,Magento_Paypal
+"eBay Auction Payment","pembayaran Lelang eBay",module,Magento_Paypal
 "The PayPal certificate file is empty.","Mengajukan sertifikat PayPal kosong.",module,Magento_Paypal
+"Header (center)","Header (tengah)",module,Magento_Paypal
+"Sidebar (right)","Sidebar (kanan)",module,Magento_Paypal
 "Near PayPal Credit checkout button","Dekat PayPal kredit memeriksa tombol",module,Magento_Paypal
 "--Please Select--","--Silahkan pilih--",module,Magento_Paypal
 Daily,Harian,module,Magento_Paypal
@@ -2970,24 +3079,38 @@ Error,Salah,module,Magento_Paypal
 "Please Select","Silahkan pilih",module,Magento_Paypal
 Customer,Pelanggan,module,Magento_Paypal
 "Created At","Dibuat di",module,Magento_Paypal
+"Updated At","Diperbarui pada",module,Magento_Paypal
 ending,akhir,module,Magento_Paypal
 expires,kadaluarsa,module,Magento_Paypal
+here,disini,module,Magento_Paypal
 "To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","Untuk menggunakan PayPal pembayaran maju, Anda harus mengkonfigurasi akun PayPal pembayaran  halaman situs  PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Sekali anda masuk maju ke akun PayPal, arahkan ke menu pengaturan layanan - lihat keluar halaman - mengatur dan mengatur opsi yang diuraikan di bawah ini",module,Magento_Paypal
 "To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","Untuk menggunakan PayPal Payflow Link, Anda harus mengkonfigurasi akun Payflow PayPal di situs PayPal.",module,Magento_Paypal
+"Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Setelah masuk ke akun Payflow Link PayPal, navigasikan ke menu Setelan Layanan - Halaman Checkout Host - Set Up dan setel opsi yang dijelaskan di bawah ini",module,Magento_Paypal
 "Credit Card Type","Tipe kartu kredit",module,Magento_Paypal
 "Credit Card Number","Nomor kartu kredit",module,Magento_Paypal
 "Expiration Date","Tanggal kadaluarsa",module,Magento_Paypal
 "Card Verification Number","Nomor Verifikasi Kartu",module,Magento_Paypal
+"Agreement Information","Informasi Perjanjian",module,Magento_Paypal
+"Reference ID:","Nomor Referensi:",module,Magento_Paypal
+Created:,Dibuat:,module,Magento_Paypal
 "Payment Method:","Metode pembayaran:",module,Magento_Paypal
 Date,Tanggal,module,Magento_Paypal
+"Ship To","Kirim Ke",module,Magento_Paypal
 "Order Status","Status pemesanan",module,Magento_Paypal
 "View Order","Tampilan Pemesanan",module,Magento_Paypal
+"Back to Billing Agreements","Kembali ke Perjanjian Penagihan",module,Magento_Paypal
 "Payment Method","Metode pembayaran",module,Magento_Paypal
+View,Lihat,module,Magento_Paypal
+"There are no billing agreements yet.","Belum ada perjanjian penagihan.",module,Magento_Paypal
+"New Billing Agreement","Perjanjian Penagihan Baru",module,Magento_Paypal
 "You will be redirected to the payment system website.","Anda akan diarahkan ke situs sistem pembayaran.",module,Magento_Paypal
 "-- Please Select --","-- Silahkan pilih --",module,Magento_Paypal
+Create...,Membuat...,module,Magento_Paypal
+"Your credit card will be charged for","Kartu kredit Anda akan dikenakan biaya untuk",module,Magento_Paypal
 "Shipping Method","Metode pengiriman",module,Magento_Paypal
 "Please select a shipping method...","Silahkan pilih metode pengiriman...",module,Magento_Paypal
+"Update Shipping Method","Perbarui Metode Pengiriman",module,Magento_Paypal
 "Sorry, no quotes are available for this order right now.","Maaf, tanpa tanda kutip tersedia untuk pesanan ini sekarang.",module,Magento_Paypal
 "Shipping Address","Pengiriman alamat",module,Magento_Paypal
 Edit,Ubah,module,Magento_Paypal
@@ -2999,10 +3122,17 @@ Edit,Ubah,module,Magento_Paypal
 "Submitting order information...","Mengirimkan informasi permintaan...",module,Magento_Paypal
 Item,Barang,module,Magento_Paypal
 Price,Harga,module,Magento_Paypal
+Subtotal,"Total bagian",module,Magento_Paypal
 "Please update order data to get shipping methods and rates","Perbarui memesan data untuk mendapatkan metode pengiriman dan harga",module,Magento_Paypal
 or,atau,module,Magento_Paypal
+"Checkout with PayPal","Checkout dengan PayPal",module,Magento_Paypal
 "Please do not refresh the page until you complete payment.","Silahkan segarkan halaman hingga Anda menyelesaikan pembayaran.",module,Magento_Paypal
 "You will be required to enter your payment details after you place an order.","Anda akan diminta untuk memasukkan rincian pembayaran Anda setelah Anda memesan.",module,Magento_Paypal
+Continue,Selanjutnya,module,Magento_Paypal
+"Additional Options","Pengaturan Tambahan",module,Magento_Paypal
+"-- Please Select Billing Agreement--","-- Silakan Pilih Perjanjian Penagihan --",module,Magento_Paypal
+"Acceptance Mark","Tanda terima",module,Magento_Paypal
+"What is PayPal?","Apa itu paypal?",module,Magento_Paypal
 "Sign a billing agreement to streamline further purchases  with PayPal.","Tanda perjanjian penagihan untuk merampingkan lebih lanjut pembelian dengan PayPal.",module,Magento_Paypal
 "Not you?","Bukan Anda?",module,Magento_Persistent
 "Your shopping cart has been updated with new prices.","Keranjang belanja Anda telah diperbarui dengan harga baru.",module,Magento_Persistent
@@ -4649,6 +4779,7 @@ Password:,"Kata sandi:",module,Magento_Customer
 "Check out faster","Periksaan keluar lebih cepat",module,Magento_Customer
 "Currency Update Warnings","Peringatan Pembaruan Mata uang",module,Magento_Directory
 "Thank you, %store_name","Terimakasih, %store_name",module,Magento_Email
+Header,Tajuk,module,Magento_Email
 "Gift Message (optional)","Pesan hadiah (opsional)",module,Magento_GiftMessage
 To:,Untuk:,module,Magento_GiftMessage
 From:,Dari:,module,Magento_GiftMessage
@@ -4663,6 +4794,7 @@ Delete,Hapus,module,Magento_GiftMessage
 "You have been unsubscribed from the newsletter.","Anda telah berhenti berlangganan newsletter.",module,Magento_Newsletter
 "Place Order","Tempat Order",module,Magento_OfflinePayments
 "Sign a billing agreement to streamline further purchases with PayPal.","Tanda perjanjian penagihan untuk merampingkan lebih lanjut pembelian dengan PayPal.",module,Magento_Paypal
+"Continue to PayPal","Lanjutkan ke PayPal",module,Magento_Paypal
 "Save credit card information for future use.","Menyimpan informasi kartu kredit untuk penggunaan masa depan.",module,Magento_Paypal
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","Centang 'Ingat Saya' untuk mengakses keranjang belanja Anda di komputer ini meskipun Anda tidak masuk.",module,Magento_Persistent
 "Apply Discount Code","Terapkan Kode Diskon",module,Magento_SalesRule
@@ -4756,6 +4888,10 @@ Strong,Kuat,module,Magento_Customer
 "Very Strong","Sangat kuat",module,Magento_Customer
 "Guest checkout is disabled.","Tamu checkout dinonaktifkan.",module,Magento_Customer
 "We could not detect a size.","Kami tidak bisa mendeteksi sebuah ukurannya.",module,Magento_Downloadable
+"Sorry, something went wrong. Please try again later.","Maaf, sesuatu yang tidak beres. Harap coba lagi nanti.",module,Magento_Integration
+"Popup Blocker is enabled! Please add this site to your exception list.","Popup Blocker diaktifkan! Silakan tambahkan situs ini ke daftar pengecualian.",module,Magento_Integration
+Allow,Izinkan,module,Magento_Integration
+Done,Selesai,module,Magento_Integration
 "Please choose a payment method.","Silahkan pilih metode pembayaran.",module,Magento_Multishipping
 "Sorry, something went wrong.","Maaf, ada sesuatu yang salah.",module,Magento_Paypal
 "Sorry, something went wrong. Please try again later.","Maaf, sesuatu yang tidak beres. Harap coba lagi nanti.",module,Magento_Paypal
@@ -5446,18 +5582,43 @@ Subject,Subyek,module,Magento_Email
 "Template Type","Jenis Template",module,Magento_Email
 Action,Tindakan,module,Magento_Email
 "Logo Image","Gambar Logo",module,Magento_Email
+"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.","Jenis file yang diperbolehkan: jpg, jpeg, gif, png. Untuk mengoptimalkan logo untuk menampilkan resolusi tinggi, meng-upload gambar yang lebih 3x ukuran normal dan kemudian menentukan 1x dimensi lebar/tinggi kolom di bawah ini.",module,Magento_Email
 "Logo Image Alt","Gambar Logo Alt",module,Magento_Email
 "Logo Width","Lebar Logo",module,Magento_Email
 "Necessary only if an image has been uploaded above. Enter number of pixels, without appending ""px"".","Hanya diperlukan jika gambar telah diunggah diatas. Masukkan jumlah piksel, tanpa menambahkan ""px"".",module,Magento_Email
 "Logo Height","Tinggi Logo",module,Magento_Email
+"Necessary only if an image has been uploaded above. Enter image height size in pixels without appending ""px"".","Yang diperlukan hanya jika gambar telah di-upload di atas. Masukkan gambar dengan ukuran tinggi dalam piksel tanpa menambahkan ""px"".",module,Magento_Email
+"Header Template","Simpan kepala Template",module,Magento_Email
+"Email template chosen based on theme fallback, when the ""Default"" option is selected.","Email template yang dipilih berdasarkan tema mundur, ketika ""Default"" opsi yang dipilih.",module,Magento_Email
+"Footer Template","Simpan kaki Template",module,Magento_Email
 "Enabled for Checkout","Diaktifkan untuk Periksa",module,Magento_Fedex
 Title,Judul,module,Magento_Fedex
 "Account ID","ID Akun",module,Magento_Fedex
+"Please make sure to use only digits here. No dashes are allowed.","Pastikan untuk hanya menggunakan digit di sini. Tidak ada garis yang diizinkan.",module,Magento_Fedex
+"Meter Number","Nomor Meter",module,Magento_Fedex
 Key,Kunci,module,Magento_Fedex
 Password,"Kata sandi",module,Magento_Fedex
+"Sandbox Mode","Mode Sandbox",module,Magento_Fedex
+"Web-Services URL (Production)","Web-Jasa URL (Produksi)",module,Magento_Fedex
+"Web-Services URL (Sandbox)","Web-Jasa URL (Sandbox)",module,Magento_Fedex
+"Packages Request Type","Jenis Permintaan Paket",module,Magento_Fedex
 Packaging,Kemasan,module,Magento_Fedex
+Dropoff,Penurunan,module,Magento_Fedex
 "Weight Unit","Satuan Berat",module,Magento_Fedex
+"Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","Maksimum Berat Paket (Silahkan konsultasikan dengan operator pelayaran untuk maksimum didukung berat pengiriman)",module,Magento_Fedex
+"Calculate Handling Fee","Menghitung Biaya Penanganan",module,Magento_Fedex
+"Handling Applied","Penanganan Diterapkan",module,Magento_Fedex
+"Handling Fee","Penanganan Diterapkan",module,Magento_Fedex
+"Residential Delivery","Perumahan Pengiriman",module,Magento_Fedex
 "Allowed Methods","Metode yang Diizinkan",module,Magento_Fedex
+"The field is applicable if the Smart Post method is selected.","Bidang ini berlaku jika Smart Pos metode yang dipilih.",module,Magento_Fedex
+"Free Method","Metode Gratis",module,Magento_Fedex
+"Free Shipping Amount Threshold","Ambang Batas Pengiriman Gratis",module,Magento_Fedex
+"Enable Free Shipping Threshold","Aktifkan Batas Pengiriman Gratis",module,Magento_Fedex
+"Displayed Error Message","Ditampilkan pesan kesalahan",module,Magento_Fedex
+"Ship to Applicable Countries","Verifikasi untuk Negara yang Berlaku",module,Magento_Fedex
+"Ship to Specific Countries","Kapal Ke Negara Tertentu",module,Magento_Fedex
+"Show Method if Not Applicable","Tampilkan Metode Jika Tidak Berlaku",module,Magento_Fedex
 "Sort Order","Urutan Pesanan",module,Magento_Fedex
 "Allow Gift Messages on Order Level","Izinkan pesan hadiah di tingkat pesanan",module,Magento_GiftMessage
 "Allow Gift Messages for Order Items","Izinkan pesan hadiah untuk pesan barang",module,Magento_GiftMessage
@@ -5474,6 +5635,13 @@ Summary,Ringkasan,module,Magento_ImportExport
 "Change indexer mode","Ubah mode pengindeks",module,Magento_Indexer
 Description,Deskripsi,module,Magento_Indexer
 Updated,Diperbarui,module,Magento_Indexer
+Extensions,Ekstensi,module,Magento_Integration
+"Cleanup Settings","Pengaturan Pembersihan",module,Magento_Integration
+"Cleanup Probability","Pembersihan Probabilitas",module,Magento_Integration
+"Expiration Period","Masa Kadaluarsa",module,Magento_Integration
+"Consumer Settings","Konsumen Setelan",module,Magento_Integration
+"OAuth consumer credentials HTTP Post maxredirects","Konsumen OAuth kredensial HTTP Post maxredirects",module,Magento_Integration
+"OAuth consumer credentials HTTP Post timeout","Konsumen OAuth kredensial HTTP Post timeout",module,Magento_Integration
 "Integrations Configuration","Konfigurasi Integrasi",module,Magento_Integration
 "Integration configuration file","Berkas Konfigurasi Integrasi",module,Magento_Integration
 "Integrations API Configuration","Konfigurasi Integrasi API",module,Magento_Integration
@@ -5547,41 +5715,106 @@ Import,Impor,module,Magento_OfflineShipping
 "Varnish Configuration","Konfigurasi pernis",module,Magento_PageCache
 "Access list","Daftar Akses",module,Magento_PageCache
 "Full page caching","Halaman lengkap penyimpanan",module,Magento_PageCache
+"PayPal Section","Bagian PayPal",module,Magento_Paypal
+"PayPal Settlement","Pembayaran paypal",module,Magento_Paypal
 Fetch,Mengambil,module,Magento_Paypal
 Actions,Tindakan,module,Magento_Paypal
 Manage,Kelola,module,Magento_Paypal
+"Place Order Using Billing Agreements","Tempatkan Order Menggunakan Perjanjian Penagihan",module,Magento_Paypal
+"Merchant Location","Lokasi Pedagang",module,Magento_Paypal
+"Merchant Country","Negara pedagang",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Jika tidak ditentukan, awal negara dari konfigurasi umum akan digunakan",module,Magento_Paypal
+"Recommended Solutions:","Solusi yang Disarankan:",module,Magento_Paypal
+"Other PayPal Payment Solutions:","Solusi Pembayaran PayPal Lainnya:",module,Magento_Paypal
 "Other Payment Methods:","Metode pembayaran lainnya:",module,Magento_Paypal
 "Add another payment method to your existing solution or as a stand-alone option.","Menambahkan metode pembayaran lain untuk solusi Anda yang ada atau sebagai Opsi mandiri.",module,Magento_Paypal
+"PayPal All-in-One Payment Solutions&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","Solusi Pembayaran All-in-One PayPal&nbsp;<i>Menerima dan memproses kartu kredit dan pembayaran PayPal.</i>",module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.","Memilih aman dibundel solusi pembayaran untuk bisnis anda.",module,Magento_Paypal
+"Payments Pro and Express Checkout","Pembayaran Pro dan Checkout Ekspres",module,Magento_Paypal
+"Basic Settings - PayPal Payments Pro","Setelan Dasar - Pembayaran PayPal Pro",module,Magento_Paypal
+"PayPal Payment Gateways&nbsp;<i>Process payments using your own internet merchant account.</i>","Pembayaran PayPal Gateway&nbsp;<i>Proses pembayaran menggunakan akun merchant internet Anda sendiri.</i>",module,Magento_Paypal
+"PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","Solusi Pembayaran All-in-One PayPal&nbsp;&nbsp;<i>Menerima dan memproses kartu kredit dan pembayaran PayPal.</i>",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.","Menerima pembayaran dengan benar-benar disesuaikan dengan halaman checkout.",module,Magento_Paypal
 "Process payments using your own internet merchant account.","Proses pembayaran dengan menggunakan internet anda sendiri merchant account.",module,Magento_Paypal
+"Website Payments Pro","Pembayaran Situs Web Pro",module,Magento_Paypal
+"Express Checkout","Checkout Ekspres",module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","Menambahkan PayPal sebagai metode pembayaran tambahan untuk halaman checkout anda.",module,Magento_Paypal
+"Required PayPal Settings","Setelan PayPal yang dibutuhkan",module,Magento_Paypal
+"Email Associated with PayPal Merchant Account (Optional)","Email Terkait dengan Akun Pedagang PayPal (Opsional)",module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","Tidak punya akun PayPal? Cukup masukkan alamat email anda.",module,Magento_Paypal
+"API Authentication Methods","Metode Otentikasi API",module,Magento_Paypal
+"API Username","Nama pengguna API",module,Magento_Paypal
+"API Password","Sandi API",module,Magento_Paypal
+"Get Credentials from PayPal","Dapatkan Kredensial dari PayPal",module,Magento_Paypal
+"Sandbox Mode","Mode Sandbox",module,Magento_Paypal
+"Enable this Solution","Aktifkan Solusi ini",module,Magento_Paypal
+"Enable In-Context Checkout Experience","Aktifkan Pengalaman Checkout Dalam-Konteks",module,Magento_Paypal
 "Merchant Account ID","ID Akun Pedagang",module,Magento_Paypal
 "Enable PayPal Credit","Mengaktifkan PayPal kredit",module,Magento_Paypal
+"Sort Order PayPal Credit","Urutkan Order Kredit PayPal",module,Magento_Paypal
+"Advertise PayPal Credit","Kredit PayPal Beriklan",module,Magento_Paypal
+"Publisher ID","ID penayang",module,Magento_Paypal
+"Required to display a banner","Diperlukan untuk menampilkan banner",module,Magento_Paypal
+"Get Publisher ID from PayPal","Dapatkan ID Penayang dari PayPal",module,Magento_Paypal
 "Home Page","Halaman Utama",module,Magento_Paypal
+Display,Tampilan,module,Magento_Paypal
 Position,Posisi,module,Magento_Paypal
 Size,Ukuran,module,Magento_Paypal
+"Catalog Category Page","Kategori Katalog Halaman",module,Magento_Paypal
+"Catalog Product Page","Katalog Halaman Produk",module,Magento_Paypal
+"Checkout Cart Page","Halaman keranjang belanja",module,Magento_Paypal
+"Basic Settings - PayPal Express Checkout","Setelan Dasar - Checkout Ekspres PayPal",module,Magento_Paypal
+Title,Judul,module,Magento_Paypal
 "It is recommended to set this value to ""PayPal"" per store views.","Dianjurkan untuk menetapkan nilai ini untuk ""PayPal"" setiap toko dilihat.",module,Magento_Paypal
 "Sort Order","Urutkan Pesanan",module,Magento_Paypal
 "Payment Action","Tindakan Pembayaran",module,Magento_Paypal
 "Display on Product Details Page","Tampilan pada produk rincian Halaman",module,Magento_Paypal
+"Authorization Honor Period (days)","Masa Kehormatan Otorisasi (hari)",module,Magento_Paypal
 "Specifies what the Authorization Honor Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","Menentukan apa yang periode kehormatan otorisasi ada di akun PayPal. Itu harus cermin pengaturan di PayPal.",module,Magento_Paypal
+"Specifies what the Order Valid Period is on the merchant’s PayPal account. It must mirror the setting in PayPal.","Menentukan apa itu Order Valid Period yang ada di akun PayPal merchant. Ini harus mencerminkan setting di PayPal.",module,Magento_Paypal
 "The default number of child authorizations in your PayPal account is 1. To do multiple authorizations please contact PayPal to request an increase.","Jumlah anak otorisasi di akun PayPal awal anda adalah 1. Untuk melakukan berbagai otorisasi hubungi PayPal untuk meminta peningkatan.",module,Magento_Paypal
 "Advanced Settings","Setelan lanjutan",module,Magento_Paypal
 "Display on Shopping Cart","Tampilkan di Keranjang Belanja",module,Magento_Paypal
+"Also affects mini-shopping cart.","Juga memengaruhi keranjang belanja-mini.",module,Magento_Paypal
+"Payment Applicable From","Pembayaran yang Berlaku Dari",module,Magento_Paypal
+"Countries Payment Applicable From","Pembayaran Negara Berlaku Dari",module,Magento_Paypal
+"Enable SSL verification","Aktifkan verifikasi SSL",module,Magento_Paypal
+"Transfer Shipping Options","Transfer Pilihan Pengiriman",module,Magento_Paypal
 "If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.","Jika opsi ini diaktifkan, pelanggan dapat mengubah alamat pengiriman dan metode pengiriman pada situs web PayPal. Dalam modus langsung bekerja melalui HTTPS protokol hanya.",module,Magento_Paypal
 "Notice that PayPal can handle up to 10 shipping options. That is why Magento will transfer only first 10 cheapest shipping options if there are more than 10 available.","Perhatikan bahwa PayPal dapat menangani hingga 10 pengiriman pilihan. Itu sebabnya Magento akan mentransfer hanya pertama 10 pilihan pengiriman termurah jika ada lebih dari 10 yang tersedia.",module,Magento_Paypal
+"Shortcut Buttons Flavor","Tombol pintas Flavour",module,Magento_Paypal
+"Enable PayPal Guest Checkout","Aktifkan Checkout Tamu PayPal",module,Magento_Paypal
 "Ability for buyer to purchase without PayPal account.","Kemampuan untuk pembeli untuk membeli tanpa PayPal akun.",module,Magento_Paypal
 "Require Customer's Billing Address","Memerlukan alamat penagihan pelanggan",module,Magento_Paypal
 "This feature needs be enabled first for the merchant account through PayPal technical support.","Fitur ini perlu diaktifkan pertama untuk pedagang akun melalui PayPal dukungan teknis.",module,Magento_Paypal
+"Billing Agreement Signup","Pendaftaran Perjanjian Penagihan",module,Magento_Paypal
 "Whether to create a billing agreement, if there are no active billing agreements available.","Apakah akan membuat perjanjian penagihan, jika ada tidak ada perjanjian penagihan yang aktif yang tersedia.",module,Magento_Paypal
 "Skip Order Review Step","Lewati Langkah Tinjauan Pesanan",module,Magento_Paypal
+"PayPal Billing Agreement Settings","Pengaturan Perjanjian Penagihan PayPal",module,Magento_Paypal
 Enabled,Diaktifkan,module,Magento_Paypal
+"Allow in Billing Agreement Wizard","Izinkan dalam Wizard Perjanjian Penagihan",module,Magento_Paypal
 Login,Masuk,module,Magento_Paypal
 Password,"Kata sandi",module,Magento_Paypal
+"Use colon to specify port. For example: ""test.example.com:5224"".","Gunakan kolon untuk menentukan port. Misalnya: ""test.example.com:5224"".",module,Magento_Paypal
+"Custom Path","Jalur Kustom",module,Magento_Paypal
+"Scheduled Fetching","Pengambilan Terjadwal",module,Magento_Paypal
+"Enable Automatic Fetching","Aktifkan Pengambilan Otomatis",module,Magento_Paypal
 Schedule,Jadwal,module,Magento_Paypal
+"PayPal retains reports for 45 days.","PayPal menyimpan laporan selama 45 hari.",module,Magento_Paypal
+"Time of Day","Waktu hari",module,Magento_Paypal
+"Frontend Experience Settings","Pengaturan Pengalaman Depan",module,Magento_Paypal
+"PayPal Product Logo","Logo Produk PayPal",module,Magento_Paypal
+"Displays on catalog pages and homepage.","Menampilkan pada halaman katalog dan beranda.",module,Magento_Paypal
+"If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Jika Anda tidak memiliki beberapa pengguna yang disiapkan di akun Anda, masukkan kembali Vendor / Merchant Login Anda di sini.",module,Magento_Paypal
+"Enable Payflow Link","Aktifkan Link Payflow",module,Magento_Paypal
+"Enable Express Checkout","Aktifkan Checkout Ekspres",module,Magento_Paypal
+"Basic Settings - PayPal Payflow Link","Setelan Dasar - PayPal Payflow Link",module,Magento_Paypal
+"Accept payments with a PCI compliant checkout that keeps customers on your site. (<u>Includes Express Checkout</u>)","Terima pembayaran dengan checkout PCI yang sesuai yang membuat pelanggan tetap di situs Anda. (<u>Termasuk Checkout Ekspres </u>)",module,Magento_Paypal
+"Payments Pro Hosted Solution","Solusi yang Dihosting Pro",module,Magento_Paypal
+"Basic Settings - PayPal Payments Pro Hosted Solution","Setelan Dasar - Solusi Pro berbayar PayPal Payments",module,Magento_Paypal
+"Display Express Checkout in the Payment Information step","Tampilkan Checkout Ekspres di langkah Informasi Pembayaran",module,Magento_Paypal
+"Basic Settings - PayPal Website Payments Pro Hosted Solution","Pengaturan Dasar - Solusi Pembayaran Situs Web PayPal Pro",module,Magento_Paypal
+"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site. (<u>Includes Express Checkout</u>)","Hubungkan akun pedagang Anda dengan gerbang yang dapat disesuaikan sepenuhnya yang memungkinkan pelanggan membayar tanpa meninggalkan situs Anda. (<u> Termasuk Checkout Ekspres </u>)",module,Magento_Paypal
 "Allowed Credit Card Types","Jenis Kartu Kredit yang Diizinkan",module,Magento_Paypal
 "General Options","Pilihan umum",module,Magento_Persistent
 "Enable ""Remember Me""","Aktifkan ""Ingat Saya""",module,Magento_Persistent
