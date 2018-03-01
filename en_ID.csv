@@ -1388,6 +1388,7 @@ Dropdown,"Tarik kebawah",module,Magento_Eav
 """%1"" height exceeds allowed value of %2 px.","""%1"" tinggi melibihi nilai yang diperbolehkan dari %2 px.",module,Magento_Eav
 """%1"" length must be equal or greater than %2 characters.","""%1"" panjang harus sama atau lebih dari %2 karakter.",module,Magento_Eav
 """%1"" length must be equal or less than %2 characters.","""%1"" panjang harus sama atau kurang dari %2 karakter.",module,Magento_Eav
+"Invalid entity_type specified: %1","Entity_type tidak valid ditentukan:% 1",module,Magento_Eav
 "Entity is not initialized","Entitas tidak diinialisasi",module,Magento_Eav
 "Unknown parameter","Parameter tidak diketahui",module,Magento_Eav
 "Invalid default decimal value","Nilai desimal bawaan tidak benar",module,Magento_Eav
@@ -1713,9 +1714,15 @@ Items,Barang,module,Magento_Multishipping
 "Unsubscribe Selected","Berhenti Berlangganan",module,Magento_Newsletter
 Back,Kembali,module,Magento_Newsletter
 Reset,Ulangi,module,Magento_Newsletter
+"Preview Template","Pratinjau Template",module,Magento_Newsletter
+"Save Newsletter","Menyimpan Surat baru",module,Magento_Newsletter
 "Save and Resume","Simpan dan Lanjutkan",module,Magento_Newsletter
+"View Newsletter","Melihat Surat baru",module,Magento_Newsletter
+"Edit Newsletter","Mengedit Surat baru",module,Magento_Newsletter
 "Queue Information","Aturan Informasi",module,Magento_Newsletter
 "Queue Date Start","Tanggal Mulai Antrian",module,Magento_Newsletter
+"Subscribers From","Pelanggan Dari",module,Magento_Newsletter
+Subject,Subyek,module,Magento_Newsletter
 "Sender Name","Nama pengirim",module,Magento_Newsletter
 "Sender Email","Email pengirim",module,Magento_Newsletter
 Message,Pesan,module,Magento_Newsletter
