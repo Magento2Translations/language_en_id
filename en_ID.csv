@@ -2212,6 +2212,7 @@ Dropdown,"Tarik kebawah",module,Magento_Eav
 "There was an error saving attribute set.","Ada kesalahan ketika menyimpan penetapan atribut.",module,Magento_Eav
 "Default attribute set can not be deleted","Atribut bawaan tidak bisa dihapus",module,Magento_Eav
 "There was an error deleting attribute set.","Ada kesalahan ketika menghapus penetapan atribut.",module,Magento_Eav
+"Invalid entity_type specified: %1","Entity_type tidak valid ditentukan:% 1",module,Magento_Eav
 "Entity is not initialized","Entitas tidak diinialisasi",module,Magento_Eav
 "Unknown parameter","Parameter tidak diketahui",module,Magento_Eav
 "Unique constraint violation found","Pelaggaran kendala yang janggal di temukan",module,Magento_Eav
@@ -2734,13 +2735,22 @@ Items,Barang,module,Magento_Multishipping
 "Back to Select Addresses","Kembali ke Pilihan Alamat",module,Magento_Multishipping
 "Thank you for your purchase!","Terima kasih atas pembelian anda!",module,Magento_Multishipping
 "Continue Shopping","Lanjutkan Belanja",module,Magento_Multishipping
+"No New Relic Application ID configured, cannot continue with Cron Event reporting","Tidak ada ID Aplikasi Peninggalan Baru yang dikonfigurasi, tidak dapat melanjutkan pelaporan Cron Event",module,Magento_NewRelicReporting
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
+                        information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","Peniggalan Integrasi  Baru memerlukan agen newrelic-php5, yang tidak terpasang. informasi lebih tentang pemasangan agen tersedia <a target=""_blank"" href=""%1""> di sini </a>.",module,Magento_NewRelicReporting
 "Delete Selected Problems","Hapus Masalah yang Dipilih",module,Magento_Newsletter
 "Unsubscribe Selected","Berhenti Berlangganan",module,Magento_Newsletter
 Back,Kembali,module,Magento_Newsletter
 Reset,Ulangi,module,Magento_Newsletter
+"Preview Template","Pratinjau Template",module,Magento_Newsletter
+"Save Newsletter","Menyimpan Surat baru",module,Magento_Newsletter
 "Save and Resume","Simpan dan Lanjutkan",module,Magento_Newsletter
+"View Newsletter","Melihat Surat baru",module,Magento_Newsletter
+"Edit Newsletter","Mengedit Surat baru",module,Magento_Newsletter
 "Queue Information","Aturan Informasi",module,Magento_Newsletter
 "Queue Date Start","Tanggal Mulai Antrian",module,Magento_Newsletter
+"Subscribers From","Pelanggan Dari",module,Magento_Newsletter
+Subject,Subyek,module,Magento_Newsletter
 "Sender Name","Nama pengirim",module,Magento_Newsletter
 "Sender Email","Email pengirim",module,Magento_Newsletter
 Message,Pesan,module,Magento_Newsletter
@@ -5812,6 +5822,21 @@ Options,Pilihan,module,Magento_Multishipping
 "Review Order","Tinjau Pesanan",module,Magento_Multishipping
 "Select Shipping Method","Pilih Metode Pengiriman",module,Magento_Multishipping
 "We received your order!","Kami menerima pesanan anda!",module,Magento_Multishipping
+"New Relic Reporting Section","Bagian Pelaporan Peninggalan Baru",module,Magento_NewRelicReporting
+"New Relic Reporting","Pelaporan Peninggalan Baru",module,Magento_NewRelicReporting
+General,Umum,module,Magento_NewRelicReporting
+"Enable New Relic Integration","Aktifkan Integrasi Peninggalan Baru",module,Magento_NewRelicReporting
+"New Relic API URL","Peninggalan URL API Baru",module,Magento_NewRelicReporting
+"Insights API URL","Pengertian URL API",module,Magento_NewRelicReporting
+"Use %s to replace the account ID in the URL","Gunakan %s untuk mengganti ID akun di URL",module,Magento_NewRelicReporting
+"New Relic Account ID","Peninggalan ID Akun Baru",module,Magento_NewRelicReporting
+"""Need a New Relic account? <a href=""http://www.newrelic.com/magento"" target=""_blank"">Click here to get one","""Perlu akun Peninggalan Baru? <a href=""http://www.newrelic.com/magento"" target=""_blank""> Klik di sini untuk mendapatkan satu",module,Magento_NewRelicReporting
+"New Relic Application ID","Peninggalan ID Akun Baru",module,Magento_NewRelicReporting
+"This can commonly be found at the end of the URL when viewing the APM after ""/applications/""","Ini biasanya dapat ditemukan di akhir URL saat melihat APM setelah ""/ aplikasi /""",module,Magento_NewRelicReporting
+"New Relic API Key","Kunci Peninggalan API Baru",module,Magento_NewRelicReporting
+"Insights API Key","Pengertian URL API",module,Magento_NewRelicReporting
+"New Relic Application Name","Peninggalan Id Akun Baru",module,Magento_NewRelicReporting
+"Enable Cron","Aktifkan Cron",module,Magento_NewRelicReporting
 "Allow Guest Subscription","Izinkan Tamu Berlangganan",module,Magento_Newsletter
 "Need to Confirm","Perlu konfirmasi",module,Magento_Newsletter
 "Confirmation Email Sender","Konfirmasi Email Pengirim",module,Magento_Newsletter
