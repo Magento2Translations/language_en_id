@@ -524,6 +524,7 @@ Always,Selalu,module,Magento_Captcha
 "Please type the letters below","Ketik huruf di bawah ini",module,Magento_Captcha
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Model jenis entitas harus berupa instance dari \ Magento \ katalog imporEkspor\ Model \ Ekspor \ Produk \ Type \Tipe Abstrak",module,Magento_CatalogImportExport
 "There are no product types available for export.","Tidak ada jenis produk yang tersedia untuk diekspor.",module,Magento_CatalogImportExport
+"Entity type model must be an instance of '%1'","Entity type model must be an instance of '%1 '",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","Kategori ""%1"" tidak dibuat.",module,Magento_CatalogImportExport
 "Please enter a value for title.","Harap masukan nilai untuk judul.",module,Magento_CatalogImportExport
 "This name is already being used for custom option. Please enter a different name.","Nama ini sudah digunakan untuk pilihan kostum. Harap masukkan nama yang berbeda.",module,Magento_CatalogImportExport
