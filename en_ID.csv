@@ -68,7 +68,6 @@ void,kosong,module,Magento_Authorizenet
 "Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transaksi% 1 telah dibatalkan / ditolak. status transaksi adalah ""% 2"". Jumlah% 3.",module,Magento_Authorizenet
 "Authorize Only","Hanya otorisasi",module,Magento_Authorizenet
 "Authorize and Capture","Izinkan dan tangkap",module,Magento_Authorizenet
-"Unable to get transaction details. Try again later.","Tidak dapat mendapatkan rincian transaksi. Coba lagi nanti.",module,Magento_Authorizenet
 "Electronic payments save the trees.","Pembayaran elektronik menyelamatkan pepohonan.",module,Magento_Authorizenet
 "Credit Card Type","Tipe Kartu Kredit",module,Magento_Authorizenet
 "Please Select","Silahkan pilih",module,Magento_Authorizenet
@@ -209,7 +208,6 @@ To,Ke,module,Magento_Backend
 "Invalid export type supplied for grid export block","Jenis ekspor tidak valid diberikan untuk blok ekspor jaringan",module,Magento_Backend
 Export,Ekspor,module,Magento_Backend
 "Please correct the column format and try again.","Harap perbaiki format kolom dan coba lagi.",module,Magento_Backend
-"Please select items.","Silahkan Pilih Item.",module,Magento_Backend
 Submit,Serahkan,module,Magento_Backend
 "Unknown block type","Jenis blook tidak diketahui",module,Magento_Backend
 "Please correct the tab configuration and try again. Tab Id should be not empty","Perbaiki label konfigurasi dan coba lagi. LabelId harus tidak kosong",module,Magento_Backend
@@ -276,13 +274,8 @@ System,Sistem,module,Magento_Backend
 "Last 7 Days","7 hari terakhir",module,Magento_Backend
 "Current Month","Sekarang Bulan",module,Magento_Backend
 "Authentication storage is incorrect.","Penyimpanan otentikasi tidak benar.",module,Magento_Backend
-"You did not sign in correctly or your account is temporarily disabled.","Anda tidak masuk dengan benar atau akun Anda untuk sementara dinonaktifkan.",module,Magento_Backend
-"Authentication error occurred.","Terjadi kesalahan otentikasi.",module,Magento_Backend
-"Admin session lifetime must be less than or equal to 31536000 seconds (one year)","Sesi asmin seumur hidup harus kurang dari atau sama dengan 31536000 detik (satu tahun)",module,Magento_Backend
-"Admin session lifetime must be greater than or equal to 60 seconds","Sesi admin seumur hidup harus lebih besar dari atau sama dengan 60 detik",module,Magento_Backend
 Order,Pesanan,module,Magento_Backend
 "Order #%1","Pesanan #%1",module,Magento_Backend
-"You need more permissions to access this.","Anda membutuhkan lebih banyak izin untuk mengakses ini.",module,Magento_Backend
 "Welcome, please sign in","Selamat Datang, silahkan masuk",module,Magento_Backend
 Username,"Nama Pengguna",module,Magento_Backend
 "user name","nama pengguna",module,Magento_Backend
@@ -410,7 +403,6 @@ Country,Negara,module,Magento_Braintree
 Authorize,Otorisasi,module,Magento_Braintree
 "Authorize and Capture","Otorisasi dan Tangkapan",module,Magento_Braintree
 "--Please Select--","--Silahkan Pilih--",module,Magento_Braintree
-"Please agree to all the terms and conditions before placing the order.","Setujui semua syarat dan kondisi sebelum menempatkan pesanan.",module,Magento_Braintree
 "Credit Card Type","Tipe Kartu Kredit",module,Magento_Braintree
 "Credit Card Number","Nomor Kartu Kredit",module,Magento_Braintree
 "Please, enter valid Credit Card Number","Silahkan, masukkan nomor Kartu Kredit yang valid",module,Magento_Braintree
@@ -439,18 +431,9 @@ Price,Harga,module,Magento_Bundle
 Delete,Hapus,module,Magento_Bundle
 "Use Default Value","Gunakan Nilai Default",module,Magento_Bundle
 "There is no defined renderer for ""%1"" option type.","Tidak ada penyaji didefinisikan untuk ""% 1"" Jenis pilihan.",module,Magento_Bundle
-"Only implemented for bundle product","Hanya diterapkan untuk produk bundel",module,Magento_Bundle
-"Product with specified sku: ""%1"" is not a bundle product","Produk dengan sku tertentu: ""% 1"" bukan merupakan produk bundel",module,Magento_Bundle
-"Bundle product could not contain another composite product","Produk bundel tidak bisa menahan produk komposit lain",module,Magento_Bundle
-"Id field of product link is required","Field Id link produk diperlukan",module,Magento_Bundle
-"Can not find product link with id ""%1""","Tidak dapat menemukan link produk dengan id ""% 1""",module,Magento_Bundle
 "Could not save child: ""%1""","Tidak bisa menyelamatkan anak: ""% 1""",module,Magento_Bundle
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Produk dengan sku tertentu: ""% 1"" tidak mengandung pilihan: ""% 2""",module,Magento_Bundle
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","Anak dengan sku tertentu: ""% 1"" sudah ditugaskan untuk produk: ""% 2""",module,Magento_Bundle
-"Product with specified sku: %1 is not a bundle product","Produk dengan sku tertentu:% 1 bukan merupakan produk bundel",module,Magento_Bundle
-"%fieldName is a required field.","% FieldName adalah bidang yang diperlukan.",module,Magento_Bundle
-"Cannot delete option with id %1","Tidak dapat menghapus pilihan dengan id% 1",module,Magento_Bundle
-"Could not save option","Tidak dapat menyimpan pilihan",module,Magento_Bundle
 "Price Range","Kisaran harga",module,Magento_Bundle
 "As Low as",Serendah,module,Magento_Bundle
 Together,Bersama,module,Magento_Bundle
@@ -520,10 +503,8 @@ Always,Selalu,module,Magento_Captcha
 "Incorrect CAPTCHA","Captcha yang salah",module,Magento_Captcha
 "Incorrect CAPTCHA.","Captcha yang salah.",module,Magento_Captcha
 "The account is locked. Please wait and try again or contact %1.","Akun terkunci. Tunggu dan coba lagi atau hubungi% 1.",module,Magento_Captcha
-"Please enter the letters from the image","Masukkan huruf dari gambar",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<Strong> Perhatian </ strong>: Captcha adalah kasus sensitif.",module,Magento_Captcha
 "Reload captcha","Muat Ulang Captcha",module,Magento_Captcha
-"Please type the letters below","Ketik huruf di bawah ini",module,Magento_Captcha
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Model jenis entitas harus berupa instance dari \ Magento \ katalog imporEkspor\ Model \ Ekspor \ Produk \ Type \Tipe Abstrak",module,Magento_CatalogImportExport
 "There are no product types available for export.","Tidak ada jenis produk yang tersedia untuk diekspor.",module,Magento_CatalogImportExport
 "'Entity type model must be an instance of ' .","Model tipe entitas harus berupa instance dari '.",module,Magento_CatalogImportExport
@@ -540,7 +521,6 @@ Always,Selalu,module,Magento_Captcha
 "Add Minimum Qty","Tambah Qty Minimum",module,Magento_CatalogInventory
 "We can't rebuild the index for an undefined product.","Kita bisa membangun kembali indeks untuk produk yang tidak didefinisikan.",module,Magento_CatalogInventory
 "Could not rebuild index for empty products array","Tidak Dapat Membangun Kembali Indeks Untuk Rangkaian Produk Kosong",module,Magento_CatalogInventory
-"The stock item for Product is not valid.","Stok Item Untuk Produk Tidak Valid.",module,Magento_CatalogInventory
 "This product is out of stock.","Produk Ini Habis Stok.",module,Magento_CatalogInventory
 "Some of the products are out of stock.","Beberapa Produk Kehabisan Stok.",module,Magento_CatalogInventory
 "The stock item for Product in option is not valid.","Stok Produk Dalam Pilihan Tidak Valid.",module,Magento_CatalogInventory
@@ -551,25 +531,14 @@ Always,Selalu,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","Terima Qty Dibawah 0 Dan Pemberitahuan Pelanggan",module,Magento_CatalogInventory
 "In Stock","Dalam Persediaan",module,Magento_CatalogInventory
 "Out of Stock","Tidak Ada Persediaan",module,Magento_CatalogInventory
-"Unable to save Stock Item","Tidak Bisa Menyimpan Stok Item",module,Magento_CatalogInventory
-"Stock Item with id ""%1"" does not exist.","Stok item Dengan Id ""%1"" Tidak tersedia.",module,Magento_CatalogInventory
-"Unable to remove Stock Item with id ""%1""","Tidak Bisa Membatalkan Stok Item Dengan Id ""%1""",module,Magento_CatalogInventory
-"Unable to save Stock","Tidak Bisa Menyimpan Stok",module,Magento_CatalogInventory
-"Stock with id ""%1"" does not exist.","Stok Dengan Id ""%1"" Tidak tersedia.",module,Magento_CatalogInventory
 "Unable to remove Stock with id ""%1""","Tidak Bisa Membatalkan Stok Dengan Id ""%1""",module,Magento_CatalogInventory
-"Unable to save Stock Status","Tidak Bisa menyimpan Status Stok",module,Magento_CatalogInventory
 "Unable to remove Stock Status for product %1","Tidak Bisa Membatalkan Status Stok Untuk Produk %1",module,Magento_CatalogInventory
-"Invalid stock id: %1. Only default stock with id %2 allowed","Id Stok Tidak Valid: %1. Hanya Stok Default Dengan Id %2 Yang Diizinkan",module,Magento_CatalogInventory
-"Invalid stock item id: %1. Should be null or numeric value greater than 0","Item Stok Tidak Valid: %1. Nilai Null Atau Numeric Lebih Besar Dari 0",module,Magento_CatalogInventory
-"Invalid stock item id: %1. Assigned stock item id is %2","Stok Item TidakValid Id: %1. Stok Item Yang Ditetapkan Adalah Id %2",module,Magento_CatalogInventory
 "Not all of your products are available in the requested quantity.","Tidak Semua Produk Anda tersedia Dalam Jumlah Yang Diminta.",module,Magento_CatalogInventory
-"Product with SKU ""%1"" does not exist","Produk Dengan SKU ""%1'' Tidak tersedia",module,Magento_CatalogInventory
 "The fewest you may purchase is %1.","Yang Paling Sedikit Anda Bisa Beli Adalah %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Tolong Koreksi Nilai Dari Beberapa Produk.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","Yang Paling Banyak Anda Bisa Beli Adalah %1.",module,Magento_CatalogInventory
 "You can buy %1 only in quantities of %2 at a time.","Anda Bisa Beli %1 Hanya Dalam Jumlah %2 Dalam Satu Waktu.",module,Magento_CatalogInventory
 "You can buy this product only in quantities of %1 at a time.","Anda Hanya Bisa Membeli Produk ini Dengan Jumlah %1 Dalam Satu Waktu.",module,Magento_CatalogInventory
-"Decimal qty increments is not allowed.","Desimal Qty Bertahap Tidak Diizinkan.",module,Magento_CatalogInventory
 "Stock Status","Status Stok",module,Magento_CatalogInventory
 Quantity,Nilai,module,Magento_CatalogInventory
 "Advanced Inventory","Persediaan Lanjutan",module,Magento_CatalogInventory
@@ -602,9 +571,6 @@ Promotions,Promosi,module,Magento_CatalogRule
 Catalog,Katalog,module,Magento_CatalogRule
 "You saved the rule.","Anda sudah menyimpan aturan.",module,Magento_CatalogRule
 "Something went wrong while saving the rule data. Please review the error log.","Terjadi suatu kesalahan saat menyimpan aturan data. Harap Tampilkan kembali log yang salah.",module,Magento_CatalogRule
-"Unable to save rule %1","Tidak bisa menyimpan aturan %1",module,Magento_CatalogRule
-"Rule with specified ID ""%1"" not found.","Tidak ditemukan rule dangan ID khusus ""%1"".",module,Magento_CatalogRule
-"Unable to remove rule %1","Tidak bisa menghapus rule %1",module,Magento_CatalogRule
 "Could not rebuild index for empty products array","Tidak dapat membangun kembali indeks untuk rangkaian produk kosong",module,Magento_CatalogRule
 "We can't rebuild the index for an undefined product.","Kami tidak dapat membangun kembali untuk produk yang tidak didefinisikan.",module,Magento_CatalogRule
 "Catalog rule indexing failed. See details in exception log.","Pengindeksan aturan katalog gagal. Lihat detail dalam log pengecualian.",module,Magento_CatalogRule
@@ -639,14 +605,11 @@ List,Daftar,module,Magento_CatalogSearch
 Relevance,Relevansi,module,Magento_CatalogSearch
 "Search results for: '%1'","Hasil Pencarian untuk: '%1'",module,Magento_CatalogSearch
 "Minimum Search query length is %1","Minimum pencarian panjang pertanyaan adalah %1",module,Magento_CatalogSearch
-"Please specify at least one search term.","Harap tentukan setidaknya satu istilah pencarian.",module,Magento_CatalogSearch
 "%1 and greater","%1 dan lebih Besar",module,Magento_CatalogSearch
 "up to %1","hingga %1",module,Magento_CatalogSearch
 ". "" which is inconsistent with state of scope resolver""",". ""yang tidak sesuai dengan state of scope resolver",module,Magento_CatalogSearch
 Category,Kategori,module,Magento_CatalogSearch
 "%1 and above","%1 and lebih",module,Magento_CatalogSearch
-"Sorry, something went wrong. You can find out more in the error log.","Maaf, terjadi kesalahan. anda dapat mengetahui lebih lanjut di log kesalahan.",module,Magento_CatalogSearch
-"Bucket does not exist","Daftar tidak ada",module,Magento_CatalogSearch
 Product,Produk,module,Magento_CatalogSearch
 "Search Settings","Cari Pengaturan",module,Magento_CatalogSearch
 Search,Cari,module,Magento_CatalogSearch
@@ -694,6 +657,7 @@ Cancel,Keluar,module,Magento_Catalog
 "New Product Attribute","Atribut Produk Baru",module,Magento_Catalog
 "Advanced Attribute Properties","Lanjutan Properti Atribut",module,Magento_Catalog
 "Attribute Code","Kode Atribut",module,Magento_Catalog
+"This is used internally. Make sure you don't use spaces or more than %1 symbols.","Ini dipakai secara internal. Pastikan anda tidak memakai spasi atau lebih dari %1 simbol.",module,Magento_Catalog
 "Default Value","Nilai Default",module,Magento_Catalog
 "Unique Value","Nilai yang Unik",module,Magento_Catalog
 "Unique Value (not shared with other products)","Nilai yang unik (tidak dibagi dengan produk lain)",module,Magento_Catalog
@@ -712,7 +676,6 @@ Scope,Cakupan,module,Magento_Catalog
 "Visible in Advanced Search","Terlihat di Pencarian",module,Magento_Catalog
 "Comparable on Storefront","Sebanding pada etalase toko",module,Magento_Catalog
 "Use for Promo Rule Conditions","Gunakan untuk Promo Kondisi Peraturan",module,Magento_Catalog
-"Enable WYSIWYG","Aktifkan WYSIWYG",module,Magento_Catalog
 "Allow HTML Tags on Storefront","Memungkinkan Tags HTML di etalase toko",module,Magento_Catalog
 "Visible on Catalog Pages on Storefront","Terlihat di halaman katalog di etalase toko",module,Magento_Catalog
 "Used in Product Listing","Digunakan di Daftar Produk",module,Magento_Catalog
@@ -832,7 +795,6 @@ Categories,Kategori,module,Magento_Catalog
 "Category is not available for requested store.","Kategori tidak tersedia untuk toko yang diminta.",module,Magento_Catalog
 "There was a category move error.","Terjadi kesalahan saat memindah kategori.",module,Magento_Catalog
 "You moved the category.","Anda pindah kategori.",module,Magento_Catalog
-"Attribute ""%1"" is required.","Atribut ""% 1"" diperlukan.",module,Magento_Catalog
 "You saved the category.","Anda menyimpan kategori.",module,Magento_Catalog
 "Something went wrong while saving the category.","Ada yang salah saat menyimpan kategori.",module,Magento_Catalog
 "Please select products for attributes update.","Silahkan pilih produk untuk memperbarui atribut.",module,Magento_Catalog
@@ -840,11 +802,11 @@ Categories,Kategori,module,Magento_Catalog
 "A total of %1 record(s) were updated.","Sebanyak% 1 record yang diperbarui.",module,Magento_Catalog
 "Something went wrong while updating the product(s) attributes.","Ada yang tidak beres saat memperbarui atribut produk.",module,Magento_Catalog
 "Unable to add attribute","Tidak dapat menambahkan atribut",module,Magento_Catalog
-"Please, specify attributes","Silahkan, menentukan atribut",module,Magento_Catalog
 Catalog,Katalog,module,Magento_Catalog
 "Manage Product Attributes","Mengelola Atribut Produk",module,Magento_Catalog
 "We can't delete the attribute.","Kami tidak dapat menghapus atribut tersebut.",module,Magento_Catalog
 "You deleted the product attribute.","Anda menghapus atribut produk.",module,Magento_Catalog
+"We can't find an attribute to delete.","Kami tidak menemukan attribut untuk dihapus.",module,Magento_Catalog
 "This attribute no longer exists.","Atribut ini tidak ada lagi.",module,Magento_Catalog
 "This attribute cannot be edited.","Atribut ini tidak dapat diedit.",module,Magento_Catalog
 "Edit Product Attribute","Edit Atribut Produk",module,Magento_Catalog
@@ -866,7 +828,6 @@ Products,Produk,module,Magento_Catalog
 "A total of %1 record(s) have been deleted.","Sebanyak% 1 record telah dihapus.",module,Magento_Catalog
 "A total of %1 record(s) have been updated.","Sebanyak% 1 record telah diperbarui.",module,Magento_Catalog
 "Something went wrong while updating the product(s) status.","Ada yang salah saat memperbarui status produk.",module,Magento_Catalog
-"Unable to save product","Tidak dapat menyimpan produk",module,Magento_Catalog
 "You saved the product.","Anda menyimpan produk.",module,Magento_Catalog
 "SKU for product %1 has been changed to %2.","SKU untuk produk %1 telah diganti ke %2.",module,Magento_Catalog
 "The image cannot be removed as it has been assigned to the other image role","Gambar tidak dapat dihapus seperti yang telah ditugaskan untuk peran gambar lainnya",module,Magento_Catalog
@@ -893,9 +854,11 @@ All,Semua,module,Magento_Catalog
 "Bad controller interface for showing product","Controller interface yang buruk untuk menunjukkan produk",module,Magento_Catalog
 "Product is not loaded","Produk ini tidak dimuat",module,Magento_Catalog
 "Make sure the To Date is later than or the same as the From Date.","Pastikan Ke Tanggal kemudian atau sama dengan Dari Tanggal.",module,Magento_Catalog
+"Sorry, but we can't find the new parent category you selected.","Maaf, tapi kami tidak dapat menemukan kategori induk baru yang Anda pilih.",module,Magento_Catalog
 "Sorry, but we can't find the new category you selected.","Maaf, tapi kami tidak dapat menemukan kategori baru yang Anda pilih.",module,Magento_Catalog
+"We can't move the category because the parent category name matches the child category name.","Kami tidak dapat memindahkan kategori karena nama kategori induk sama persis dengan nama kategori anak.",module,Magento_Catalog
 "Something went wrong while getting the image url.","Terjadi kesalahan saat menerima url gambar.",module,Magento_Catalog
-"The value of attribute ""%1"" must be unique.","Nilai atribut ""% 1"" harus unik.",module,Magento_Catalog
+"Can't delete root category.","Tidak dapat menghapus kategori root.",module,Magento_Catalog
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Produk default berdasarkan daftar penyortiran tidak ada di daftar ketersediaan produk.",module,Magento_Catalog
 "No layout updates","Tidak ada pembaruan tata letak",module,Magento_Catalog
 "Products only","Hanya Produk",module,Magento_Catalog
@@ -903,7 +866,6 @@ All,Semua,module,Magento_Catalog
 "Static block and products","Blok statis dan produk",module,Magento_Catalog
 "Please select a static block.","Silahkan pilih blok statis.",module,Magento_Catalog
 "Could not save product ""%1"" with position %2 to category %3","Tidak dapat menyimpan produk ""% 1"" dengan posisi% 2 untuk kategori% 3",module,Magento_Catalog
-"Category does not contain specified product","Kategori tidak mengandung produk tertentu",module,Magento_Catalog
 "Could not save product ""%product"" with position %position to category %category","Tidak dapat menyimpan produk ""%produk"" dengan posisi%posisi untuk kategori%kategori",module,Magento_Catalog
 "Operation do not allow to move a parent category to any of children category","Operasi tidak memungkinkan untuk memindahkan kategori orang tua untuk setiap kategori anak-anak",module,Magento_Catalog
 "Could not move category","Tidak dapat memindah kategori",module,Magento_Catalog
@@ -941,49 +903,30 @@ Center,Pusat,module,Magento_Catalog
 "Must be category model instance or its id.","Harus model kategori instan atau idnya.",module,Magento_Catalog
 "The attribute model is not defined.","Model atribut tidak bisa diartikan.",module,Magento_Catalog
 Category,Kategori,module,Magento_Catalog
-"%1 was not found in algorithms","%1 tidak ditemukan algoritma",module,Magento_Catalog
 "%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface","%1 tidak memperpanjang \Magento\Catalog\Model\Layer\Filter\Dynamic\ AlgorithmInterface",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter","%1 tidak meluas \Magento\Catalog\Model\Layer\Filter\AbstractFilter",module,Magento_Catalog
 "The filter must be an object. Please set the correct filter.","Filter mesti sebuah objek. mohon atur filter yang benar.",module,Magento_Catalog
 "Clear Price","Harga yang jelas",module,Magento_Catalog
 "%1 and above","%1 dan lebih",module,Magento_Catalog
-"The filters must be an array.","Filter harus menjadi aturan.",module,Magento_Catalog
-"Product was not registered","Produk belum terdaftar",module,Magento_Catalog
-"Store was not registered","Toko belum terdaftar",module,Magento_Catalog
 "Group price must be a number greater than 0.","Nilai grup harus nomor yang lebih besar dari 0.",module,Magento_Catalog
 "Media Gallery converter should be an instance of EntryConverterInterface.","Konverter Media Gallery harus berupa instance dari EntryConverterInterface.",module,Magento_Catalog
 "There is no MediaGalleryEntryConverter for given type","Tiada MediaGalleryEntryConverter untuk tipe yang diberikan",module,Magento_Catalog
 "Please enter a number 0 or greater in this field.","Harap masukkan nomor 0 atau yang lebih besar di kolom ini.",module,Magento_Catalog
-"The value of attribute ""%1"" must be set","Nilai atribut ""%1"" harus ditetapkan",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","Panjang SKU maksimal %1 karakter.",module,Magento_Catalog
 "Please enter a valid number in this field.","Harap masukkan nomor yang benar di kolom ini.",module,Magento_Catalog
 "We found a duplicate website, tier price, customer group and quantity.","Kami menemukan situs duplikat, harga tier, kelompok pelanggan dan kuantitas.",module,Magento_Catalog
 "Percentage value must be a number between 0 and 100.","Nilai persentase harus berupa nomor antara 0 dan 100.",module,Magento_Catalog
 "Invalid option id %1","Pilihan id %1 salah",module,Magento_Catalog
-"Can not create attribute set based on non product attribute set.","Tidak bisa membuat aturan atribut berdasarkan pada aturan produk atribut.",module,Magento_Catalog
-"Can not create attribute set based on not existing attribute set","Tidak bisa membuat aturan atribut berdasarkan pada bukan aturan atribut yang ada",module,Magento_Catalog
 "Provided Attribute set non product Attribute set.","Aturan atribut yang disediakan bukan aturan produk atribut.",module,Magento_Catalog
 "Use config","Gunakan config",module,Magento_Catalog
 Enabled,Diaktifkan,module,Magento_Catalog
 Disabled,Dinonaktifkan,module,Magento_Catalog
 "Attribute Set already exists.","Aturan atribut sudah tersedia.",module,Magento_Catalog
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","Kami tidak dapat menyalin file %1. Harap hapus media dengan gambar yang tidak ada dan coba lagi.",module,Magento_Catalog
-"The image content is not valid.","Konten gambar tidak benar.",module,Magento_Catalog
-"Cannot save product.","Tidak bisa simpan produk.",module,Magento_Catalog
-"Failed to save new media gallery entry.","Gagal menyimpan entri galeri media baru.",module,Magento_Catalog
-"There is no image with provided ID.","Tidak ada gambar dengan ID yang disediakan.",module,Magento_Catalog
-"Such product doesn't exist","Produk seperti itu tidak ada",module,Magento_Catalog
-"Such image doesn't exist","Gambar seperti itu tidak ada",module,Magento_Catalog
-"The image does not exist.","Gambar tidak ada.",module,Magento_Catalog
-"Please correct the image file type.","Harap perbaiki jenis berkas gambar.",module,Magento_Catalog
-"We couldn't move this file: %1.","Kami tidak bisa memindahkan file ini: %1.",module,Magento_Catalog
 "The option type to get group instance is incorrect.","Jenis pilihan untuk mendapatkan contoh kelompok tidak benar.",module,Magento_Catalog
 "Select type options required values rows.","Pilih jenis opsi yang diperlukan nilai-nilai baris.",module,Magento_Catalog
-"ProductSku should be specified","Produk Sku harus ditentukan",module,Magento_Catalog
-"Could not remove custom option","Tidak dapat menghapus pilihan kustom",module,Magento_Catalog
 "Please specify date required option(s).","Silakan tentukan opsi tanggal yang diperlukan.",module,Magento_Catalog
 "Please specify time required option(s).","Silahkan tentukan opsi waktu yang diperlukan.",module,Magento_Catalog
-"Please specify product's required option(s).","Harap tentukan pilihan yang dibutuhkan produk(s).",module,Magento_Catalog
 "The option instance type in options group is incorrect.","Opsi tipe contoh dalam kelompok pilihan salah.",module,Magento_Catalog
 "The product instance type in options group is incorrect.","Opsi contoh produk dalam kelompok pilihan salah.",module,Magento_Catalog
 "The configuration item option instance in options group is incorrect.","Konfigurasi contoh opsi item dalam kelompok pilihan salah.",module,Magento_Catalog
@@ -991,25 +934,17 @@ Disabled,Dinonaktifkan,module,Magento_Catalog
 "The BuyRequest instance in options group is incorrect.","Contoh Permintaan Pembelian dalam kelompok pilihan salah.",module,Magento_Catalog
 "We can't add the product to the cart because of an option validation issue.","Kami tidak dapat menambahkan produk ke keranjang karena ada masalah validasi opsi.",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Option\Type\DefaultType","%1 tidak meluas \Magento\Catalog\Model\Produk\Option\Type\DefaultType",module,Magento_Catalog
-"The file options format is not valid.","Format file pilihan tidak valid.",module,Magento_Catalog
 "The file '%1' for '%2' has an invalid extension.","File '%1' untuk '%2' memiliki ekstensi tidak valid.",module,Magento_Catalog
 "The maximum allowed image size for '%1' is %2x%3 px.","Ukuran gambar maksimum yang diizinkan untuk '% 1' adalah% 2 x% 3 px.",module,Magento_Catalog
 "The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.","File '%1' yang anda upload lebih besar dari %2 megabyte yang diizinkan server kami.",module,Magento_Catalog
-"The file '%1' is empty. Please choose another one","Berkas '%1' kosong. Harap pilih Berkas yang lain",module,Magento_Catalog
 "The file '%1' is invalid. Please choose another one","Berkas '%1' tidak valid. Harap pilih yang lain",module,Magento_Catalog
 "File '%1' is not an image.","Berkas ' %1 ' bukan gambar.",module,Magento_Catalog
-"Validation failed. Required options were not filled or the file was not uploaded.","Validasi gagal. Pilihan yang diperlukan tidak terisi atau file tidak diunggah.",module,Magento_Catalog
-"The file you uploaded is larger than %1 Megabytes allowed by server","File yang Anda upload lebih besar dari %1 Megabyte diizinkan oleh server",module,Magento_Catalog
-"Option required.","Pilihan diminta.",module,Magento_Catalog
-"The file is empty. Please choose another one","Berkas kosong. Silahkan pilih file yang lain",module,Magento_Catalog
 "Some of the selected item options are not currently available.","Beberapa pilihan item yang dipilih saat ini tidak tersedia.",module,Magento_Catalog
-"The text is too long.","Teks terlalu panjang.",module,Magento_Catalog
 "Invalid attribute %fieldName = %fieldValue.","Atribut %fiel Nama tidak benar = %fiel nilai.",module,Magento_Catalog
 "Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId.","Toko yang diminta tidak ditemukan. ID Baris: SKU =%SKU, ID Toko: %storeId.",module,Magento_Catalog
 "Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.","Atribut tidak valid Biaya = %cost. ID Baris: SKU = %SKU, ID Toko: %storeId.",module,Magento_Catalog
 "Could not save Prices.","Tidak dapat menyimpan Harga.",module,Magento_Catalog
 "Could not delete Prices","Harga tidak bisa dihapus",module,Magento_Catalog
-"Requested product doesn't exist. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Produk yang diminta tidak ada. Row ID: SKU =% SKU, Storeid: %storeId, Harga Dari: %harga Dari, Price To: %priceTo.",module,Magento_Catalog
 "Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Toko yang diminta tidak ditemukan. ID Baris: SKU = %SKU, ID Toko: %storeId, Harga Dari:
 %priceFrom, Price To: %priceTo.",module,Magento_Catalog
 "Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","%label Atribut tidak valid = %priceTo. ID Baris: SKU = %SKU, ID Toko: %storeId, Harga Dari:
@@ -1028,12 +963,6 @@ Disabled,Dinonaktifkan,module,Magento_Catalog
 "We found a duplicate website, tier price, customer group and quantity: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Kami menemukan situs duplikat, harga tier, kelompok pelanggan dan jumlah: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. ID Baris: SKU = %SKU, ID Situs: %websiteId, Grup Pelanggan: %customerGroup, Jumlah: %qty.",module,Magento_Catalog
 "No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Tidak ada entitas dengan Grup Pelanggan = %customerGroup. ID Baris: SKU = %SKU, ID Situs: %websiteId, Grup Pelanggan: %customerGroup, Jumlah: %qty.",module,Magento_Catalog
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","Product doesn't have group price with such data: customerGroupId = '%1', website = %2, qty = %3",module,Magento_Catalog
-"Invalid data provided for tier_price","Data tidak valid diberikan untuk tier_price",module,Magento_Catalog
-"Could not save group price","Tidak dapat menghemat harga grup",module,Magento_Catalog
-"Please provide valid data","Berikan data yang valid",module,Magento_Catalog
-"Values of following attributes are invalid: %1","Nilai atribut berikut tidak valid: %1",module,Magento_Catalog
-"The file upload failed.","File upload gagal.",module,Magento_Catalog
-"The product has required options.","Produk telah dibutuhkan pilihan.",module,Magento_Catalog
 "Something went wrong while processing the request.","Ada yang tidak beres saat memproses permintaan.",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType","%1 tidak meluas \Magento\Catalog\Model\Product\Type\AbstractType",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","%1 tidak meluas \Magento\Catalog\Model\Product\Type\Price",module,Magento_Catalog
@@ -1042,22 +971,12 @@ Search,Cari,module,Magento_Catalog
 "Catalog, Search","Cari katalog",module,Magento_Catalog
 "Something went wrong while removing products from the websites.","Ada yang tidak beres saat mengeluarkan produk dari situs web.",module,Magento_Catalog
 "Something went wrong while adding products to websites.","Ada yang tidak beres saat menambahkan produk ke situs web.",module,Magento_Catalog
-"Group with id ""%1"" does not exist.","Grup dengan id ""%1"" tidak ada.",module,Magento_Catalog
-"Attribute group that contains system attributes can not be deleted","Atribut grup yang berisi atribut sistem tidak dapat dihapus",module,Magento_Catalog
-"Collection provider is not registered","Koleksi penyedia tidak terdaftar",module,Magento_Catalog
-"Unknown link type: %1","Jenis link tidak diketahui: %1",module,Magento_Catalog
-"Provided link type ""%1"" does not exist","Tautan jenis link ""%1"" tidak ada",module,Magento_Catalog
-"Invalid data provided for linked products","Data tidak valid disediakan untuk produk yang ditautkan",module,Magento_Catalog
 "Product with SKU '%1' is not linked to product with SKU '%2'","Produk dengan SKU '%1' tidak terkait dengan produk dengan SKU '%2'",module,Magento_Catalog
 "Product %1 doesn't have linked %2 as %3","Produk %1 tidak memiliki hubungan %2 sebagai %3",module,Magento_Catalog
-"Requested product doesn't exist","Produk yang diminta tidak ada",module,Magento_Catalog
-"Requested product does not support images.","Produk yang diminta tidak mendukung gambar.",module,Magento_Catalog
-"Product with SKU ""%1"" does not exist","Produk Dengan SKU ""%1'' Tidak tersedia",module,Magento_Catalog
 "Invalid product data: %1","Data tidak valid Produk: %1",module,Magento_Catalog
 "Database connection error","Koneksi database error",module,Magento_Catalog
 "Database deadlock found when trying to get lock","Database kebuntuan ditemukan ketika mencoba untuk mendapatkan kunci",module,Magento_Catalog
 "Database lock wait timeout exceeded","Database kunci menunggu waktu keluar melebihi",module,Magento_Catalog
-"Unable to remove product %1","Tidak dapat menghapus produk %1",module,Magento_Catalog
 "There are not websites for assign to product","Tidak ada situs untuk mengalihkan produk",module,Magento_Catalog
 "Could not assign product ""%1"" to websites ""%2""","Tidak bisa menetapkan Produk ""%1"" ke situs ""%2""",module,Magento_Catalog
 "Could not save product ""%1"" with websites %2","Tidak dapat menyelamatkan Produk ""%1"" dengan situs %2",module,Magento_Catalog
@@ -1126,6 +1045,7 @@ name,nama,module,Magento_Catalog
 "This operation can take a long time","Operasi ini bisa memakan waktu lama",module,Magento_Catalog
 "Collapse All","Tutup Semua",module,Magento_Catalog
 "Expand All","Perluas Semua",module,Magento_Catalog
+"Please confirm site switching. All data that hasn't been saved will be lost.","Mohon konfirmasi peralihan situs. Seluruh data yang belum tersimpan akan hilang.",module,Magento_Catalog
 "Use Default Value","Gunakan Nilai Default",module,Magento_Catalog
 "Manage Titles (Size, Color, etc.)","Mengelola Judul (Ukuran, Warna, dll.)",module,Magento_Catalog
 "Manage Options (Values of Your Attribute)","Kelola Pilihan (Nilai Atribut Anda)",module,Magento_Catalog
@@ -1140,6 +1060,7 @@ Groups,Grup,module,Magento_Catalog
 "Please enter a new group name.","Harap masukkan nama grup yang baru.",module,Magento_Catalog
 "An attribute group named ""/name/"" already exists.","Grup atribut bernama ""/name/"" sudah ada.",module,Magento_Catalog
 "Sorry, we're unable to complete this request.","Maaf, kami tidak dapat menyelesaikan permintaan ini.",module,Magento_Catalog
+"You can't remove attributes from this attribute set.","Anda tidak dapat menghapus atribut dari set atribut ini.",module,Magento_Catalog
 "Custom Options","Pilihan kustom",module,Magento_Catalog
 "This is a required option.","Ini adalah pilihan yang dibutuhkan.",module,Magento_Catalog
 "The field isn't complete.","Bidang tidak lengkap.",module,Magento_Catalog
@@ -1165,6 +1086,7 @@ Backorders,"Kembali perintah",module,Magento_Catalog
 "Add Product To Websites","Tambahkan Produk ke Situs Web",module,Magento_Catalog
 "Remove Product From Websites","Hapus Produk dari Situs Web",module,Magento_Catalog
 "To hide an item in catalog or search results, set the status to ""Disabled"".","Untuk menyembunyikan item dalam katalog atau hasil pencarian, setel status menjadi ""Disabled"".",module,Magento_Catalog
+"We can't save custom-defined options for bundles with dynamic pricing.","Kami tidak dapat menyimpan pilihan kustom yang ditetapkan untuk bundel dengan harga dinamis.",module,Magento_Catalog
 "Delete Custom Option","Menghapus pilihan kebiasaan",module,Magento_Catalog
 "Sort Custom Options","Urutkan opsi kustom",module,Magento_Catalog
 "Input Type","Tipe Masukan",module,Magento_Catalog
@@ -1259,10 +1181,6 @@ Sales,Penjualan,module,Magento_CheckoutAgreements
 "Something went wrong while saving this condition.","Ada yang tidak beres saat menyimpan kondisi ini.",module,Magento_CheckoutAgreements
 Automatically,"Secara otomatis",module,Magento_CheckoutAgreements
 Manually,"Secara manual",module,Magento_CheckoutAgreements
-"Please agree to all the terms and conditions before placing the order.","Setujui semua persyaratan dan ketentuan sebelum melakukan pemesanan.",module,Magento_CheckoutAgreements
-"Unable to save checkout agreement %1","Tidak dapat menyimpan perjanjian checkout% 1",module,Magento_CheckoutAgreements
-"Unable to remove checkout agreement %1","Tidak dapat menghapus periksa perjanjian %1",module,Magento_CheckoutAgreements
-"Checkout agreement with specified ID ""%1"" not found.","Perjanjian checkout dengan nomor tertentu "" % 1 "" tidak ditemukan.",module,Magento_CheckoutAgreements
 "Shopping Cart","Daftar Belanja",module,Magento_Checkout
 "Invalid method: %1","Metode Salah: %1",module,Magento_Checkout
 City,Kota,module,Magento_Checkout
@@ -1279,7 +1197,6 @@ State/Province,State/provinsi,module,Magento_Checkout
 "You added %1 to your shopping cart.","Anda menambahkan %1 ke daftar belanja anda.",module,Magento_Checkout
 "We can't add this item to your shopping cart right now.","Tidak dapat kami tambahkan barang ini ke troli belanja anda sekarang.",module,Magento_Checkout
 "Out of stock","Kehabisan persediaan",module,Magento_Checkout
-"We can't find the quote item.","Kami tidak dapat menemukan barang kutipan.",module,Magento_Checkout
 "We cannot configure the product.","Kami tidak dapat mengkonfigurasi produk.",module,Magento_Checkout
 "You used coupon code ""%1"".","Anda menggunakan kode kupon ""%1"".",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","Kode kupon ""%1"" tidak valid.",module,Magento_Checkout
@@ -1292,11 +1209,9 @@ State/Province,State/provinsi,module,Magento_Checkout
 "One-page checkout is turned off.","Satu halaman checkout dimatikan.",module,Magento_Checkout
 "Guest checkout is disabled.","Checkout Tamu dinonaktifkan.",module,Magento_Checkout
 "Page not found.","Halaman tidak ditemukan.",module,Magento_Checkout
-"Please agree to all the terms and conditions before placing the order.","Setujui semua persyaratan dan ketentuan sebelum melakukan pemesanan.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Ada yang tidak beres saat memproses pesanan Anda. Silakan coba lagi nanti.",module,Magento_Checkout
 "Payment Method","Metode Pembayaran",module,Magento_Checkout
 "Payment Page","Halaman Pembayaran",module,Magento_Checkout
-"We can't find the product.","Produk tidak kami temukan.",module,Magento_Checkout
 "We found an invalid request for adding product to quote.","Kami menemukan permintaan yang tidak valid untuk menambahkan produk ke penawaran.",module,Magento_Checkout
 "The product does not exist.","Produk Tidak ada.",module,Magento_Checkout
 "We don't have some of the products you want.","Kami tidak memiliki beberapa produk yang anda inginkan.",module,Magento_Checkout
@@ -1307,10 +1222,7 @@ State/Province,State/provinsi,module,Magento_Checkout
 "Display number of items in cart","Tampilan jumlah item dalam keranjang",module,Magento_Checkout
 "Display item quantities","Menampilkan jumlah item",module,Magento_Checkout
 "An error occurred on the server. Please try to place the order again.","Terjadi kesalahan pada server. Silakan mencoba untuk memesan kembali.",module,Magento_Checkout
-"Shipping address is not set","Alamat pengiriman tidak diatur",module,Magento_Checkout
-"Unable to save shipping information. Please check input data.","Tidak dapat menyimpan informasi pengiriman. Harap periksa input data.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Carrier dengan metode seperti itu tidak ditemukan: %1, %2",module,Magento_Checkout
-"Shipping method is not applicable for empty cart","Metode pengiriman tidak berlaku untuk keranjang kosong",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","Perhitungan total tidak berlaku untuk keranjang kosong",module,Magento_Checkout
 "Invalid data","Data tidak valid",module,Magento_Checkout
 "The customer address is not valid.","Alamat pelanggan tidak valid.",module,Magento_Checkout
@@ -1353,9 +1265,6 @@ Loading...,Pemuatan...,module,Magento_Checkout
 Back,Kembali,module,Magento_Cms
 "Delete Block","Hapus Blok",module,Magento_Cms
 "Are you sure you want to do this?","Apakah Anda yakin ingin melakukan hal ini?",module,Magento_Cms
-Reset,"Atur ulang",module,Magento_Cms
-"Save and Continue Edit","Simpan dan Lanjutkan Ubah",module,Magento_Cms
-"Save Block","Simpan Blok",module,Magento_Cms
 Title,Judul,module,Magento_Cms
 Identifier,Pengenal,module,Magento_Cms
 Disabled,Dinonaktifkan,module,Magento_Cms
@@ -1372,10 +1281,7 @@ Modified,Modifikasi,module,Magento_Cms
 Action,Tindakan,module,Magento_Cms
 Preview,Cuplikan,module,Magento_Cms
 "Media Storage","Media Penyimpanan",module,Magento_Cms
-"Create Folder...","Membuat Folder...",module,Magento_Cms
 "Delete Folder","Hapus Folder",module,Magento_Cms
-"Delete File","Hapus aturan",module,Magento_Cms
-"Insert File","Tambah File",module,Magento_Cms
 "New Folder Name:","Nama Folder Baru:",module,Magento_Cms
 "Are you sure you want to delete this folder?","Apakah anda yakin ingin menghapus item ini?",module,Magento_Cms
 "Are you sure you want to delete this file?","Apakah anda yakin ingin menghapus item ini?",module,Magento_Cms
@@ -1407,7 +1313,6 @@ Pages,Halaman,module,Magento_Cms
 "You saved the page.","Anda menyimpan halaman.",module,Magento_Cms
 "The directory %1 is not writable by server.","Direktori %1 tidak dapat ditulis oleh server.",module,Magento_Cms
 "Make sure that static block content does not reference the block itself.","Pastikan bahwa konten blok statis tidak mereferensikan blok itu sendiri.",module,Magento_Cms
-"CMS Block with id ""%1"" does not exist.","CMS Blok dengan id ""%1"" tidak ada.",module,Magento_Cms
 "Enabled by Default","Diaktifkan secara Default",module,Magento_Cms
 "Disabled by Default","Dinonaktifkan Secara Default",module,Magento_Cms
 "Disabled Completely","Dinonaktifkan Secara Komplit",module,Magento_Cms
@@ -1415,11 +1320,8 @@ Pages,Halaman,module,Magento_Cms
 "This identifier is reserved for ""CMS Home Page"" in configuration.","Pengenal ini disimpan untuk ""CMS Home Page"" dalam konfigurasi.",module,Magento_Cms
 "This identifier is reserved for ""CMS No Cookies Page"" in configuration.","Pengenal ini disimpan untuk ""CMS No Cookies Page"" dalam konfigurasi.",module,Magento_Cms
 "Could not save the page: %1","Tidak bisa menyimpan halaman: %1",module,Magento_Cms
-"CMS Page with id ""%1"" does not exist.","Halaman CMS dengan id ""%1"" tidak ada.",module,Magento_Cms
 "Could not delete the page: %1","Tidak bisa menghapus halaman: %1",module,Magento_Cms
 "A block identifier with the same properties already exists in the selected store.","Pengenal blok dengan properti yang sama sudah tersedia di toko tertentu.",module,Magento_Cms
-"The page URL key contains capital letters or disallowed symbols.","Kunci halaman URL Mengandung huruf besar atau simbol yang tidak diizinkan.",module,Magento_Cms
-"The page URL key cannot be made of only numbers.","Kunci halaman URL tidak bisa dibuat dengan hanya nomor.",module,Magento_Cms
 "Please rename the folder using only letters, numbers, underscores and dashes.","Harap menamakan folder menggunakan huruf, nomor, garis bawah dan tanda pisah.",module,Magento_Cms
 "We found a directory with the same name. Please try another folder name.","Kami menemukan direktori dengan nama yang sama. Silahkan coba nama folder yang lain.",module,Magento_Cms
 "We cannot create a new directory.","Kami tidak dapat membuat direktori baru.",module,Magento_Cms
@@ -1437,7 +1339,6 @@ Delete,Hapus,module,Magento_Cms
 "All Store Views","Semua Tampilan toko",module,Magento_Cms
 View,Tampilan,module,Magento_Cms
 "No files found","File tidak ditemukan",module,Magento_Cms
-"Browse Files...","Telusuri berkas...",module,Magento_Cms
 "Collapse All","Tutup Semua",module,Magento_Cms
 "Expand All","Perluas Semua",module,Magento_Cms
 "Default Config","Konfigurasi default",module,Magento_Config
@@ -1455,7 +1356,6 @@ Add,Menambahkan,module,Magento_Config
 Enable,Memungkinkan,module,Magento_Config
 Disable,Nonaktifkan,module,Magento_Config
 Configuration,Konfigurasi,module,Magento_Config
-"Class for type ""%1"" was not declared","Kelas untuk tipe ""%1"" tidak diumumkan",module,Magento_Config
 "%1 should implement %2","%1 harus diimplementasikan %2",module,Magento_Config
 "The value you set has already been locked. To change the value, use the --%1 option.","Nilai yang Anda tetapkan sudah terkunci. Untuk mengubah nilainya, gunakan --%1 pilihan.",module,Magento_Config
 "Configuration for path: ""%1"" doesn't exist","Konfigurasi untuk path: ""% 1"" tidak ada",module,Magento_Config
@@ -1473,7 +1373,6 @@ System,Sistem,module,Magento_Config
 "Default display currency ""%1"" is not available in allowed currencies.","Mata uang tampilan default ""% 1"" tidak tersedia dalam mata uang yang diizinkan.",module,Magento_Config
 "Sorry, we haven't installed the base currency you selected.","Maaf, kami tidak memasang mata uang dasar yang anda pilih.",module,Magento_Config
 "Sorry, the default display currency you selected is not available in allowed currencies.","Maaf, mata uang tampilan default yang Anda pilih tidak tersedia dalam mata uang yang diizinkan.",module,Magento_Config
-"Please correct the email address: ""%1"".","Perbaiki alamat emailnya: ""% 1"".",module,Magento_Config
 "The sender name ""%1"" is not valid. Please use only visible characters and spaces.","Nama pengirim ""% 1"" tidak valid. Harap hanya menggunakan karakter dan spasi yang terlihat.",module,Magento_Config
 "Maximum sender name length is 255. Please correct your settings.","Panjang nama pengirim maksimum adalah 255. Harap perbaiki pengaturan Anda.",module,Magento_Config
 "The base directory to upload file is not specified.","Direktori dasar untuk mengunggah berkas tidak ditentukan.",module,Magento_Config
@@ -1484,9 +1383,6 @@ System,Sistem,module,Magento_Config
 "website(%1) scope","cakupan situs web (% 1)",module,Magento_Config
 "store(%1) scope","simpan (% 1) lingkup",module,Magento_Config
 "Currency ""%1"" is used as %2 in %3.","Mata uang ""% 1"" digunakan sebagai% 2 di% 3.",module,Magento_Config
-"Please correct the timezone.","Perbaiki zona waktu.",module,Magento_Config
-"The file ""%1"" does not exist","Berkas cadangan ""%1"" tidak ada",module,Magento_Config
-"The ""%1"" path does not exist","Jalur ""% 1"" tidak ada",module,Magento_Config
 "Always (during development)","Selalu (selama pengembangan)",module,Magento_Config
 "Only Once (version upgrade)","Hanya Sekali (versi meningkatkan)",module,Magento_Config
 "Never (production)","Tidak pernah (produksi)",module,Magento_Config
@@ -1506,7 +1402,6 @@ Yes,Iya,module,Magento_Config
 Specified,Ditentukan,module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields","Mengkonfigurasi fieldset klon model yang dibutuhkan untuk bisa mengkloning bidang",module,Magento_Config
 "%1: Instance of %2 is expected, got %3 instead","% 1: Contoh% 2 diharapkan, mendapat% 3 sebagai gantinya",module,Magento_Config
-"Invalid XML in file %1:\n%2","XML tidak valid dalam file% 1: \ n% 2",module,Magento_Config
 "'There is no defined type ' .","'Tidak ada tipe yang didefinisikan'.",module,Magento_Config
 "'Object is not instance of ' .","'Objek bukan instance dari'.",module,Magento_Config
 "Filesystem is not writable.","Berkas sistem tidak dapat ditulis.",module,Magento_Config
@@ -1544,17 +1439,7 @@ Configurations,Konfigurasi,module,Magento_ConfigurableProduct
 Summary,Ringkasan,module,Magento_ConfigurableProduct
 "Choose an Option...","Pilih Opsi...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","Atribut ini digunakan pada produk yang dapat dikonfigurasi.",module,Magento_ConfigurableProduct
-"Product has been already attached","Produk sudah terpasang",module,Magento_ConfigurableProduct
-"Parent product does not have configurable product options","Produk induk tidak memiliki pilihan produk yang dapat dikonfigurasi",module,Magento_ConfigurableProduct
-"Child product does not have attribute value %1","Produk anak tidak memiliki nilai atribut %1",module,Magento_ConfigurableProduct
-"Product with specified sku: %1 is not a configurable product","Produk dengan sku tertentu:% 1 bukan produk yang dapat dikonfigurasi",module,Magento_ConfigurableProduct
-"Requested option doesn't exist","Pilihan yang diperlukan tidak ada",module,Magento_ConfigurableProduct
-"Requested option doesn't exist: %1","Opsi yang diminta tidak ada: %1",module,Magento_ConfigurableProduct
-"Cannot delete variations from product: %1","Tidak dapat menghapus variasi dari produk: %1",module,Magento_ConfigurableProduct
-"Cannot delete option with id: %1","Tidak dapat menghapus opsi dengan id: %1",module,Magento_ConfigurableProduct
 "Option with id ""%1"" not found","Pilihan dengan id ""% 1"" tidak ditemukan",module,Magento_ConfigurableProduct
-"Something went wrong while saving option.","Ada yang tidak beres saat menyimpan pilihan.",module,Magento_ConfigurableProduct
-"Only implemented for configurable product: %1","Hanya diimplementasikan untuk produk yang dapat dikonfigurasi: %1",module,Magento_ConfigurableProduct
 "Option attribute ID is not specified.","ID atribut pilihan tidak ditentukan.",module,Magento_ConfigurableProduct
 "Option label is not specified.","Pilihan Label tidak ditentukan.",module,Magento_ConfigurableProduct
 "Option values are not specified.","Nilai opsi tidak ditentukan.",module,Magento_ConfigurableProduct
@@ -1564,7 +1449,6 @@ Summary,Ringkasan,module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","Anda tidak dapat menambah item ke troli belanja.",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Anda harus memilih opsi untuk barang Anda.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","Beberapa bidang variasi produk tidak sah.",module,Magento_ConfigurableProduct
-"Configuration must have specified attributes","Konfigurasi harus memiliki atribut tertentu",module,Magento_ConfigurableProduct
 "Type %1 is not an instance of %2","Tipe% 1 bukan merupakan instance dari% 2",module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","Pilihan set atribut yang ada",module,Magento_ConfigurableProduct
 "Add configurable attributes to the current Attribute Set","Tambahkan atribut yang dapat dikonfigurasi ke Set Atribut saat ini",module,Magento_ConfigurableProduct
@@ -1635,14 +1519,10 @@ Role,Peran,module,Magento_ConfigurableProduct
 "Remove Product","Hapus produk",module,Magento_ConfigurableProduct
 "Create Product Configurations","Buat Konfigurasi Produk",module,Magento_ConfigurableProduct
 Cancel,Batalkan,module,Magento_ConfigurableProduct
-"Special Price","Harga khusus",module,Magento_ConfigurableProduct
 "Regular Price","Harga umum",module,Magento_ConfigurableProduct
 "Page not found.","Halaman tidak ditemukan.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Terimakasih untuk menghubungi kami dengan komentar dan pertanyaan anda. Kami akan merespon anda secepatnya.",module,Magento_Contact
 "An error occurred while processing your form. Please try again later.","Terjadi kesalahan saat memproses formulir anda. Harap coba lagi nanti.",module,Magento_Contact
-"Name is missing","Nama hilang",module,Magento_Contact
-"Comment is missing","Komentar hilang",module,Magento_Contact
-"Invalid email address","Alamat email tidak benar",module,Magento_Contact
 "* Required Fields","* Bidang yang diperlukan",module,Magento_Contact
 "Write Us","Surati kami",module,Magento_Contact
 "Jot us a note and we’ll get back to you as quickly as possible.","Tuliskan catatan kepada kami dan kami akan kembali kepada anda secepat mungkin.",module,Magento_Contact
@@ -1674,7 +1554,6 @@ Import,Impor,module,Magento_CurrencySymbol
 "Save Currency Symbols","Simpan Simbol Mata Uang",module,Magento_CurrencySymbol
 "Currency Symbols","Simbol mata uang",module,Magento_CurrencySymbol
 "Use Standard","Gunakan Standar",module,Magento_CurrencySymbol
-"Please specify a correct Import Service.","Harap tentukan Layanan Impor yang benar.",module,Magento_CurrencySymbol
 "Click ""Save"" to apply the rates we found.","Klik ""Simpan"" untuk menerapkan tarif yang kami temukan.",module,Magento_CurrencySymbol
 "Currency Rates","Harga mata uang",module,Magento_CurrencySymbol
 "All valid rates have been saved.","Semua berlaku tarif telah diselamatkan.",module,Magento_CurrencySymbol
@@ -1798,10 +1677,7 @@ Download,Unduh,module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Jika anda adalah pelanggan PPN terdaftar, silahkan<a href=""%1"">klik disini</a> untuk memasukkan alamat penagihan anda untuk perhitungan PPN yang tepat.",module,Magento_Customer
 "Account Information","Informasi Akun",module,Magento_Customer
 "You saved the account information.","Anda menyimpan Informasi akun.",module,Magento_Customer
-"You did not sign in correctly or your account is temporarily disabled.","Anda tidak masuk dengan benar atau akun anda untuk sementara dinonaktifkan.",module,Magento_Customer
 "Password confirmation doesn't match entered password.","Konfirmasi kata sandi tidak cocok dengan kata sandi yang dimasukkan.",module,Magento_Customer
-"The password doesn't match this account.","Kata sandi tidak sesuai dengan akun ini.",module,Magento_Customer
-"Please correct the email address.","Silahkan perbaiki alamat email.",module,Magento_Customer
 "We're unable to send the password reset email.","Kami tidak dapat mengirim email penyetelan ulang kata sandi.",module,Magento_Customer
 "Please enter your email.","Silahkan masukkan email anda.",module,Magento_Customer
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","Jika ada akun yang terkait dengan %1 anda akan menerima email dengan link untuk mengatur ulang kata sandi anda.",module,Magento_Customer
@@ -1817,8 +1693,6 @@ Download,Unduh,module,Magento_Customer
 "We can't delete the address right now.","Kami tidak dapat menghapus alamat sekarang.",module,Magento_Customer
 "You saved the address.","Anda menyimpan alamatnya.",module,Magento_Customer
 "We can't save the address.","Kami tidak bisa menyimpan alamat.",module,Magento_Customer
-"No customer ID defined.","Tidak ada ID pelanggan yang didefinisikan.",module,Magento_Customer
-"Please correct the quote items and try again.","Perbaiki item kutipan dan coba lagi.",module,Magento_Customer
 "You have revoked the customer's tokens.","Anda telah mencabut token pelanggan.",module,Magento_Customer
 "We can't find a customer to revoke.","Kami tidak dapat menemukan pelanggan untuk mencabut.",module,Magento_Customer
 "Something went wrong while saving file.","Ada yang tidak benar saat menyimpan file.",module,Magento_Customer
@@ -1850,32 +1724,17 @@ Customers,Pelanggan,module,Magento_Customer
 "Please load Wish List item.","Silahkan beban Wish List item.",module,Magento_Customer
 "Login successful.","Login berhasil.",module,Magento_Customer
 "Invalid login or password.","Tidak valid login atau kata sandi anda.",module,Magento_Customer
-"""%1"" section source is not supported","''%1'' bagian sumber belum terdukung",module,Magento_Customer
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1 tidak memperpanjang \Magento\Customer\CustomerData\SectionSourceInterface",module,Magento_Customer
-"No confirmation needed.","Konfirmasi tidak dibutuhkan.",module,Magento_Customer
-"Account already active","Akun sudah aktif",module,Magento_Customer
-"Invalid confirmation token","Tidak valid konfirmasi token",module,Magento_Customer
 "The account is locked.","Akun terkunci.",module,Magento_Customer
-"This account is not confirmed.","Akun ini tidak dikonfirmasi.",module,Magento_Customer
 "Invalid value of ""%value"" provided for the %fieldName field.","Nilai tidak benar ''%value'' yang diberikan untuk %f nama bidang.",module,Magento_Customer
 "Please enter a password with at most %1 characters.","Tolong masukkan kata sandi dengan banyak %1 karakter.",module,Magento_Customer
-"Please enter a password with at least %1 characters.","Tolong masukkan kata sandi dengan sedikit %1 karakter.",module,Magento_Customer
-"The password can't begin or end with a space.","Kata sandi tidak bisa dimulai atau diakhiri dengan spasi.",module,Magento_Customer
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Perbadaan minimal dari kelas karakter didalam kata sandi adalah %1. Kelas dari karakter-karakter: huruf kecil, huruf besar, angka, karakter-karakter khusus.",module,Magento_Customer
-"Password cannot be the same as email address.","Password tidak sama dengan alamat email.",module,Magento_Customer
 "This customer already exists in this store.","Pelanggan ini sudah ada di toko ini.",module,Magento_Customer
-"A customer with the same email already exists in an associated website.","Pelanggan dengan email yang sama sudah ada di situs web terkait.",module,Magento_Customer
-"%fieldName is a required field.","%fieldName merupakan bagian yang diharuskan.",module,Magento_Customer
-"Reset password token mismatch.","Atur ulang sandi token ketidakcocokan.",module,Magento_Customer
-"Reset password token expired.","Atur ulang sandi yang kadaluarsa.",module,Magento_Customer
-"Please correct the transactional account email type.","Mohon perbaiki jenis email akun transaksional.",module,Magento_Customer
 """%1"" is a required value.","""%1"" nilai yang dibutuhkan.",module,Magento_Customer
 "We can't share customer accounts globally when the accounts share identical email addresses on more than one website.","Kami tidak dapat berbagi akun pelanggan secara global saat akun berbagi alamat email yang sama di lebih dari satu situs web.",module,Magento_Customer
 "Billing Address","Alamat tagihan",module,Magento_Customer
 "Shipping Address","Alamat pengiriman",module,Magento_Customer
 "-- Please Select --","-- Tolong Pilih --",module,Magento_Customer
-"Please enter a valid password reset token.","Silakan masukkan password yang valid reset token.",module,Magento_Customer
-"The password can not begin or end with a space.","Awal dan akrih sandi tidak boleh ada spasi.",module,Magento_Customer
 "ALL GROUPS","Semua grup",module,Magento_Customer
 "No such entity with %fieldName = %fieldValue, %field2Name = %field2Value","Tidak ada benda dengan %fieldName = %fieldValue, %field2Name = %field2Value",module,Magento_Customer
 "File can not be saved to the destination folder.","Berkas tidak bisa disimpan ke folder tujuan.",module,Magento_Customer
@@ -1907,8 +1766,6 @@ Customers,Pelanggan,module,Magento_Customer
 """%1"" is not a valid file extension.","''%1'' bukan berkas ekstensi yang benar.",module,Magento_Customer
 """%1"" is not a valid file.","''%1'' buan berkas yang benar.",module,Magento_Customer
 """%1"" exceeds the allowed file size.","''%1'' melebihi ukuran berkas yang diperbolehkan.",module,Magento_Customer
-"Please enter a customer email.","Silahkan masukkan email pelanggan.",module,Magento_Customer
-"A customer website ID must be specified when using the website scope.","Pelanggan web ID harus ditentukan ketika menggunakan situs web lingkup.",module,Magento_Customer
 "Customer Group","Kelompok pelanggan",module,Magento_Customer
 "You can't delete group ""%1"".","Kamu tidak bisa menghapus grup ""%1"".",module,Magento_Customer
 "Customer Group already exists.","Grup pelanggan sudah ada.",module,Magento_Customer
@@ -1926,7 +1783,6 @@ Customers,Pelanggan,module,Magento_Customer
 "NOT LOGGED IN","BELUM MASUK",module,Magento_Customer
 "Please enter the state/province.","Silahkan masukkan negara/propinsi.",module,Magento_Customer
 "region is a required field.","wilayah adalah bidang yang diperlukan.",module,Magento_Customer
-"regionId is a required field.","regionId adalah bidang yang diperlukan.",module,Magento_Customer
 Label,Lebel,module,Magento_Customer
 Select...,Pilih...,module,Magento_Customer
 Visitor,Pengunjung,module,Magento_Customer
@@ -2013,14 +1869,10 @@ Name,Nama,module,Magento_Customer
 "Tax/VAT number","Nomor pajak / PPN",module,Magento_Customer
 "Phone Number","Nomor telepon",module,Magento_Customer
 "Import failed: %1","Impor gagal: %1",module,Magento_Deploy
-"Class for type ""%1"" was not declared","Kelas untuk tipe ""%1"" tidak diumumkan",module,Magento_Deploy
 "%1 does not implement %2","%1 tidak menerapkan %2",module,Magento_Deploy
 "File app/etc/%1 can't be read. Please check if it exists and has read permissions.","File app/etc/%1 tidak dapat dibaca. harap memeriksa apakah ada dan telah membaca izin.",module,Magento_Deploy
 "There are no sensitive configurations to fill","Tidak ada konfigurasi yang sensitif untuk diisi",module,Magento_Deploy
-"Value can't be empty","Nilai tidak boleh kosong",module,Magento_Deploy
 "A configuration with this path does not exist or is not sensitive","Konfigurasi dengan jalur ini tidak ada atau tidak sensitif",module,Magento_Deploy
-"Cannot switch into given mode ""%1""","Tidak dapat beralih ke mode ""%1"" yang diberikan",module,Magento_Deploy
-"The configuration file has changed. Run app:config:import or setup:upgrade command to synchronize configuration.","File konfigurasi telah berubah. Jalankan aplikasi: config: import atau setup: perintah upgrade untuk menyinkronkan konfigurasi.",module,Magento_Deploy
 "Some error","Beberapa kesalahan",module,Magento_Deploy
 "some message","beberapa pesan",module,Magento_Deploy
 "Format for IDE '%1' is not supported","Format untuk IDE '1%' tidak didukung",module,Magento_Developer
@@ -2047,14 +1899,12 @@ Europack,"Paket euro",module,Magento_Dhl
 "Express 10:30","Mengantar 10:30",module,Magento_Dhl
 "Domestic economy select","Pilih ekonomi dalam negeri",module,Magento_Dhl
 "Economy select","Pilih ekonomi",module,Magento_Dhl
-"Break bulk economy","Istirahat masal ekonomi",module,Magento_Dhl
 "Domestic express","Mengantar di dalam negeri",module,Magento_Dhl
 Others,Lainnya,module,Magento_Dhl
 "Globalmail business","Global bisnis email",module,Magento_Dhl
 "Same day","Hari yang sama",module,Magento_Dhl
 "Express 12:00","Mengantar 12:00",module,Magento_Dhl
 "Express envelope","Amplop pengantar",module,Magento_Dhl
-"Customer services","Layanan pelanggan",module,Magento_Dhl
 Jetline,"Jalur jet",module,Magento_Dhl
 "Freight worldwide","Pengiriman di seluruh dunia",module,Magento_Dhl
 "Jumbo box","Kotak jumbo",module,Magento_Dhl
@@ -2078,7 +1928,6 @@ Documents,Dokumen,module,Magento_Dhl
 None,"Tidak ada",module,Magento_Dhl
 State/Province,Negara/Provinsi,module,Magento_Directory
 "--Please Select--","--Silahkan Pilih--",module,Magento_Directory
-"Requested country is not available.","Negara yang diminta tidak tesedia.",module,Magento_Directory
 "Please correct the target currency.","Silahkan perbaiki mata uang target.",module,Magento_Directory
 "FATAL ERROR:","KESALAHAN FATAL:",module,Magento_Directory
 "Please specify the correct Import Service.","Silahkan tentukan Layanan Impor yang benar.",module,Magento_Directory
@@ -2109,13 +1958,7 @@ Continue,Lanjutkan,module,Magento_Directory
 "Link URL must have valid format.","URL tautan harus memiliki format yang valid.",module,Magento_Downloadable
 "Sample URL must have valid format.","Contoh URL harus memiliki format yang valid.",module,Magento_Downloadable
 "Order id cannot be null","Order id tidak bisa null",module,Magento_Downloadable
-"Invalid link type.","Jenis tautan tidak valid.",module,Magento_Downloadable
-"Link title cannot be empty.","Tautan judul tidak boleh kosong.",module,Magento_Downloadable
-"There is no downloadable link with provided ID.","Tidak ada link download dengan ID yang diberikan.",module,Magento_Downloadable
 "Sample file not provided","Contoh file tidak tersedia",module,Magento_Downloadable
-"Invalid sample type.","Jenis sampel tidak valid.",module,Magento_Downloadable
-"Sample title cannot be empty.","Judul contoh tidak boleh kosong.",module,Magento_Downloadable
-"There is no downloadable sample with provided ID.","Tidak ada contoh yang dapat diunduh dengan ID yang tersedia.",module,Magento_Downloadable
 Yes,Ya,module,Magento_Downloadable
 No,Tidak,module,Magento_Downloadable
 "Upload File","Unggah data",module,Magento_Downloadable
@@ -2195,76 +2038,29 @@ Dropdown,"Tarik kebawah",module,Magento_Eav
 """%1"" cannot contain more than %2 lines.","""%1"" isi tidak boleh lebih dari %2 baris.",module,Magento_Eav
 """%1"" length must be equal or greater than %2 characters.","""%1"" panjang harus sama atau lebih dari %2 karakter.",module,Magento_Eav
 """%1"" length must be equal or less than %2 characters.","""%1"" panjang harus sama atau kurang dari %2 karakter.",module,Magento_Eav
-"Attribute group does not belong to provided attribute set","Atribut kelompok tidak termasuk pada atribut yang tersedia",module,Magento_Eav
-"Cannot save attributeGroup","Atribut kelompok tidak bisa disimpan",module,Magento_Eav
-"Group with id ""%1"" does not exist.","Kelompok dengan id ""%1"" tidak ada.",module,Magento_Eav
-"Cannot delete attributeGroup with id %1","Tidak bisa menghapus atribut grup dengan id %1",module,Magento_Eav
-"AttributeSet with id ""%1"" does not exist.","Id dengan atributset ""%1"" tidak ada.",module,Magento_Eav
-"Wrong attribute set id provided","Id yang disajikan atributnya salah",module,Magento_Eav
-"Attribute group does not belong to attribute set","Atribut kelompok tidak termasuk ke atribut yang ditetapkan",module,Magento_Eav
-"Attribute set not found: %1","Atribut yang ditetapkan tidak ada: %1",module,Magento_Eav
-"Attribute ""%1"" not found in attribute set %2.","Atribut ""%1"" tidak ada pada atribut yang ditetapkan %2.",module,Magento_Eav
-"System attribute can not be deleted","Sistem atribut tidak bisa dihapus",module,Magento_Eav
-"Cannot save attribute","Tidak bisa menyimpan atribut",module,Magento_Eav
-"Attribute with attributeCode ""%1"" does not exist.","Atribut dengan kodeatribut ""%1"" tidak ada.",module,Magento_Eav
-"Cannot delete attribute.","Tidak bisa menghapus atribut.",module,Magento_Eav
-"Attribute with id ""%1"" does not exist.","Id dengan atribut ""%1"" tidak ada.",module,Magento_Eav
-"There was an error saving attribute set.","Ada kesalahan ketika menyimpan penetapan atribut.",module,Magento_Eav
-"Default attribute set can not be deleted","Atribut bawaan tidak bisa dihapus",module,Magento_Eav
-"There was an error deleting attribute set.","Ada kesalahan ketika menghapus penetapan atribut.",module,Magento_Eav
 "Invalid entity_type specified: %1","Entity_type tidak valid ditentukan:% 1",module,Magento_Eav
 "Entity is not initialized","Entitas tidak diinialisasi",module,Magento_Eav
-"Unknown parameter","Parameter tidak diketahui",module,Magento_Eav
 "Unique constraint violation found","Pelaggaran kendala yang janggal di temukan",module,Magento_Eav
-"An attribute code must not be more than %1 characters.","Kode atribut tidak boleh lebih dari %1 karakter.",module,Magento_Eav
-"Invalid default decimal value","Nilai desimal bawaan tidak benar",module,Magento_Eav
-"Invalid default date","Tanggal bawaan tidak benar",module,Magento_Eav
-"Invalid entity supplied","Entitas tidak benar diberikan",module,Magento_Eav
-"Invalid backend model specified: %1","Model akhir belakang tidak sah ditentukan: %1",module,Magento_Eav
 "Source model ""%1"" not found for attribute ""%2""","Model Sumber ""%1"" tidak ditemukan untuk perlengkapan ""%2""",module,Magento_Eav
-"The value of attribute ""%1"" must be set","Nilai Perlengkapan ""%1"" harus ditetapkan",module,Magento_Eav
-"The value of attribute ""%1"" must be unique","Nilai perlengkapan ""%1"" harus unik",module,Magento_Eav
 "Invalid date","Tanggal tidak benar",module,Magento_Eav
-"Empty attribute code","Kode perlengkapan kosong",module,Magento_Eav
-"Cannot save attribute %1","Tidak bisa menyimpan perlengkapan %1",module,Magento_Eav
-"Cannot load options for attribute %1","Tidak bisa memuat opsi untuk perlengkapan %1",module,Magento_Eav
-"Attribute %1 does not contain option with Id %2","Perlengkapan %1 tidak terisi pilihan dengan Id %2",module,Magento_Eav
-"Entity attribute with id ""%1"" not found","Perlengkapan entitas dengan Id ""%1"" tidak ditemukan",module,Magento_Eav
-"Attribute set name is empty.","Nama set perlengkapan kosong.",module,Magento_Eav
-"An attribute set named ""%1"" already exists.","Atur perlengkapan bernama ""%1"" sudah ada.",module,Magento_Eav
 "No options found.","Pilihan tidak ditemukan.",module,Magento_Eav
-"Invalid entity supplied: %1","Entitas tidak benar diberikan: %1",module,Magento_Eav
-"Attempt to add an invalid object","Mencoba menambahkan objek yang tidak benar",module,Magento_Eav
 "Invalid attribute identifier for filter (%1)","Pengenal perlengkapan tidak sah untuk disaring (%1)",module,Magento_Eav
-"Invalid attribute requested: %1","Perlengkapan tidak sah diminta: %1",module,Magento_Eav
 "Joint field or attribute expression with this alias is already declared","Ekspresi lapangan bersama atau perlengkapan dengan alias ini sudah dinyatakan",module,Magento_Eav
 "Invalid alias, already exists in joint attributes","Alias tidak sah, sudah ada perlengkapan bersama",module,Magento_Eav
-"Invalid foreign key","Kunci asing tidak sah",module,Magento_Eav
-"Invalid entity type","Jenis entitas tidak sah",module,Magento_Eav
-"Invalid attribute type","Jenis perlengkapan tidak sah",module,Magento_Eav
 "A joined field with this alias is already declared.","Bergabung dengan alias ini sudah dideklarasikan.",module,Magento_Eav
 "Invalid joint fields","Bidang gabungan tidak sah",module,Magento_Eav
-"A joint field with this alias (%1) is already declared.","Bidang gabungan dengan alias ini (%1) sudah dinyatakan.",module,Magento_Eav
-"Data integrity: No header row found for attribute","Integritas data: tidak ada baris yang ditemukan untuk perlengkapan",module,Magento_Eav
-"Invalid attribute name: %1","Nama perlengkapan tidak sah: %1",module,Magento_Eav
 "Invalid character encountered in increment ID: %1","Karakter tidak sah ditemukan di ID kenaikan: %1",module,Magento_Eav
 "The current module pathname is undefined.","Nama jalur modul saat ini tidak terdefinisi.",module,Magento_Eav
 "The current module EAV entity is undefined.","Modul EAV saat ini tidak terdefinisi.",module,Magento_Eav
 "The form code is not defined.","Kode formulir tidak terdefinisikan.",module,Magento_Eav
 "The entity instance is not defined.","Contoh entitas tidak didefinisikan.",module,Magento_Eav
-"Invalid form type.","Jenis formulir tidak sah.",module,Magento_Eav
-"Invalid EAV attribute","Perlengkapan EAV tidak sah",module,Magento_Eav
 "Attribute with the same code","Perlengkapan dengan kode yang sama",module,Magento_Eav
 "The storefront label is not defined.","Label di depan toko belum ditentukan.",module,Magento_Eav
-"Default option value is not defined","Pilihan nilai awal belum ditentukan",module,Magento_Eav
 "Attribute group with same code already exist. Please rename ""%1"" group","Kelompok dengan code atribut yang sama sudah ada. silahkan tulis ulang nama ""%1"" kelompok",module,Magento_Eav
 "Form Element with the same attribute","Bentuk elemen dengan atribut yang sama",module,Magento_Eav
 "Form Fieldset with the same code","Bentuk penetapan bidang dengan kode yang sama",module,Magento_Eav
 "Form Type with the same code","Bentuk jenis dengan code yang sama",module,Magento_Eav
 "The value of attribute ""%1"" is invalid.","Nilai dengan atribut ""%1"" tidak benar.",module,Magento_Eav
-"Wrong entity ID","Entity ID salah",module,Magento_Eav
-"Wrong attribute set ID","Salah mengatur atribut ID",module,Magento_Eav
-"Wrong attribute group ID","Atribut ID kelompok salah",module,Magento_Eav
 "Attribute with ID: ""%1"" does not exist","ID dengan atribut: ""%1"" tidak ada",module,Magento_Eav
 "AttributeSet does not exist.","Atribut yang ditetapkan tidak ada.",module,Magento_Eav
 hello,halo,module,Magento_Eav
@@ -2301,28 +2097,6 @@ Unknown,"Tidak diketahui",module,Magento_Email
 "An error occurred. The email template can not be opened for preview.","Terjadi Kesalahan. Template email tidak dapat dibuka untuk pratinjau.",module,Magento_Email
 "This email template no longer exists.","Template email ini sudah lama tidak tersedia.",module,Magento_Email
 "You saved the email template.","Anda menyimpan template email.",module,Magento_Email
-"Area is already set","Bidang sudah siap",module,Magento_Email
-"Design config must have area and store.","Desain config harus memiliki wilayah dan toko.",module,Magento_Email
-"Base Unsecure URL","Tempat tidak Aman untuk URL",module,Magento_Email
-"Base Secure URL","Tempat tidak Aman untuk URL",module,Magento_Email
-"General Contact Name","Nama Kontak Umum",module,Magento_Email
-"General Contact Email","Email Kontak Umum",module,Magento_Email
-"Sales Representative Contact Name","Perwakilan Penjualan Nama Kontak",module,Magento_Email
-"Sales Representative Contact Email","Perwakilan Penjualan Nama kontak imail",module,Magento_Email
-"Custom1 Contact Name","Nama Kontak Custom1",module,Magento_Email
-"Custom1 Contact Email","Kontak Email Custom2",module,Magento_Email
-"Custom2 Contact Name","Kontak Nama Custom2",module,Magento_Email
-"Custom2 Contact Email","Kontak Email Custom2",module,Magento_Email
-"Store Name","Nama Toko",module,Magento_Email
-"Store Phone Number","Nomer Telepon Toko",module,Magento_Email
-"Store Hours","Jam Toko",module,Magento_Email
-Country,Negara,module,Magento_Email
-Region/State,Wilayah/Negara,module,Magento_Email
-"Zip/Postal Code","Pos/Kode Pos",module,Magento_Email
-City,Kota,module,Magento_Email
-"Street Address 1","Alamat Jalan 1",module,Magento_Email
-"Street Address 2","Alamat Jalan 2",module,Magento_Email
-"Store Contact Information","Informasi Kontak Toko",module,Magento_Email
 "Template Variables","Variabel Template",module,Magento_Email
 "Please enter a template name.","Harap masukkan nama template baru.",module,Magento_Email
 "Duplicate Of Template Name","Duplikat Dari Nama Template",module,Magento_Email
@@ -2381,19 +2155,6 @@ Kilograms,Kilogram,module,Magento_Fedex
 "No available tracking items","Tidak tersedia pelacakan item",module,Magento_Fedex
 "Empty response","Respon kosong",module,Magento_Fedex
 None,"Tidak ada",module,Magento_Fedex
-"Gift Messages are not applicable for empty cart","Pesan hadiah tidak berlaku untuk keranjang kosong",module,Magento_GiftMessage
-"Gift Messages are not applicable for virtual products","Pesan hadiah tidak berlaku untuk produk virtual",module,Magento_GiftMessage
-"Gift Message is not available","Pesan hadiah tidak tersedia",module,Magento_GiftMessage
-"Could not add gift message to shopping cart","Tidak dapat menambahkan pesan hadiah ke keranjang belanja",module,Magento_GiftMessage
-"There is no item with provided id in the cart","Tidak ada barang dengan id yang tersedia di dalam keranjang",module,Magento_GiftMessage
-"There is no product with provided  itemId: %1 in the cart","Tidak ada produk dengan id barang yang diberikan: %1 di dalam keranjang",module,Magento_GiftMessage
-"There is no item with provided id in the order","Tidak ada barang dengan id yang tersedia didalam didalam pesanan",module,Magento_GiftMessage
-"There is no item with provided id in the order or gift message isn't allowed","Tidak ada barang dengan id yang disediakan sesuai pesanan atau pesan hadiah tidak diizinkan",module,Magento_GiftMessage
-"Could not add gift message to order: ""%1""","Tidak dapat menambahkan pesan hadiah ke pesanan: ""%1""",module,Magento_GiftMessage
-"There is no order with provided id or gift message isn't allowed","Tidak ada pesanan dengan id yang disediakan atau pesan hadiah tidak diizinkan",module,Magento_GiftMessage
-"There is no order with provided id","Tidak ada pesanan dengan id yang tersedia",module,Magento_GiftMessage
-"Gift Messages are not applicable for empty order","Pesanan hadiah tidak berlaku untuk pesanan kosong",module,Magento_GiftMessage
-"Could not add gift message to order's item: ""%1""","Tidak dapat menambahkan pesan hadiah ke item yang dipesan: ""%1""",module,Magento_GiftMessage
 "Unknown entity type","Jenis entitas tidak diketahui",module,Magento_GiftMessage
 "Test label","Label uji",module,Magento_GiftMessage
 "Use Config Settings","Gunakan pengaturan konfigurasi",module,Magento_GiftMessage
@@ -2580,20 +2341,14 @@ Reauthorize,"Memberi autorisasi kembali",module,Magento_Integration
 "View ""%1"" Integration","Tampilan ''%1'' Integrasi",module,Magento_Integration
 "Edit ""%1"" Integration","Edit ''%1'' Integrasi",module,Magento_Integration
 "Warning! Integrations not using HTTPS are insecure and potentially expose private or personally identifiable information","Peringatan! Integrasi tidak menggunakan HTTPS tidak aman dan berpotensi membuka kerahasiaan atau informasi yang dapat diidentifikasi sendiri",module,Magento_Integration
-"Cannot edit integrations created via config file.","Tidak bisa mengedit integrasi yang dibuat melalui berkas config.",module,Magento_Integration
 "The integration was not saved.","Integrasi tidak tersimpan.",module,Magento_Integration
 "The integration '%1' has been re-authorized.","Integrasi '%1' telah di autorisasi kembali.",module,Magento_Integration
 "The integration '%1' has been activated.","Integrasi '%1' telah diaktifkan.",module,Magento_Integration
 "Integration '%1' has been sent for re-authorization.","Integrasi '%1' telah dikirim untuk peng-autorisasian kembali.",module,Magento_Integration
 "Integration '%1' has been sent for activation.","Integrasi '%1' telah terkirim untuk peng-aktifan.",module,Magento_Integration
-"A consumer with ID %1 does not exist","Pelanggan dengan ID %1 tidak ada",module,Magento_Integration
 title,gelar,module,Magento_Integration
-"You did not sign in correctly or your account is temporarily disabled.","Anda tidak masuk dengan benar atau akun Anda untuk sementara dinonaktifkan.",module,Magento_Integration
 "This user has no tokens.","Pengguna ini tidak memiliki token.",module,Magento_Integration
-"The tokens could not be revoked.","Bukti tidak dapat dicabut.",module,Magento_Integration
-"Sorry, something went wrong granting permissions. You can find out more in the exceptions log.","Maaf, ada yang salah dalam memberikan izin. Anda bisa mengetahui lebih lanjut di catatan pengecualian.",module,Magento_Integration
 "Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Ada yang salah saat menghapus tugas dan izin. Anda bisa mengetahui lebih lanjut dalam catatan pengecualian.",module,Magento_Integration
-"%fieldName is a required field.","%fieldName adalah bagian yang di haruskan.",module,Magento_Integration
 "This customer has no tokens.","Pelanggan ini tidak memiliki token.",module,Magento_Integration
 Inactive,"Tidak aktif",module,Magento_Integration
 Active,Aktif,module,Magento_Integration
@@ -2619,20 +2374,12 @@ Reset,"Atur Ulang",module,Magento_Integration
 "Verifier is not the correct length","Verifier ini tidak benar panjang",module,Magento_Integration
 "Token verifier and verifier token do not match","Token verifier dan verifier token tidak sesuai",module,Magento_Integration
 "A consumer with the ID %1 does not exist","Konsumen dengan ID %1 tidak ada",module,Magento_Integration
-"Token is not the correct length","Token adalah tidak benar panjang",module,Magento_Integration
 "Specified token does not exist","Ditentukan token tidak ada",module,Magento_Integration
 "A token with consumer ID %1 does not exist","Token dengan konsumen ID %1 tidak ada",module,Magento_Integration
-"Unexpected error. Unable to create oAuth consumer account.","Kesalahan yang tidak terduga. Mampu membuat konsumen oAuth akun.",module,Magento_Integration
-"Unexpected error. Unable to load oAuth consumer account.","Kesalahan yang tidak terduga. Dapat memuat konsumen oAuth akun.",module,Magento_Integration
-"Unable to post data to consumer due to an unexpected error","Tidak dapat mengirim data ke konsumen karena kesalahan tak terduga",module,Magento_Integration
 "Invalid token to except","Tanda tidak valid kecuali",module,Magento_Integration
-"Integration with ID '%1' doesn't exist.","Integrasi dengan ID '%1' tidak ada.",module,Magento_Integration
-"Your account is temporarily disabled.","Akun anda untuk sementara dinonaktifkan.",module,Magento_Integration
-"You have entered an invalid password for current user.","Anda telah memasukkan password yang valid untuk pengguna saat ini.",module,Magento_Integration
 "A token with consumer ID 0 does not exist","Token dengan konsumen ID 0 tidak ada",module,Magento_Integration
 "The integration you selected asks you to approve access to the following:","Integrasi yang anda pilih akan meminta anda untuk menyetujui akses ke berikut:",module,Magento_Integration
 "No permissions requested","Tidak ada izin yang diminta",module,Magento_Integration
-"Are you sure ?","Apakah anda yakin ?",module,Magento_Integration
 "Are you sure you want to delete this integration? You can't undo this action.","Apakah anda yakin anda ingin menghapus integrasi ini? Anda tidak dapat membatalkan tindakan ini.",module,Magento_Integration
 "Please setup or sign in into your 3rd party account to complete setup of this integration.","Silakan pengaturan atau masuk ke situs pihak ke-3 akun untuk menyelesaikan setup dari integrasi ini.",module,Magento_Integration
 "Available APIs","Tersedia Api",module,Magento_Integration
@@ -2663,7 +2410,6 @@ Synchronize,Sinkronisasi,module,Magento_MediaStorage
 "Synchronizing %1 to %2","Menyinkronkan %1 ke %2",module,Magento_MediaStorage
 Synchronizing...,Menyinkronkan...,module,Magento_MediaStorage
 "The timeout limit for response from synchronize process was reached.","Batas waktu untuk respon dari proses sinkronisasi telah tercapai.",module,Magento_MediaStorage
-"File %1 does not exist","File %1 tidak tersedia",module,Magento_MediaStorage
 "File %1 is not readable","File %1 tidak dapat dibaca",module,Magento_MediaStorage
 "File System","Berkas Sistem",module,Magento_MediaStorage
 "Parent directory does not exist: %1","Direktori induk tidak ada: %1",module,Magento_MediaStorage
@@ -2688,13 +2434,6 @@ Synchronizing...,Menyinkronkan...,module,Magento_MediaStorage
 "Create Shipping Address","Buat Alamat Pengiriman",module,Magento_Multishipping
 "Data saving problem","Data penyimpanan bermasalah",module,Magento_Multishipping
 "Please agree to all Terms and Conditions before placing the order.","Silahkan setujui semua persyaratan dan ketentuan sebelum melakukan pemesanan.",module,Magento_Multishipping
-"Please check shipping address information.","Silahkan periksa informasi alamat pengiriman.",module,Magento_Multishipping
-"Please check billing address information.","Silahkan periksa informasi alamat penagihan.",module,Magento_Multishipping
-"Please select shipping methods for all addresses.","Silahkan pilih metode pengiriman untuk semua alamat.",module,Magento_Multishipping
-"Item not found or already ordered","Barang tidak ditemukan atau sudah dipesan",module,Magento_Multishipping
-"Please specify a payment method.","Silahkan tentukan metode pembayaran.",module,Magento_Multishipping
-"Please check shipping addresses information.","Silhakan periksa informasi alamat pengiriman.",module,Magento_Multishipping
-"Please specify shipping methods for all addresses.","Silahkan tentukan metode pengiriman untuk semua alamat.",module,Magento_Multishipping
 "Select Addresses","Pilih Alamat",module,Magento_Multishipping
 "Shipping Information","Informasi Pengiriman",module,Magento_Multishipping
 "Billing Information","Informasi Tagihan",module,Magento_Multishipping
@@ -2812,21 +2551,14 @@ Region/State,"Wilayah/negara bagian",module,Magento_OfflineShipping
 "Weight (and above)","Berat (dan dan lebih)",module,Magento_OfflineShipping
 "Order Subtotal (and above)","Subtotal Pesanan (dan lebih)",module,Magento_OfflineShipping
 "# of Items (and above)","# dari beberapa item (dan lebih)",module,Magento_OfflineShipping
-"Please correct Table Rate code type: %1.","Harap perbaiki Jenis kode Table Rate: %1.",module,Magento_OfflineShipping
-"Please correct Table Rate code for type %1: %2.","Harap perbaiki kode Tingkat Tabel untuk jenis %1: %2.",module,Magento_OfflineShipping
 None,"Tidak ada",module,Magento_OfflineShipping
 "Per Order","Per Pesanan",module,Magento_OfflineShipping
 "Unable to import data","Tidak dapat mengimpor daga",module,Magento_OfflineShipping
 "Something went wrong while importing table rates.","Terjadi suatu kesalahan saat mengimpor table rate.",module,Magento_OfflineShipping
 "Requested column ""%1"" cannot be resolved","Kolom yang diminta ""%1"" tidak dapat di pecahkan",module,Magento_OfflineShipping
 "Column ""%1"" not found","Kolom ""%1"" tidak ditemukan",module,Magento_OfflineShipping
-"Please correct Table Rates format in the Row #%1.","Harap perbaiki format Tingkat Tabel di Baris #%1.",module,Magento_OfflineShipping
-"Please correct Country ""%1"" in the Row #%2.","Harap perbaiki Negara ""%1"" di baris #%2.",module,Magento_OfflineShipping
-"Please correct Region/State ""%1"" in the Row #%2.","Harap pilih wilayah/negara bagian ""%1"" di baris #%2.",module,Magento_OfflineShipping
 "Please correct %1 ""%2"" in the Row #%3.","Harap perbaiki %1 ""%2"" di baris #%3.",module,Magento_OfflineShipping
-"Please correct Shipping Price ""%1"" in the Row #%2.","Harap perbaiki Harga Pengiriman ""%1"" di baris #%2.",module,Magento_OfflineShipping
 "Duplicate Row #%1 (duplicates row #%2)","Baris Duplikat #%1 ( Baris Duplikat #%2)",module,Magento_OfflineShipping
-"Please correct Table Rates File Format.","Harap perbaiki Format Berkas Tablet Rate.",module,Magento_OfflineShipping
 No,Tidak,module,Magento_OfflineShipping
 "For matching items only","Hanya untuk item yang cocok",module,Magento_OfflineShipping
 "For shipment with matching items","Untuk pengiriman dengan item yang cocok",module,Magento_OfflineShipping
@@ -2842,11 +2574,7 @@ Year,Tahun,module,Magento_Payment
 "Credit Card Type","Jenis kartu kredit",module,Magento_Payment
 "Credit Card Number","Nomor kartu kredit",module,Magento_Payment
 "We cannot retrieve the transparent payment method model object.","Kami tidak dapat mengambil metode pembayaran transparan objek model.",module,Magento_Payment
-"Command Executor for %1 is not defined.","Perintah Eksekutor untuk %1 tidak dapat didefinisikan.",module,Magento_Payment
-"Command %1 does not exist.","Perintah %1 tidak ada.",module,Magento_Payment
 "Transaction has been declined. Please try again later.","Transaksi telah ditolak. Silakan coba lagi nanti.",module,Magento_Payment
-"Wrong gateway response format.","Format respon gerbang salah.",module,Magento_Payment
-"Validator for field %1 does not exist.","Pengesahan untuk bidang %1 tidak ada.",module,Magento_Payment
 Discount,Diskon,module,Magento_Payment
 Shipping,Pengiriman,module,Magento_Payment
 "All Allowed Countries","Semua Negara yang Diizinkan",module,Magento_Payment
@@ -2916,13 +2644,11 @@ Sales,Penjual,module,Magento_Paypal
 "Express Checkout and Order have been canceled.","Checkout ekspress dan Order telah dibatalkan.",module,Magento_Paypal
 "Express Checkout has been canceled.","Checkout Ekspres telah dibatalkan.",module,Magento_Paypal
 "Unable to cancel Express Checkout","Tidak dapat membatalkan Checkout Ekspres",module,Magento_Paypal
-"Please agree to all the terms and conditions before placing the order.","Setujui semua persyaratan dan ketentuan sebelum melakukan pemesanan.",module,Magento_Paypal
 "To check out, please sign in with your email address.","Untuk memeriksa, silahkan masuk dengan alamat email anda.",module,Magento_Paypal
 "Sorry, but something went wrong","Maaf, tapi ada yang tidak benar",module,Magento_Paypal
 "Your payment has been declined. Please try again.","Pembayaran anda telah ditolak Silahkan coba lagi.",module,Magento_Paypal
 "Requested payment method does not match with order.","Metode pembayaran yang diminta tidak sesuai dengan pesanan.",module,Magento_Paypal
 "Would you like to sign a billing agreement to streamline further purchases with PayPal?","Apakah anda ingin menandatangani perjanjian penagihan untuk memperlancar pembelian lebih lanjut dengan PayPal?",module,Magento_Paypal
-"Error processing payment, please try again later.","Kesalahan memproses pembayaran, coba lagi nanti.",module,Magento_Paypal
 "Payment Gateway is unreachable at the moment. Please use another payment option.","Pembayaran Gateway tidak terjangkau saat ini. Harap gunakan pilihan pembayaran lain.",module,Magento_Paypal
 "Something went wrong while processing your order.","Ada yang tidak benar saat memproses pesanan anda.",module,Magento_Paypal
 "PayPal gateway has rejected request. %1","Gateway PayPal menolak permintaan. %1",module,Magento_Paypal
@@ -2959,8 +2685,6 @@ Never,"Tak pernah",module,Magento_Paypal
 "IPN (Instant Payment Notification) Only","IPN (Pemberitahuan Pembayaran Instan) Saja",module,Magento_Paypal
 "API Signature","API Tanda tangan",module,Magento_Paypal
 "API Certificate","API Sertifikat",module,Magento_Paypal
-"The ordering amount of %1 is pending approval on the payment gateway.","Itu jumlah pemesanan dari %1 menunggu persetujuan di gateway pembayaran.",module,Magento_Paypal
-"Ordered amount of %1","Jumlah pesanan dari %1",module,Magento_Paypal
 "The authorized amount is %1.","Jumlah yang dikembalikan adalah %1.",module,Magento_Paypal
 "The maximum number of child authorizations is reached.","Jumlah maksimum anak otorisasi tercapai.",module,Magento_Paypal
 "A payer is not identified.","Pembayar tidak dikenal.",module,Magento_Paypal
@@ -3046,10 +2770,8 @@ Dispute,Perselisihan,module,Magento_Paypal
 "Unable to fetch transaction details.","Tidak dapat mengambil rincian transaksi.",module,Magento_Paypal
 "Invalid method %1::%2","Metode tidak benar %1::%2",module,Magento_Paypal
 "Transaction has been declined","Transaksi telah ditolak",module,Magento_Paypal
-"Error processing payment. Please try again later.","Kesalahan memproses pembayaran. Silakan coba lagi nanti.",module,Magento_Paypal
 "We cannot send the new order email.","Kami tidak dapat mengirim email pesanan baru.",module,Magento_Paypal
 "Payment error. %value was not found.","Kesalahan pembayaran. %nilai tidak ditemukan.",module,Magento_Paypal
-"You cannot void a verification transaction.","Anda tidak dapat membatalkan transaksi verifikasi.",module,Magento_Paypal
 "You need an authorization transaction to void.","Anda memerlukan transaksi otorisasi untuk membatalkan.",module,Magento_Paypal
 "We can't issue a refund transaction because there is no capture transaction.","Kami Tidak Bisa Lakukan Kembalian Dana Transaksi Karena Disana Tidak Ada Tangkapan Transaksi.",module,Magento_Paypal
 "We cannot create a target file for reading reports.","Kami tidak dapat membuat file target untuk membaca laporan.",module,Magento_Paypal
@@ -3177,7 +2899,6 @@ Customer,Pelanggan,module,Magento_Paypal
 ending,akhir,module,Magento_Paypal
 expires,kadaluarsa,module,Magento_Paypal
 here,disini,module,Magento_Paypal
-"To use PayPal Payments Advanced, you must configure  your PayPal Payments Advanced account on the PayPal website.","Untuk menggunakan PayPal pembayaran maju, Anda harus mengkonfigurasi akun PayPal pembayaran  halaman situs  PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Advanced account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Sekali anda masuk maju ke akun PayPal, arahkan ke menu pengaturan layanan - lihat keluar halaman - mengatur dan mengatur opsi yang diuraikan di bawah ini",module,Magento_Paypal
 "To use PayPal Payflow Link, you must configure your PayPal Payflow Link account on the PayPal website.","Untuk menggunakan PayPal Payflow Link, Anda harus mengkonfigurasi akun Payflow PayPal di situs PayPal.",module,Magento_Paypal
 "Once you log into your PayPal Payflow Link account, navigate to the Service Settings - Hosted Checkout Pages - Set Up menu and set the options described below","Setelah masuk ke akun Payflow Link PayPal, navigasikan ke menu Setelan Layanan - Halaman Checkout Host - Set Up dan setel opsi yang dijelaskan di bawah ini",module,Magento_Paypal
@@ -3235,11 +2956,6 @@ Continue,Selanjutnya,module,Magento_Paypal
 "Method ""%1"" is not defined in ""%2""","Metode ""%1"" tidak didefinisikan dalam ""%2""",module,Magento_Persistent
 "Remember Me","Ingatkan Saya",module,Magento_Persistent
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","Periksa &quot; Ingat saya&quot; untuk mengakses keranjang belanja Anda di komputer ini meskipun Anda tidak masuk.",module,Magento_Persistent
-"Unable to save address. Please check input data.","Tidak dapat menyimpan alamat. Harap periksa data masukan.",module,Magento_Quote
-"Could not apply coupon code","Tidak bisa menerapkan kode kupon",module,Magento_Quote
-"Coupon code is not valid","Kode kupon tidak valid",module,Magento_Quote
-"Could not delete coupon code","Tidak dapat menghapus kode kupon",module,Magento_Quote
-"Shipping address is not set","Alamat pengiriman tidak diatur",module,Magento_Quote
 "The requested Payment Method is not available.","Metode Pembayaran yang diminta tidak tersedia.",module,Magento_Quote
 "We found an invalid request for adding product to quote.","Kami menemukan permintaan yang tidak valid untuk menambahkan produk ke penawaran.",module,Magento_Quote
 "Product that you are trying to add is not available.","Produk yang ingin Anda tambahkan tidak tersedia.",module,Magento_Quote
@@ -3257,24 +2973,15 @@ Shipping,Pengiriman,module,Magento_Quote
 "Something went wrong during the item options declaration.","Ada yang tidak beres selama deklarasi opsi item.",module,Magento_Quote
 "We found an item options declaration error.","Kami menemukan kesalahan deklarasi opsi item.",module,Magento_Quote
 "Some of the selected options are not currently available.","Beberapa pilihan yang dipilih saat ini tidak tersedia.",module,Magento_Quote
-"Cart %1 does not contain item %2","Keranjang %1 tidak berisi item %2",module,Magento_Quote
-"Could not save quote","Tidak bisa menyimpan kutipan",module,Magento_Quote
-"Could not remove item from quote","Tidak dapat menghapus item dari penawaran",module,Magento_Quote
 "Minimum order amount is %1","Jumlah minimum pemesanan adalah %1",module,Magento_Quote
 "Invalid customer id %1","Id pelanggan tidak valid %1",module,Magento_Quote
 "Invalid address id %1","Id alamat tidak valid %1",module,Magento_Quote
 "Invalid customer address id %1","Alamat pelanggan tidak valid id %1",module,Magento_Quote
-"Cannot create quote","Tidak bisa membuat penawaran",module,Magento_Quote
 "This item price or quantity is not valid for checkout.","Harga atau kuantitas item ini tidak berlaku untuk checkout.",module,Magento_Quote
 "Please check the shipping address information. %1","Silakan periksa informasi alamat pengiriman. %1",module,Magento_Quote
-"Please specify a shipping method.","Harap tentukan metode pengiriman.",module,Magento_Quote
 "Please check the billing address information. %1","Harap periksa informasi alamat penagihan. %1",module,Magento_Quote
-"Please select a valid payment method.","Harap pilih metode pembayaran yang valid.",module,Magento_Quote
 Discount,Diskon,module,Magento_Quote
 Tax,Pajak,module,Magento_Quote
-"Shipping address not set.","Alamat pengiriman tidak diatur.",module,Magento_Quote
-"Cannot set shipping method. %1","Tidak bisa mengatur metode pengiriman. %1",module,Magento_Quote
-"Shipping method is not applicable for empty cart","Metode pengiriman tidak bisa berlaku untuk keranjang kosong",module,Magento_Quote
 error345,kesalahan345,module,Magento_Quote
 "New Accounts","Akun Baru",module,Magento_Reports
 "Customers by number of orders","Pelanggan dengan jumlah pesanan",module,Magento_Reports
@@ -3662,10 +3369,7 @@ Sales,Penjual,module,Magento_Sales
 "You have not canceled the item.","Anda belum membatalkan barangnya.",module,Magento_Sales
 "You canceled the order.","Anda membatalkan pesanan.",module,Magento_Sales
 """%1"" coupon code was not applied. Do not apply discount is selected for item(s)","""%1"" kode kupon tidak diterapkan Jangan gunakan diskon yang dipilih untuk barang(s)",module,Magento_Sales
-"""%1"" coupon code is not valid.","""%1"" kode kupon tidak benar.",module,Magento_Sales
 "The coupon code has been accepted.","Kode kupon telah diterima.",module,Magento_Sales
-"Quote item id is not received.","Id barang Kutipan tidak diterima.",module,Magento_Sales
-"Quote item is not loaded.","Barang kutipan tidak dimuat.",module,Magento_Sales
 "New Order","Pesanan Baru",module,Magento_Sales
 "You created the order.","Anda membuat pesanan.",module,Magento_Sales
 "Order saving error: %1","Kesalahan penyimpanan Pesanan: %1",module,Magento_Sales
@@ -3694,10 +3398,7 @@ Sales,Penjual,module,Magento_Sales
 "Invoice canceling error","Kesalahan Pembatalan faktur",module,Magento_Sales
 "The invoice has been captured.","Faktur telah diambil.",module,Magento_Sales
 "The order does not allow an invoice to be created.","Pesanan tidak memungkinkan Di buat Faktur.",module,Magento_Sales
-"You can't create an invoice without products.","Anda tidak dapat membuat faktur tanpa produk.",module,Magento_Sales
 "New Invoice","Faktur Baru",module,Magento_Sales
-"We can't save the invoice right now.","Kami tidak dapat menyimpan faktur sekarang juga.",module,Magento_Sales
-"The invoice and the shipment  have been created. The shipping label cannot be created now.","Faktur dan kiriman telah dibuat. Label pengiriman tidak dapat dibuat sekarang.",module,Magento_Sales
 "You created the invoice and shipment.","Anda membuat faktur dan pengiriman.",module,Magento_Sales
 "The invoice has been created.","Faktur telah dibuat.",module,Magento_Sales
 "We can't send the invoice email right now.","Kami tidak dapat mengirim email faktur sekarang.",module,Magento_Sales
@@ -3740,8 +3441,6 @@ Home,Rumah,module,Magento_Sales
 "We could not add a product to cart by the ID ""%1"".","Kami tidak dapat menambahkan produk ke keranjang oleh ID ""%1"".",module,Magento_Sales
 "There is an error in one of the option rows.","Terjadi kesalahan pada salah satu pilihan baris.",module,Magento_Sales
 "Please specify order items.","Harap tentukan barang pesanan.",module,Magento_Sales
-"Please specify a shipping method.","Silahkan pilih metode pengiriman.",module,Magento_Sales
-"Please specify a payment method.","Silahkan pilih metode pembayaran.",module,Magento_Sales
 "This payment method is not available.","Metode pembayaran ini tidak tersedia.",module,Magento_Sales
 "Validation is failed.","Validasi gagal.",module,Magento_Sales
 "You did not email your customer. Please check your email settings.","Anda tidak mengirim email kepada pelanggan anda. Silakan periksa pengaturan email anda.",module,Magento_Sales
@@ -3759,9 +3458,6 @@ Guest,Tamu,module,Magento_Sales
 "Please enter the zip/postal code.","Silahkan masukkan kode pos/pos.",module,Magento_Sales
 "Please enter the country.","Silahkan Masukan Negara.",module,Magento_Sales
 "Please enter the state/province.","Silakan masukkan negara bagian/propinsi.",module,Magento_Sales
-"Requested entity doesn't exist","Entitas yang diminta tidak ada",module,Magento_Sales
-"Could not delete order address","Tidak dapat menghapus alamat pesanan",module,Magento_Sales
-"Could not save order address","Tidak dapat menyimpan alamat pesanan",module,Magento_Sales
 Pending,Tunda,module,Magento_Sales
 Refunded,Dikembalikan,module,Magento_Sales
 Canceled,Dibatalkan,module,Magento_Sales
@@ -3775,8 +3471,6 @@ Canceled,Dibatalkan,module,Magento_Sales
 "The quantity to creditmemo must not be greater than the unrefunded quantity for product SKU ""%1"".","Jumlah untuk memo kredit tidak boleh lebih besar dari jumlah produk yang tidak terbagi SKU ""%1"".",module,Magento_Sales
 "You can't create a creditmemo without products.","Anda tidak bisa membuat memo kredit tanpa produk.",module,Magento_Sales
 "The most money available to refund is %1.","Jumlah uang paling banyak untuk pengembalian adalah %1.",module,Magento_Sales
-"Could not delete credit memo","Tidak dapat menghapus memo kredit",module,Magento_Sales
-"Could not save credit memo","Tidak dapat menyimpan memo kredit",module,Magento_Sales
 "This order already has associated customer account","Pesanan ini sudah memiliki akun pelanggan terkait",module,Magento_Sales
 Paid,Dibayar,module,Magento_Sales
 "We cannot register an existing invoice","Kami tidak dapat mendaftarkan faktur yang ada",module,Magento_Sales
@@ -3784,7 +3478,6 @@ Paid,Dibayar,module,Magento_Sales
 "Order Id is required for invoice document","Id pesanan diperlukan untuk dokumen faktur",module,Magento_Sales
 "The quantity to invoice must not be greater than the uninvoiced quantity for product SKU ""%1"".","Jumlah untuk faktur tidak boleh lebih besar dari jumlah produk yang tidak dihitung SKU ""%1"".",module,Magento_Sales
 "The invoice contains one or more items that are not part of the original order.","Faktur berisi satu atau lebih barang yang bukan merupakan bagian dari pesanan awal.",module,Magento_Sales
-"ID required","ID diperlukan",module,Magento_Sales
 "Unknown Status","Status tidak diketahui",module,Magento_Sales
 Ordered,Dipesan,module,Magento_Sales
 Shipped,Dikirim,module,Magento_Sales
@@ -3833,9 +3526,6 @@ Products,Produk,module,Magento_Sales
 "The shipment contains product SKU ""%1"" that is not part of the original order.","Pengiriman berisi produk SKU ""%1"" yang bukan merupakan bagian dari pesanan awal.",module,Magento_Sales
 "The quantity to ship must not be greater than the unshipped quantity for product SKU ""%1"".","Jumlah untuk dikirim tidak boleh lebih besar dari jumlah yang tidak dipasangkan untuk produk SKU ""%1"".",module,Magento_Sales
 "Please enter a tracking number.","Harap masukkan nomor pelacakan.",module,Magento_Sales
-"Could not delete shipment","Tidak dapat menghapus kiriman",module,Magento_Sales
-"Could not save shipment","Tidak dapat menyimpan kiriman",module,Magento_Sales
-"The last status can't be unassigned from its current state.","Status terakhir tidak dapat ditetapkan dari keadaan saat ini.",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","Model totalnya harus diperpanjang dari \Magento\Penjual\Model\Pesanan\Total\Abstrak Total.",module,Magento_Sales
 "An invoice cannot be created when an order has a status of %1","Faktur tidak dapat dibuat bila pesanan memiliki status di %1",module,Magento_Sales
 "A creditmemo can not be created when an order has a status of %1","Memo kredit tidak dapat dibuat bila pesanan memiliki status di %1",module,Magento_Sales
@@ -4046,7 +3736,6 @@ Reports,Laporan,module,Magento_Search
 "You saved the search term.","Anda menyimpan istilah pencarian.",module,Magento_Search
 "Something went wrong while saving the search query.","Ada yang salah saat menyimpan Kategori penelusuran.",module,Magento_Search
 "You already have an identical search term query.","Anda sudah memiliki identik pencarian istilah query.",module,Magento_Search
-"Synonym group with id %1 cannot be deleted. %2","Grup sinonim dengan id% 1 tidak dapat dihapus. % 2",module,Magento_Search
 "Merge conflict with existing synonym group(s): %1","Bergabunglah dengan grup sinonim yang ada:% 1",module,Magento_Search
 "All Websites","Semua situs web",module,Magento_Search
 "All Store Views","Semua tampilan toko",module,Magento_Search
@@ -4060,13 +3749,11 @@ View/Edit,"Lihat / ubah",module,Magento_Search
 "We couldn't logout because of an error.","Kami tidak dapat keluar karena ada kesalahan.",module,Magento_Security
 "Someone logged into this account from another device or browser. Your current session is terminated.","Seseorang telah masuk menggunakan akun ini dari perangkat lain atau browser. Sesi anda saat ini dihentikan.",module,Magento_Security
 "Your current session is terminated by another user of this account.","Sesi anda saat ini telah dihentikan oleh pengguna lain dari akun ini.",module,Magento_Security
-"Your account is temporarily disabled.","Akun anda untuk saat ini dihentikan.",module,Magento_Security
 "Your current session has been expired.","Sesi anda saat ini telah kadaluarsa.",module,Magento_Security
 "By IP and Email","Melalui IP dan Email",module,Magento_Security
 "By IP","Melalui IP",module,Magento_Security
 "By Email","Melalui Email",module,Magento_Security
 None,"Tidak ada",module,Magento_Security
-"Too many password reset requests. Please wait and try again or contact %1.","Terlalu banyak permintaan merubah password. Harap menunggu dan mencoba lagi atau hubungi %1.",module,Magento_Security
 "some error","beberapa kesalahan",module,Magento_Security
 "This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.","Akun administrator ini terbuka lebih dari satu lokasi. Perhatikan bahwa lokasi lain mungkin berbeda dengan browser atau sesi dalam komputer yang sama.",module,Magento_Security
 "Concurrent session information:","Sesi informasi bersamaan:",module,Magento_Security
@@ -4121,7 +3808,6 @@ Print,Cetak,module,Magento_Shipping
 "Order # %1","Pesanan # %1",module,Magento_Shipping
 "Back to My Orders","Kembali ke Pesanan Saya",module,Magento_Shipping
 "View Another Order","Lihat Pesanan Lainnya",module,Magento_Shipping
-"Please enter a comment.","Silahkan masukkan komentar.",module,Magento_Shipping
 "Cannot add new comment.","Tidak dapat menambahkan komentar baru.",module,Magento_Shipping
 "Please specify a carrier.","Silahkan tentukan pembawa.",module,Magento_Shipping
 "Please enter a tracking number.","Silahkan masukkan nomor pelacakan.",module,Magento_Shipping
@@ -4149,7 +3835,6 @@ Shipments,Pengiriman,module,Magento_Shipping
 "The shipping module is not available.","Modul pengiriman tidak tersedia.",module,Magento_Shipping
 "This shipping method is not available. Please specify the zip code.","Metode pengiriman ini tidak tersedia. Harap tentukan kode posnya.",module,Magento_Shipping
 "No packages for request","Tidak ada paket untuk permintaan",module,Magento_Shipping
-"Security validation of XML document has been failed.","Validasi keamanan dokumen XML telah gagal.",module,Magento_Shipping
 "All Allowed Countries","Semua Negara yang Diizinkan",module,Magento_Shipping
 "Specific Countries","Negara Tertentu",module,Magento_Shipping
 Development,Pengembangan,module,Magento_Shipping
@@ -4173,7 +3858,6 @@ Weight,Berat,module,Magento_Shipping
 "No detail for number ""%1""","Tidak ada detail untuk nomer ""%1""",module,Magento_Shipping
 "Shipping labels is not available.","Label pengiriman tidak tersedia.",module,Magento_Shipping
 "Response info is not exist.","Info tanggapan tidak ada.",module,Magento_Shipping
-"We don't have enough information to create shipping labels. Please make sure your store information and settings are complete.","Kami tidak memiliki cukup informasi untuk membuat label pengiriman. Pastikan informasi dan pengaturan toko Anda sudah lengkap.",module,Magento_Shipping
 "Per Order","Per Pesanan",module,Magento_Shipping
 "Per Package","Per Paket",module,Magento_Shipping
 Fixed,Tetap,module,Magento_Shipping
@@ -4324,10 +4008,6 @@ Tax,Pajak,module,Magento_Tax
 "New Rule","Aturan baru",module,Magento_Tax
 "You saved the tax rule.","Anda menyimpan peraturan pajak.",module,Magento_Tax
 "Invalid name of tax class specified.","Nama kelas pajak yang tidak ditentukan.",module,Magento_Tax
-"Make sure all required information is valid.","Nama kelas pajak yang tidak ditentukan.",module,Magento_Tax
-"The Rate Percent should be a positive number.","Persentase Tingkat harus berupa angka positif.",module,Magento_Tax
-"Maximum zip code length is 9.","Panjang kode pos maksimum adalah 9.",module,Magento_Tax
-"Use digits only for the zip code.","Gunakan digit hanya untuk kode pos.",module,Magento_Tax
 "Custom price if available","Custom harga jika tersedia",module,Magento_Tax
 "Original price only","Harga Asli Saja",module,Magento_Tax
 "Shipping Address","Alamat Pengiriman",module,Magento_Tax
@@ -4427,13 +4107,9 @@ welcome,"selamat datang",module,Magento_Theme
 "We can't upload the JS file right now.","Kami tidak dapat mengunggah file JS sekarang.",module,Magento_Theme
 "Sorry, something went wrong. That's all we know.","Maaf, ada yang tidak beres. Itu yang kami tahu.",module,Magento_Theme
 "Invalid type","Tipe tidak valid",module,Magento_Theme
-"Invalid scope or scope id","Lingkup atau cakupan id tidak valid",module,Magento_Theme
 "%1 does not contain field '%2'","%1 tidak berisi bidang '%2'",module,Magento_Theme
 "Invalid regular expression: ""%1"".","Ekspresi regular tidak valid: ''%1''.",module,Magento_Theme
 "%1 does not contain field 'file'","%1 tidak berisi 'berkas'",module,Magento_Theme
-"Backend model is not specified for %1","Model backend tidak ditentukan untuk%1",module,Magento_Theme
-"The %templateName contains an incorrect configuration. The template has a reference to itself. Either remove or change the reference.","%templatename berisi konfigurasi yang salah. template memiliki refensi untuk dirinya sendiri. entah menghapus atau mengubah rujukan.",module,Magento_Theme
-"Can not save empty config","Tidak bisa menyimpan konfigurasi kosong",module,Magento_Theme
 "-- Please Select --","-- Silahkan pilih --",module,Magento_Theme
 "The start date can't follow the end date.","Tanggal mulai tidak bisa mengikuti tanggal akhir.",module,Magento_Theme
 "The date range for this design change overlaps another design change for the specified store.","Rentang tanggal untuk perubahan desain ini tumpang tindih dengan perubahan desain lain untuk toko yang di tentukan.",module,Magento_Theme
@@ -4467,7 +4143,6 @@ Remove,Menghapus,module,Magento_Theme
 "For the best experience on our site, be sure to turn on Javascript in your browser.","Untuk pengalaman terbaik di situs kami, pastikan untuk mengaktifkan javascript di browser anda.",module,Magento_Theme
 "Local Storage seems to be disabled in your browser.","Penyimpanan lokal sepertinya dinonaktifkan di browser anda.",module,Magento_Theme
 "For the best experience on our site, be sure to turn on Local Storage in your browser.","Untuk pengalamn terbaik di situs kami, pastikan untuk mengaktifkan local storage di browser anda.",module,Magento_Theme
-"This is demo store. No orders will be fulfilled.","Ini adalah toko demo, tidak ada perintah yang akan dipenuhi.",module,Magento_Theme
 "Items %1 to %2 of %3 total","Item %1 sampai %2 dari total %3",module,Magento_Theme
 "%1 Item","%1 barang",module,Magento_Theme
 "%1 Item(s)","%1 item(s)",module,Magento_Theme
@@ -4600,12 +4275,6 @@ Permissions,Izin,module,Magento_User
 "Sorry, but this password has already been used. Please create another.","Maaf, Kata sandi ini sudah pernah digunakan. Silahkan buat lain.",module,Magento_User
 password,"kata sandi",module,Magento_User
 username,"nama pengguna",module,Magento_User
-"You did not sign in correctly or your account is temporarily disabled.","Anda tidak masuk dengan benar atau akun anda sementara di matikan.",module,Magento_User
-"You need more permissions to access this.","Anda memerlukan izin lagi untuk mengakses ini.",module,Magento_User
-"Your account is temporarily disabled.","Akun anda sementara dimatikan.",module,Magento_User
-"User Name is a required field.","Nama Pengguna adalah bidang yang wajib diisi.",module,Magento_User
-"First Name is a required field.","Nma Depan adalah bidang yang wajib diisi.",module,Magento_User
-"Last Name is a required field.","Nama Belakang adalah bidang yang wajib diisi.",module,Magento_User
 "Please enter a valid email.","Silahkan masukkan email yang benar.",module,Magento_User
 "Password is required field.","Kata sandi adalah bidang yang wajib diisi.",module,Magento_User
 "Your password must include both numeric and alphabetic characters.","Kata sandi anda harus menyertakan karakter numerik dan abjad.",module,Magento_User
@@ -4735,9 +4404,7 @@ None,"Tidak Ada",module,Magento_Usps
 "We can't add the item to Wish List right now.","Kami tidak dapat menambahkan item ke Daftar Keinginan sekarang.",module,Magento_Wishlist
 "You added %1 to your shopping cart.","Anda menambahkan %1 ke keranjang belanja anda.",module,Magento_Wishlist
 "We can't add the item to the cart right now.","Kami tidak dapat menambahkan item ke keranjang sekarang.",module,Magento_Wishlist
-"We can't load the Wish List item right now.","Kami tidak dapat memuat item Daftar Keinginan sekarang.",module,Magento_Wishlist
 "We can't configure the product right now.","Kami tidak dapat mengkonfigurasi produk sekarang.",module,Magento_Wishlist
-"The requested cart item doesn't exist.","Pilihan item keranjang yang diminta tidak ada.",module,Magento_Wishlist
 "%1 has been moved to your wish list.","%1 telah dipindahkan ke daftar keinginan anda.",module,Magento_Wishlist
 "We can't move the item to the wish list.","Kami tidak dapat memindahkan item ke daftar keinginan.",module,Magento_Wishlist
 "We can't delete the item from Wish List right now because of an error: %1.","Kami tidak dapat menghapus item dari Daftar Keinginan sekarang karena terjadi kesalahan: %1.",module,Magento_Wishlist
@@ -4949,7 +4616,6 @@ Password:,"Kata sandi:",module,Magento_Theme
 "This value does not follow the specified format (for example, 200X300).","Nilai ini tidak mengikuti format yang ditentukan (misalnya, 200X300).",module,Magento_Catalog
 "Select type of option.","Pilih jenis pilihan.",module,Magento_Catalog
 "Please add rows to option.","Tolong tambahkan baris ke pilihan.",module,Magento_Catalog
-"Please select items.","Silakan pilih item.",module,Magento_Catalog
 "Choose existing category.","Pilih kategori yang ada.",module,Magento_Catalog
 "Image Detail","Detail Gambar",module,Magento_Catalog
 "does not implement Storage Interface","tidak mengimplementasikan Storage Interface",module,Magento_Catalog
@@ -4961,7 +4627,6 @@ Close,Dekat,module,Magento_CheckoutAgreements
 "Select a new payment method","Pilih metode pembayaran baru",module,Magento_Checkout
 Shipping,Pengiriman,module,Magento_Checkout
 "Save Address","Simpan Alamat",module,Magento_Checkout
-"Please specify a shipping method.","Silahkan tentukan metode pengiriman.",module,Magento_Checkout
 "We could not detect a size.","Kami tidak dapat mendeteksi ukuran.",module,Magento_Cms
 "New Product Review","Ulasan Produk Baru",module,Magento_ConfigurableProduct
 "Here are the products you're about to create.","Berikut adalah produk yang akan Anda buat.",module,Magento_ConfigurableProduct
@@ -5082,7 +4747,6 @@ Advanced,Lanjutan,module,Magento_Backend
 Developer,Pembangun,module,Magento_Backend
 "Enabled Template Path Hints for Storefront","Aktifkan Template Jalur Petunjuk untuk etalase",module,Magento_Backend
 "Enabled Template Path Hints for Admin","Aktifkan Template Jalur Petunjuk untuk Admin",module,Magento_Backend
-"Add Block Names to Hints","Tambahkan Nama Blok untuk Petunjuk",module,Magento_Backend
 "Template Settings","Pengaturan Template",module,Magento_Backend
 "Allow Symlinks","Memungkinkan Simbol Link",module,Magento_Backend
 "Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Peringatan! Mengaktifkan fitur ini tidak dianjurkan pada lingkungan produksi karena risiko keamanan potensial.",module,Magento_Backend
@@ -5190,7 +4854,6 @@ Tags,Tag,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 Error</h1><p>Halaman tidak Ditemukan.</p>",module,Magento_Backend
 "Community Edition","Edisi Komunitas",module,Magento_Backend
 "Default Theme","Tema Default",module,Magento_Backend
-"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Jika tidak ada nilai yang ditentukan, sistem default digunakan. Sistem default dapat dimodifikasi oleh ekstensi pihak ketiga.",module,Magento_Backend
 "Applied Theme","Tema Terapan",module,Magento_Backend
 "Design Rule","Aturan Desain",module,Magento_Backend
 "User Agent Rules","Aturan Agen Pengguna",module,Magento_Backend
@@ -5345,7 +5008,6 @@ Title,Judul,module,Magento_CatalogWidget
 "Number of Products to Display","Jumlah Produk yang Akan Ditampilkan",module,Magento_CatalogWidget
 "Products Grid Template","Template Grid Produk",module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","Cache Lifetime (Detik)",module,Magento_CatalogWidget
-"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 secara default, jika tidak diatur. Untuk me-refresh seketika, bersihkan cache Blokiran Blok HTML.",module,Magento_CatalogWidget
 Conditions,Kondisi,module,Magento_CatalogWidget
 Inventory,Inventaris,module,Magento_Catalog
 "Catalog Section","Bagian katalog",module,Magento_Catalog
@@ -5374,7 +5036,6 @@ Comma-separated.,"Dipisahkan koma.",module,Magento_Catalog
 "Product Listing Sort by","Daftar Produk Urutkan menurut",module,Magento_Catalog
 "Allow All Products per Page","Izinkan Semua Produk per Halaman",module,Magento_Catalog
 "Whether to show ""All"" option in the ""Show X Per Page"" dropdown","Apakah akan menampilkan opsi ""Semua"" di menu tarik-turun ""Tampilkan X Per Halaman""",module,Magento_Catalog
-"Allow Dynamic Media URLs in Products and Categories","Izinkan URL Media Dinamis dalam Produk dan Kategori",module,Magento_Catalog
 "Product Image Placeholders","Placeholder gambar produk",module,Magento_Catalog
 "Search Engine Optimization","Optimisasi Mesin Pencari",module,Magento_Catalog
 "Page Title Separator","Pemisah judul halaman",module,Magento_Catalog
@@ -5390,8 +5051,6 @@ Comma-separated.,"Dipisahkan koma.",module,Magento_Catalog
 "Time Format","Format waktu",module,Magento_Catalog
 "Year Range","Rentang tahun",module,Magento_Catalog
 "Please use a four-digit year format.","Mohon gunakan format empat digit tahun.",module,Magento_Catalog
-"Use Static URLs for Media Content in WYSIWYG for Catalog","Gunakan URL Statis untuk Konten Media di WYSIWYG untuk Katalog",module,Magento_Catalog
-"This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Ini hanya berlaku untuk katalog produk dan kategori. Konten media akan dimasukkan ke dalam editor sebagai URL statis. Konten media tidak diperbarui jika perubahan konfigurasi sistem URL dasar.",module,Magento_Catalog
 "Top Level Category","Kategori Tingkat Atas",module,Magento_Catalog
 "Product Info Column","Kolom Info Produk",module,Magento_Catalog
 "Block after Info Column","Blokir setelah Kolom Info",module,Magento_Catalog
@@ -5554,7 +5213,6 @@ Payment,Pembayaran,module,Magento_Checkout
 "Page Information","Informasi Halaman",module,Magento_Cms
 "Enable Page","Aktifkan halaman",module,Magento_Cms
 Content,Konten,module,Magento_Cms
-"Search Engine Optimisation","Optimisasi Mesin Pencari",module,Magento_Cms
 "Meta Title","Judul Meta",module,Magento_Cms
 "Meta Keywords","Kata kunci Meta",module,Magento_Cms
 "Meta Description","Deskripsi Meta",module,Magento_Cms
@@ -5661,6 +5319,7 @@ Currency,"Mata uang",module,Magento_CurrencySymbol
 "Redirect Customer to Account Dashboard after Logging in","Arahkan kembali Pelanggan ke Dasbor Account setelah masuk",module,Magento_Customer
 "Customer will stay on the current page if ""No"" is selected.","Pelanggan akan tetap berada di halaman saat ini jika memilih ""Tidak"".",module,Magento_Customer
 "Customer Notification","Pemberitahuan pelanggan",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","Apakah Anda yakin untuk menetapkan pelanggan terpilih ke grup baru?",module,Magento_Customer
 "Add New Customer","Tambah pelanggan baru",module,Magento_Customer
 "Are you sure to delete selected customers?","Anda yakin menghapus pelanggan yang dipilih?",module,Magento_Customer
 "Delete items","Hapus benda",module,Magento_Customer
@@ -5677,7 +5336,6 @@ Type,Jenis,module,Magento_Customer
 "Are you sure you want to delete this item?","Anda yakin menghapus item ini?",module,Magento_Customer
 "Edit Account Information","Edit informasi akun",module,Magento_Customer
 "Password forgotten","Lupa sandi",module,Magento_Customer
-"My Dashboard","Dasbor saya",module,Magento_Customer
 "You are signed out","Anda keluar",module,Magento_Customer
 Title,Judul,module,Magento_Dhl
 "Access ID","Mengakses Id",module,Magento_Dhl
@@ -5730,7 +5388,6 @@ Updated,Diperbarui,module,Magento_Email
 Subject,Subyek,module,Magento_Email
 "Template Type","Jenis Template",module,Magento_Email
 Action,Tindakan,module,Magento_Email
-"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.","Jenis file yang diperbolehkan: jpg, jpeg, gif, png. Untuk mengoptimalkan logo untuk menampilkan resolusi tinggi, meng-upload gambar yang lebih 3x ukuran normal dan kemudian menentukan 1x dimensi lebar/tinggi kolom di bawah ini.",module,Magento_Email
 "Logo Image","Gambar Logo",module,Magento_Email
 "Logo Image Alt","Gambar Logo Alt",module,Magento_Email
 "Necessary only if an image has been uploaded above. Enter number of pixels, without appending ""px"".","Hanya diperlukan jika gambar telah diunggah diatas. Masukkan jumlah piksel, tanpa menambahkan ""px"".",module,Magento_Email
@@ -5821,7 +5478,6 @@ Options,Pilihan,module,Magento_Multishipping
 "Allow Shipping to Multiple Addresses","Izinkan Pengiriman ke Beberapa Alamat",module,Magento_Multishipping
 "Review Order","Tinjau Pesanan",module,Magento_Multishipping
 "Select Shipping Method","Pilih Metode Pengiriman",module,Magento_Multishipping
-"We received your order!","Kami menerima pesanan anda!",module,Magento_Multishipping
 "New Relic Reporting Section","Bagian Pelaporan Peninggalan Baru",module,Magento_NewRelicReporting
 "New Relic Reporting","Pelaporan Peninggalan Baru",module,Magento_NewRelicReporting
 General,Umum,module,Magento_NewRelicReporting
@@ -6184,19 +5840,16 @@ State/Region,"Negara bagian/wilayah",module,Magento_Tax
 Rate,Nilai,module,Magento_Tax
 "Subtotal Only","Hanya subtotal",module,Magento_Tax
 "Order Total","Jumlah Pesanan",module,Magento_Tax
-"Your credit card will be charged for","Kartu kredit Anda akan dikenakan biaya",module,Magento_Tax
 Empty,Kosong,module,Magento_Theme
 "1 column","1 kolom",module,Magento_Theme
 Configuration,Konfigurasi,module,Magento_Theme
 "Default welcome msg!","Pesan selamat datang default!",module,Magento_Theme
-"Copyright © 2013-2017 Magento, Inc. All rights reserved.","Hak cipta © 2013-2017 Magento, inc. semua hak di lindungi undang undang.",module,Magento_Theme
 "Design Config Grid","Design config grid",module,Magento_Theme
 "Rebuild design config grid index","Membangun kembali desain konfigurasi indeks grid",module,Magento_Theme
 "Admin empty","Admin kosong",module,Magento_Theme
 "Admin 1column","Admin 1 kolom",module,Magento_Theme
 "Theme Information","Informasi tema",module,Magento_Theme
 "Other Settings","Pengaturan lainnya",module,Magento_Theme
-"Allowed file types: ico, png, gif, jpg, jpeg, apng. Not all browsers support all these formats!","Jenis file yang diizinkan: ico, png, gif, jpeg, apng. tidak semua browsers mendukung semua format ini!",module,Magento_Theme
 "Favicon Icon","Ikon favicon",module,Magento_Theme
 "Default Page Title","Judul halaman default",module,Magento_Theme
 "Page Title Prefix","Awalan judul halaman",module,Magento_Theme
@@ -6207,7 +5860,6 @@ Configuration,Konfigurasi,module,Magento_Theme
 "Scripts and Style Sheets","Script dan style sheets",module,Magento_Theme
 "Display Demo Store Notice","Tampilkan pemberitahuan demo toko",module,Magento_Theme
 Header,Tajuk,module,Magento_Theme
-"Allowed file types: png, gif, jpg, jpeg.","Jenis berkas yang diizinkan: png, jpg, jpeg.",module,Magento_Theme
 "Logo Image","Gambar logo",module,Magento_Theme
 "Logo Attribute Width","Lebar atribut logo",module,Magento_Theme
 "Logo Attribute Height","Tinggi atribut logo",module,Magento_Theme
