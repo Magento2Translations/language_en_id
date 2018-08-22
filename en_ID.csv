@@ -687,6 +687,7 @@ Cancel,Keluar,module,Magento_Catalog
 "New Product Attribute","Atribut Produk Baru",module,Magento_Catalog
 "Advanced Attribute Properties","Lanjutan Properti Atribut",module,Magento_Catalog
 "Attribute Code","Kode Atribut",module,Magento_Catalog
+"This is used internally. Make sure you don't use spaces or more than %1 symbols.","Ini dipakai secara internal. Pastikan anda tidak memakai spasi atau lebih dari %1 simbol.",module,Magento_Catalog
 "Default Value","Nilai Default",module,Magento_Catalog
 "Unique Value","Nilai yang Unik",module,Magento_Catalog
 "Unique Value (not shared with other products)","Nilai yang unik (tidak dibagi dengan produk lain)",module,Magento_Catalog
@@ -839,6 +840,7 @@ Catalog,Katalog,module,Magento_Catalog
 "Manage Product Attributes","Mengelola Atribut Produk",module,Magento_Catalog
 "We can't delete the attribute.","Kami tidak dapat menghapus atribut tersebut.",module,Magento_Catalog
 "You deleted the product attribute.","Anda menghapus atribut produk.",module,Magento_Catalog
+"We can't find an attribute to delete.","Kami tidak menemukan attribut untuk dihapus.",module,Magento_Catalog
 "This attribute no longer exists.","Atribut ini tidak ada lagi.",module,Magento_Catalog
 "This attribute cannot be edited.","Atribut ini tidak dapat diedit.",module,Magento_Catalog
 "Edit Product Attribute","Edit Atribut Produk",module,Magento_Catalog
@@ -884,8 +886,11 @@ All,Semua,module,Magento_Catalog
 "Bad controller interface for showing product","Controller interface yang buruk untuk menunjukkan produk",module,Magento_Catalog
 "Product is not loaded","Produk ini tidak dimuat",module,Magento_Catalog
 "Make sure the To Date is later than or the same as the From Date.","Pastikan Ke Tanggal kemudian atau sama dengan Dari Tanggal.",module,Magento_Catalog
+"Sorry, but we can't find the new parent category you selected.","Maaf, tapi kami tidak dapat menemukan kategori induk baru yang Anda pilih.",module,Magento_Catalog
 "Sorry, but we can't find the new category you selected.","Maaf, tapi kami tidak dapat menemukan kategori baru yang Anda pilih.",module,Magento_Catalog
+"We can't move the category because the parent category name matches the child category name.","Kami tidak dapat memindahkan kategori karena nama kategori induk sama persis dengan nama kategori anak.",module,Magento_Catalog
 "Something went wrong while getting the image url.","Terjadi kesalahan saat menerima url gambar.",module,Magento_Catalog
+"Can't delete root category.","Tidak dapat menghapus kategori root.",module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","Nilai atribut ""% 1"" harus unik.",module,Magento_Catalog
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Produk default berdasarkan daftar penyortiran tidak ada di daftar ketersediaan produk.",module,Magento_Catalog
 "No layout updates","Tidak ada pembaruan tata letak",module,Magento_Catalog
@@ -1086,6 +1091,7 @@ name,nama,module,Magento_Catalog
 "This operation can take a long time","Operasi ini bisa memakan waktu lama",module,Magento_Catalog
 "Collapse All","Tutup Semua",module,Magento_Catalog
 "Expand All","Perluas Semua",module,Magento_Catalog
+"Please confirm site switching. All data that hasn't been saved will be lost.","Mohon konfirmasi peralihan situs. Seluruh data yang belum tersimpan akan hilang.",module,Magento_Catalog
 "Use Default Value","Gunakan Nilai Default",module,Magento_Catalog
 "Manage Titles (Size, Color, etc.)","Mengelola Judul (Ukuran, Warna, dll.)",module,Magento_Catalog
 "Manage Options (Values of Your Attribute)","Kelola Pilihan (Nilai Atribut Anda)",module,Magento_Catalog
@@ -1099,6 +1105,7 @@ Groups,Grup,module,Magento_Catalog
 "Please enter a new group name.","Harap masukkan nama grup yang baru.",module,Magento_Catalog
 "An attribute group named ""/name/"" already exists"".","Grup atribut bernama ""/nama/"" sudah ada"".",module,Magento_Catalog
 "Sorry, we're unable to complete this request.","Maaf, kami tidak dapat menyelesaikan permintaan ini.",module,Magento_Catalog
+"You can't remove attributes from this attribute set.","Anda tidak dapat menghapus atribut dari set atribut ini.",module,Magento_Catalog
 "Custom Options","Pilihan kustom",module,Magento_Catalog
 "This is a required option.","Ini adalah pilihan yang dibutuhkan.",module,Magento_Catalog
 "The field isn't complete.","Bidang tidak lengkap.",module,Magento_Catalog
@@ -1124,6 +1131,7 @@ Backorders,"Kembali perintah",module,Magento_Catalog
 "Add Product To Websites","Tambahkan Produk ke Situs Web",module,Magento_Catalog
 "Remove Product From Websites","Hapus Produk dari Situs Web",module,Magento_Catalog
 "To hide an item in catalog or search results, set the status to ""Disabled"".","Untuk menyembunyikan item dalam katalog atau hasil pencarian, setel status menjadi ""Disabled"".",module,Magento_Catalog
+"We can't save custom-defined options for bundles with dynamic pricing.","Kami tidak dapat menyimpan pilihan kustom yang ditetapkan untuk bundel dengan harga dinamis.",module,Magento_Catalog
 "Delete Custom Option","Menghapus pilihan kebiasaan",module,Magento_Catalog
 "Sort Custom Options","Urutkan opsi kustom",module,Magento_Catalog
 "Input Type","Tipe Masukan",module,Magento_Catalog
